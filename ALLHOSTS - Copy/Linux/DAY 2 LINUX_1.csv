@@ -1,0 +1,1218 @@
+Plugin ID,CVE,CVSS v2.0 Base Score,Risk,Host,Protocol,Port,Name,Synopsis,Description,Solution,See Also,Plugin Output,CVSS v3.0 Temporal Score,Risk Factor,BID,XREF,MSKB,Plugin Publication Date,Plugin Modification Date,Metasploit,Core Impact,CANVAS
+"10114","CVE-1999-0524","2.1","Low","10.46.254.70","icmp","0","ICMP Timestamp Request Remote Date Disclosure","It is possible to determine the exact time set on the remote host.","The remote host answers to an ICMP timestamp request.  This allows an
+attacker to know the date that is set on the targeted machine, which
+may assist an unauthenticated, remote attacker in defeating time-based
+authentication protocols.
+
+Timestamps returned from machines running Windows Vista / 7 / 2008 /
+2008 R2 are deliberately incorrect, but usually within 1000 seconds of
+the actual system time.","Filter out the ICMP timestamp requests (13), and the outgoing ICMP
+timestamp replies (14).","","The difference between the local and remote clocks is -29824 seconds.
+","","Low","","CWE:200","","1999/08/01","2024/10/07","","",""
+"10267","","","None","10.46.254.70","tcp","22","SSH Server Type and Version Information","An SSH server is listening on this port.","It is possible to obtain information about the remote SSH server by
+sending an empty authentication request.","n/a","","
+SSH version : SSH-2.0-Cisco-1.25
+SSH supported authentication : publickey,keyboard-interactive,password
+SSH banner : 
+
+USE OF THIS NETWORK IS RESTRICTED TO AUTHORISED USERS ONLY.
+USER ACTIVITY MAY BE MONITORED AND/OR RECORDED.
+ANYONE USING THIS NETWORK EXPRESSLY CONSENTS TO SUCH MONITORING
+AND/OR RECORDING.
+BE ADVISED: IF POSSIBLE CRIMINAL ACTIVITY IS DETECTED,
+THESE RECORDS, ALONG WITH CERTAIN PERSONAL INFORMATION,
+MAY BE PROVIDED TO LAW ENFORCEMENT OFFICIALS.
+","","None","","IAVT:0001-T-0933","","1999/10/12","2024/07/24","","",""
+"10287","","","None","10.46.254.70","udp","0","Traceroute Information","It was possible to obtain traceroute information.","Makes a traceroute to the remote host.","n/a","","For your information, here is the traceroute from 10.46.254.222 to 10.46.254.70 : 
+10.46.254.222
+10.46.254.70
+
+Hop Count: 1
+","","None","","","","1999/11/27","2023/12/04","","",""
+"10881","","","None","10.46.254.70","tcp","22","SSH Protocol Versions Supported","A SSH server is running on the remote host.","This plugin determines the versions of the SSH protocol supported by
+the remote SSH daemon.","n/a","","The remote SSH daemon supports the following versions of the
+SSH protocol :
+
+  - 1.99
+  - 2.0
+","","None","","","","2002/03/06","2024/07/24","","",""
+"11219","","","None","10.46.254.70","tcp","22","Nessus SYN scanner","It is possible to determine which TCP ports are open.","This plugin is a SYN 'half-open' port scanner.  It shall be reasonably
+quick even against a firewalled target. 
+
+Note that SYN scans are less intrusive than TCP (full connect) scans
+against broken services, but they might cause problems for less robust
+firewalls and also leave unclosed connections on the remote target, if
+the network is loaded.","Protect your target with an IP filter.","","Port 22/tcp was found to be open","","None","","","","2009/02/04","2024/05/20","","",""
+"11936","","","None","10.46.254.70","tcp","0","OS Identification","It is possible to guess the remote operating system.","Using a combination of remote probes (e.g., TCP/IP, SMB, HTTP, NTP,
+SNMP, etc.), it is possible to guess the name of the remote operating
+system in use. It is also possible sometimes to guess the version of
+the operating system.","n/a","","
+Remote operating system : CISCO IOS 15
+CISCO IOS 12
+Cisco IOS XE
+CISCO PIX
+Confidence level : 69
+Method : SSH
+
+ 
+The remote host is running one of these operating systems : 
+CISCO IOS 15
+CISCO IOS 12
+Cisco IOS XE
+CISCO PIX","","None","","","","2003/12/09","2024/10/14","","",""
+"19506","","","None","10.46.254.70","tcp","0","Nessus Scan Information","This plugin displays information about the Nessus scan.","This plugin displays, for each tested host, information about the
+scan itself :
+
+  - The version of the plugin set.
+  - The type of scanner (Nessus or Nessus Home).
+  - The version of the Nessus Engine.
+  - The port scanner(s) used.
+  - The port range scanned.
+  - The ping round trip time 
+  - Whether credentialed or third-party patch management
+    checks are possible.
+  - Whether the display of superseded patches is enabled
+  - The date of the scan.
+  - The duration of the scan.
+  - The number of hosts scanned in parallel.
+  - The number of checks done in parallel.","n/a","","Information about this scan : 
+
+Nessus version : 10.8.3
+Nessus build : 20010
+Plugin feed version : 202410170436
+Scanner edition used : Nessus
+Scanner OS : LINUX
+Scanner distribution : ubuntu1604-x86-64
+Scan type : Normal
+Scan name : DAY 2 BIG FLEXI (2) LINUX
+Scan policy used : Advanced Scan
+Scanner IP : 10.46.254.222
+Port scanner(s) : nessus_syn_scanner 
+Port range : all
+Ping RTT : Unavailable
+Thorough tests : no
+Experimental tests : no
+Scan for Unpatched Vulnerabilities : no
+Plugin debugging enabled : no
+Paranoia level : 1
+Report verbosity : 1
+Safe checks : yes
+Optimize the test : no
+Credentialed checks : no
+Patch management checks : None
+Display superseded patches : no (supersedence plugin did not launch)
+CGI scanning : disabled
+Web application tests : disabled
+Max hosts : 100
+Max checks : 5
+Recv timeout : 5
+Backports : None
+Allow post-scan editing : Yes
+Nessus Plugin Signature Checking : Enabled
+Audit File Signature Checking : Disabled
+Scan Start Date : 2024/11/4 1:45 EST
+Scan duration : 674 sec
+Scan for malware : no
+","","None","","","","2005/08/26","2024/10/04","","",""
+"22964","","","None","10.46.254.70","tcp","22","Service Detection","The remote service could be identified.","Nessus was able to identify the remote service by its banner or by
+looking at the error message it sends when it receives an HTTP
+request.","n/a","","An SSH server is running on this port.","","None","","","","2007/08/19","2024/03/26","","",""
+"45590","","","None","10.46.254.70","tcp","0","Common Platform Enumeration (CPE)","It was possible to enumerate CPE names that matched on the remote
+system.","By using information obtained from a Nessus scan, this plugin reports
+CPE (Common Platform Enumeration) matches for various hardware and
+software products found on a host. 
+
+Note that if an official CPE is not available for the product, this
+plugin computes the best possible CPE based on the information
+available from the scan.","n/a","http://cpe.mitre.org/
+https://nvd.nist.gov/products/cpe","
+The remote operating system matched the following CPE's : 
+
+  cpe:/o:cisco:ios:12 -> Cisco IOS
+  cpe:/o:cisco:ios:15 -> Cisco IOS
+  cpe:/o:cisco:ios_xe -> Cisco iOS XE
+  cpe:/o:cisco:pix_firewall -> Cisco PIX Firewall Software
+","","None","","","","2010/04/21","2024/10/10","","",""
+"54615","","","None","10.46.254.70","tcp","0","Device Type","It is possible to guess the remote device type.","Based on the remote operating system, it is possible to determine
+what the remote system type is (eg: a printer, router, general-purpose
+computer, etc).","n/a","","Remote device type : router
+Confidence level : 69
+","","None","","","","2011/05/23","2022/09/09","","",""
+"70657","","","None","10.46.254.70","tcp","22","SSH Algorithms and Languages Supported","An SSH server is listening on this port.","This script detects which algorithms and languages are supported by
+the remote service for encrypting communications.","n/a","","
+Nessus negotiated the following encryption algorithm with the server : 
+
+The server supports the following options for kex_algorithms : 
+
+  diffie-hellman-group-exchange-sha1
+  diffie-hellman-group14-sha1
+
+The server supports the following options for server_host_key_algorithms : 
+
+  ssh-rsa
+
+The server supports the following options for encryption_algorithms_client_to_server : 
+
+  aes128-ctr
+  aes192-ctr
+  aes256-ctr
+
+The server supports the following options for encryption_algorithms_server_to_client : 
+
+  aes128-ctr
+  aes192-ctr
+  aes256-ctr
+
+The server supports the following options for mac_algorithms_client_to_server : 
+
+  hmac-sha1
+  hmac-sha2-256
+  hmac-sha2-512
+
+The server supports the following options for mac_algorithms_server_to_client : 
+
+  hmac-sha1
+  hmac-sha2-256
+  hmac-sha2-512
+
+The server supports the following options for compression_algorithms_client_to_server : 
+
+  none
+
+The server supports the following options for compression_algorithms_server_to_client : 
+
+  none
+","","None","","","","2013/10/28","2017/08/28","","",""
+"97993","","","None","10.46.254.70","tcp","0","OS Identification and Installed Software Enumeration over SSH v2 (Using New SSH Library)","Information about the remote host can be disclosed via an
+authenticated session.","Nessus was able to login to the remote host using SSH or local
+commands and extract the list of installed packages.","n/a","","
+It was possible to log into the remote host via SSH using 'keyboard-interactive' authentication.
+
+The remote host is not currently supported by this plugin.
+
+Runtime : 282.711653 seconds
+","","None","","","","2017/05/30","2024/10/15","","",""
+"110095","","","None","10.46.254.70","tcp","22","Target Credential Issues by Authentication Protocol - No Issues Found","Nessus was able to log in to the remote host using the provided
+credentials. No issues were reported with access, privilege, or
+intermittent failure.","Valid credentials were provided for an authentication protocol on the
+remote target and Nessus did not log any subsequent errors or failures
+for the authentication protocol.
+
+When possible, Nessus tracks errors or failures related to otherwise
+valid credentials in order to highlight issues that may result in
+incomplete scan results or limited scan coverage. The types of issues
+that are tracked include errors that indicate that the account used
+for scanning did not have sufficient permissions for a particular
+check, intermittent protocol failures which are unexpected after the
+protocol has been negotiated successfully earlier in the scan, and
+intermittent authentication failures which are unexpected after a
+credential set has been accepted as valid earlier in the scan. This
+plugin reports when none of the above issues have been logged during
+the course of the scan for at least one authenticated protocol. See
+plugin output for details, including protocol, port, and account.
+
+Please note the following :
+
+- This plugin reports per protocol, so it is possible for
+  issues to be encountered for one protocol and not another.
+  For example, authentication to the SSH service on the
+  remote target may have consistently succeeded with no
+  privilege errors encountered, while connections to the SMB
+  service on the remote target may have failed
+  intermittently.
+
+- Resolving logged issues for all available authentication
+  protocols may improve scan coverage, but the value of
+  resolving each issue for a particular protocol may vary
+  from target to target depending upon what data (if any) is
+  gathered from the target via that protocol and what
+  particular check failed. For example, consistently
+  successful checks via SSH are more critical for Linux
+  targets than for Windows targets, and likewise
+  consistently successful checks via SMB are more critical
+  for Windows targets than for Linux targets.","n/a","","
+Nessus was able to log into the remote host with no privilege or access
+problems via the following :
+
+User:       'auditor'
+Port:       22
+Proto:      SSH
+Method:     keyboard-interactive
+","","None","","IAVB:0001-B-0520","","2018/05/24","2024/03/25","","",""
+"117886","","","None","10.46.254.70","tcp","0","OS Security Patch Assessment Not Available","OS Security Patch Assessment is not available.","OS Security Patch Assessment is not available on the remote host.
+This does not necessarily indicate a problem with the scan.
+Credentials may not have been provided, OS security patch assessment
+may not be supported for the target, the target may not have been
+identified, or another issue may have occurred that prevented OS
+security patch assessment from being available. See plugin output for
+details.
+
+This plugin reports non-failure information impacting the availability
+of OS Security Patch Assessment. Failure information is reported by
+plugin 21745 : 'OS Security Patch Assessment failed'.  If a target
+host is not supported for OS Security Patch Assessment, plugin
+110695 : 'OS Security Patch Assessment Checks Not Supported' will
+report concurrently with this plugin.","n/a","","
+The following issues were reported :
+
+  - Plugin      : ssh_get_info2.nasl
+    Plugin ID   : 97993
+    Plugin Name : OS Identification and Installed Software Enumeration over SSH v2 (Using New SSH Library)
+    Protocol    : SSH
+    Message     : 
+The remote host is not currently supported by this plugin.
+","","None","","IAVB:0001-B-0515","","2018/10/02","2021/07/12","","",""
+"141118","","","None","10.46.254.70","tcp","22","Target Credential Status by Authentication Protocol - Valid Credentials Provided","Valid credentials were provided for an available authentication protocol.","Nessus was able to determine that valid credentials were provided for
+an authentication protocol available on the remote target because it
+was able to successfully authenticate directly to the remote target
+using that authentication protocol at least once. Authentication was
+successful because the authentication protocol service was available
+remotely, the service was able to be identified, the authentication
+protocol was able to be negotiated successfully, and a set of
+credentials provided in the scan policy for that authentication
+protocol was accepted by the remote service. See plugin output for
+details, including protocol, port, and account.
+
+Please note the following :
+
+- This plugin reports per protocol, so it is possible for
+  valid credentials to be provided for one protocol and not
+  another. For example, authentication may succeed via SSH
+  but fail via SMB, while no credentials were provided for
+  an available SNMP service.
+
+- Providing valid credentials for all available
+  authentication protocols may improve scan coverage, but
+  the value of successful authentication for a given
+  protocol may vary from target to target depending upon
+  what data (if any) is gathered from the target via that
+  protocol. For example, successful authentication via SSH
+  is more valuable for Linux targets than for Windows
+  targets, and likewise successful authentication via SMB
+  is more valuable for Windows targets than for Linux
+  targets.","n/a","","
+Nessus was able to log in to the remote host via the following :
+
+User:       'auditor'
+Port:       22
+Proto:      SSH
+Method:     keyboard-interactive
+","","None","","","","2020/10/15","2024/03/25","","",""
+"149334","","","None","10.46.254.70","tcp","22","SSH Password Authentication Accepted","The SSH server on the remote host accepts password authentication.","The SSH server on the remote host accepts password authentication.","n/a","https://tools.ietf.org/html/rfc4252#section-8","","","None","","","","2021/05/07","2021/05/07","","",""
+"153588","","","None","10.46.254.70","tcp","22","SSH SHA-1 HMAC Algorithms Enabled","The remote SSH server is configured to enable SHA-1 HMAC algorithms.","The remote SSH server is configured to enable SHA-1 HMAC algorithms.
+
+Although NIST has formally deprecated use of SHA-1 for digital signatures, SHA-1 is still considered secure for HMAC as
+the security of HMAC does not rely on the underlying hash function being resistant to collisions.
+
+Note that this plugin only checks for the options of the remote SSH server.","n/a","","
+The following client-to-server SHA-1 Hash-based Message Authentication Code (HMAC) algorithms are supported : 
+
+  hmac-sha1
+
+The following server-to-client SHA-1 Hash-based Message Authentication Code (HMAC) algorithms are supported : 
+
+  hmac-sha1
+","","None","","","","2021/09/23","2022/04/05","","",""
+"153953","","2.6","Low","10.46.254.70","tcp","22","SSH Weak Key Exchange Algorithms Enabled","The remote SSH server is configured to allow weak key exchange algorithms.","The remote SSH server is configured to allow key exchange algorithms which are considered weak.
+
+This is based on the IETF draft document Key Exchange (KEX) Method Updates and Recommendations for Secure Shell (SSH)
+RFC9142. Section 4 lists guidance on key exchange algorithms that SHOULD NOT and MUST NOT be
+enabled. This includes:
+
+  diffie-hellman-group-exchange-sha1
+
+  diffie-hellman-group1-sha1
+
+  gss-gex-sha1-*
+
+  gss-group1-sha1-*
+
+  gss-group14-sha1-*
+
+  rsa1024-sha1
+
+Note that this plugin only checks for the options of the SSH server, and it does not check for vulnerable software
+versions.","Contact the vendor or consult product documentation to disable the weak algorithms.","https://datatracker.ietf.org/doc/html/rfc9142","
+The following weak key exchange algorithms are enabled : 
+
+  diffie-hellman-group-exchange-sha1
+","","Low","","","","2021/10/13","2024/03/22","","",""
+"10114","CVE-1999-0524","2.1","Low","10.46.254.236","icmp","0","ICMP Timestamp Request Remote Date Disclosure","It is possible to determine the exact time set on the remote host.","The remote host answers to an ICMP timestamp request.  This allows an
+attacker to know the date that is set on the targeted machine, which
+may assist an unauthenticated, remote attacker in defeating time-based
+authentication protocols.
+
+Timestamps returned from machines running Windows Vista / 7 / 2008 /
+2008 R2 are deliberately incorrect, but usually within 1000 seconds of
+the actual system time.","Filter out the ICMP timestamp requests (13), and the outgoing ICMP
+timestamp replies (14).","","The difference between the local and remote clocks is 3763 seconds.
+","","Low","","CWE:200","","1999/08/01","2024/10/07","","",""
+"10267","","","None","10.46.254.236","tcp","22","SSH Server Type and Version Information","An SSH server is listening on this port.","It is possible to obtain information about the remote SSH server by
+sending an empty authentication request.","n/a","","
+SSH version : SSH-2.0-CISCO_WLC
+SSH supported authentication : none
+","","None","","IAVT:0001-T-0933","","1999/10/12","2024/07/24","","",""
+"10287","","","None","10.46.254.236","udp","0","Traceroute Information","It was possible to obtain traceroute information.","Makes a traceroute to the remote host.","n/a","","For your information, here is the traceroute from 10.46.254.222 to 10.46.254.236 : 
+10.46.254.222
+10.46.254.236
+
+Hop Count: 1
+","","None","","","","1999/11/27","2023/12/04","","",""
+"10863","","","None","10.46.254.236","tcp","443","SSL Certificate Information","This plugin displays the SSL certificate.","This plugin connects to every SSL-related port and attempts to 
+extract and dump the X.509 certificate.","n/a","","Subject Name: 
+
+Country: US
+Organization: Cisco Systems Inc.
+Organization Unit: DeviceSSL (WebAdmin)
+Common Name: 10.46.254.236
+
+Issuer Name: 
+
+Country: US
+Organization: Cisco Systems Inc.
+Organization Unit: DeviceSSL (WebAdmin)
+Common Name: 10.46.254.236
+
+Serial Number: 00 B2 8C 95 79 
+
+Version: 3
+
+Signature Algorithm: SHA-256 With RSA Encryption
+
+Not Valid Before: Apr 13 00:00:01 2020 GMT
+Not Valid After: Apr 13 00:00:01 2030 GMT
+
+Public Key Info: 
+
+Algorithm: RSA Encryption
+Key Length: 2048 bits
+Public Key: 00 CF 20 1E 97 5B 57 B9 24 4C 42 58 D0 A5 EC 27 BF C5 B8 41 
+            DD 10 EF 65 7E 2C BD B8 CB C8 7E 44 CD CE FA F6 97 59 34 87 
+            E2 08 47 00 40 92 C8 87 07 F8 D8 F1 69 CE 9A 1A D5 87 84 26 
+            A9 2C C0 71 59 12 6F 07 AD A2 B4 66 2E E9 EE 89 D0 76 AA 22 
+            A6 C7 77 82 49 D6 5D FF 14 1B 07 6E E2 9A 06 23 3F F2 A9 FB 
+            58 05 88 85 6C 92 32 96 3C 7F CA 26 F5 F0 03 FC 3E FF 8A 02 
+            7E 2E AF C8 29 58 A3 D5 B2 E3 F0 F2 2D 24 5B DC 7F FA 68 07 
+            30 63 14 BB 18 1D 90 8B 0E 17 E7 19 F9 BB 40 7C F7 C6 86 D1 
+            01 B4 4E 2F A7 86 1A 33 92 AB C5 32 DC 0B B9 BC D8 3B 67 E9 
+            3E E3 8A E3 BB 7E 6A 82 A1 6B 85 E7 7D 3C F3 50 F4 AA 72 E8 
+            7D 6F 2B 31 0A 66 63 85 8F 16 99 F2 1D 39 5E 7B E3 E7 71 0F 
+            41 FF 78 8E 7C 7E 32 9E 72 FF D8 0B 63 79 9A 6B B8 0B 92 11 
+            B5 91 BB CC 4C 3C 8B D8 5D 84 2C F2 54 BC C1 81 15 
+Exponent: 01 00 01 
+
+Signature Length: 256 bytes / 2048 bits
+Signature: 00 C0 D1 0E E8 F1 50 DA 35 E3 DA AC 11 DC E5 6F 98 16 1B E6 
+           DA 77 4C CF 2A BE 1D 68 D2 59 FD 2D C8 8B 84 BE D8 22 DA 7D 
+           E3 C8 8F D3 36 CC AA 14 74 1B E8 4A 23 A5 FD CA 9A 86 9F 05 
+           A2 A1 CE DA 70 14 60 67 6A 90 1D 5D A9 E5 D8 E9 43 4F 78 B5 
+           99 A2 92 FB 02 65 D0 60 0C B9 FE 4D BE 2C 09 BC DA 11 14 1E 
+           BD 2D 42 7D D4 FB 89 88 68 81 FF DA 57 DF E7 9B 79 31 61 63 
+           F0 7F 08 5A 2B 5A 46 8B 53 96 D1 BC FA 79 CA 80 9D 5B 75 08 
+           D6 7B 42 F6 2B 57 19 D3 47 F8 1B 34 51 70 02 4E ED F8 13 83 
+           9D E5 76 FD 9D 02 9C 5D 4F F0 62 03 F3 D4 35 12 70 F3 1C 6A 
+           B9 CC 1B E8 D0 8E 7C 93 76 1D 78 87 C4 55 99 63 D2 DD 1E F0 
+           36 98 74 BF 05 EA 46 4F 5F E0 99 FE 1C B0 65 C4 75 71 B7 79 
+           A2 EC 18 45 E5 B1 16 C2 95 31 8D 8D CB F9 C4 BE 1F D0 22 4C 
+           4D 1E 3C 91 46 6E 28 15 0D E2 02 83 4F 9E 5B 77 39 
+
+Extension: Subject Alternative Name (2.5.29.17)
+Critical: 0
+URI: https://10.46.254.236
+
+
+Fingerprints : 
+
+SHA-256 Fingerprint: F6 EB EF AC D4 51 D7 00 1F CF 2F 7D 58 B7 66 97 16 B9 D4 E7 
+                     31 6F 64 07 6E 99 CE 37 08 4F D7 DD 
+SHA-1 Fingerprint: 05 EF AF 65 AD 0A A0 DC 30 35 C0 D9 BB 06 77 0E 36 13 E9 24 
+MD5 Fingerprint: 8E 08 C1 22 09 15 CA B1 C0 8B 1D C8 FC 1E 7C 9F 
+
+
+PEM certificate : 
+
+-----BEGIN CERTIFICATE-----
+MIIDazCCAlOgAwIBAgIFALKMlXkwDQYJKoZIhvcNAQELBQAwYTELMAkGA1UEBhMCVVMxGzAZBgNVBAoMEkNpc2NvIFN5c3RlbXMgSW5jLjEdMBsGA1UECwwURGV2aWNlU1NMIChXZWJBZG1pbikxFjAUBgNVBAMMDTEwLjQ2LjI1NC4yMzYwHhcNMjAwNDEzMDAwMDAxWhcNMzAwNDEzMDAwMDAxWjBhMQswCQYDVQQGEwJVUzEbMBkGA1UECgwSQ2lzY28gU3lzdGVtcyBJbmMuMR0wGwYDVQQLDBREZXZpY2VTU0wgKFdlYkFkbWluKTEWMBQGA1UEAwwNMTAuNDYuMjU0LjIzNjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAM8gHpdbV7kkTEJY0KXsJ7/FuEHdEO9lfiy9uMvIfkTNzvr2l1k0h+IIRwBAksiHB/jY8WnOmhrVh4QmqSzAcVkSbwetorRmLunuidB2qiKmx3eCSdZd/xQbB27imgYjP/Kp+1gFiIVskjKWPH/KJvXwA/w+/4oCfi6vyClYo9Wy4/DyLSRb3H/6aAcwYxS7GB2Qiw4X5xn5u0B898aG0QG0Ti+nhhozkqvFMtwLubzYO2fpPuOK47t+aoKha4XnfTzzUPSqcuh9bysxCmZjhY8WmfIdOV574+dxD0H/eI58fjKecv/YC2N5mmu4C5IRtZG7zEw8i9hdhCzyVLzBgRUCAwEAAaMqMCgwJgYDVR0RBB8wHYcECi7+7IYVaHR0cHM6Ly8xMC40Ni4yNTQuMjM2MA0GCSqGSIb3DQEBCwUAA4IBAQDA0Q7o8VDaNeParBHc5W+YFhvm2ndMzyq+HWjSWf0tyIuEvtgi2n3jyI/TNsyqFHQb6Eojpf3KmoafBaKhztpwFGBnapAdXanl2OlDT3i1maKS+wJl0GAMuf5NviwJvNoRFB69LUJ91PuJiGiB/9pX3+ebeTFhY/B/CForWkaLU5bRvPp5yoCdW3UI1ntC9itXGdNH+Bs0UXACTu34E4Od5Xb9nQKcXU/wYgPz1DUScPMcarnMG+jQjnyTdh14h8RVmWPS3R7wNph0vwXqRk9f4Jn+HLBlxHVxt3mi7BhF5bEWwpUxjY3L+cS+H9AiTE0ePJFGbigVDeICg0+eW3c5
+-----END CERTIFICATE-----","","None","","","","2008/05/19","2021/02/03","","",""
+"11026","","","None","10.46.254.236","tcp","0","Wireless Access Point Detection","The remote host is a wireless access point.","Nessus has determined that the remote host is a wireless access point
+(AP).
+
+Ensure that proper physical and logical controls are in place for its
+use. A misconfigured access point may allow an attacker to gain access
+to an internal network without being physically present on the
+premises. If the access point is using an 'off-the-shelf'
+configuration (such as 40 or 104 bit WEP encryption), the data being
+passed through the access point may be vulnerable to hijacking or
+sniffing.","n/a","","
+Nessus has classified this device as a wireless access point based on
+its OS fingerprint.
+","","None","","","","2002/06/09","2020/06/12","","",""
+"11219","","","None","10.46.254.236","tcp","22","Nessus SYN scanner","It is possible to determine which TCP ports are open.","This plugin is a SYN 'half-open' port scanner.  It shall be reasonably
+quick even against a firewalled target. 
+
+Note that SYN scans are less intrusive than TCP (full connect) scans
+against broken services, but they might cause problems for less robust
+firewalls and also leave unclosed connections on the remote target, if
+the network is loaded.","Protect your target with an IP filter.","","Port 22/tcp was found to be open","","None","","","","2009/02/04","2024/05/20","","",""
+"11219","","","None","10.46.254.236","tcp","443","Nessus SYN scanner","It is possible to determine which TCP ports are open.","This plugin is a SYN 'half-open' port scanner.  It shall be reasonably
+quick even against a firewalled target. 
+
+Note that SYN scans are less intrusive than TCP (full connect) scans
+against broken services, but they might cause problems for less robust
+firewalls and also leave unclosed connections on the remote target, if
+the network is loaded.","Protect your target with an IP filter.","","Port 443/tcp was found to be open","","None","","","","2009/02/04","2024/05/20","","",""
+"11936","","","None","10.46.254.236","tcp","0","OS Identification","It is possible to guess the remote operating system.","Using a combination of remote probes (e.g., TCP/IP, SMB, HTTP, NTP,
+SNMP, etc.), it is possible to guess the name of the remote operating
+system in use. It is also possible sometimes to guess the version of
+the operating system.","n/a","","
+Remote operating system : Aironet
+Confidence level : 95
+Method : Cisco
+
+ 
+The remote host is running Aironet","","None","","","","2003/12/09","2024/10/14","","",""
+"19506","","","None","10.46.254.236","tcp","0","Nessus Scan Information","This plugin displays information about the Nessus scan.","This plugin displays, for each tested host, information about the
+scan itself :
+
+  - The version of the plugin set.
+  - The type of scanner (Nessus or Nessus Home).
+  - The version of the Nessus Engine.
+  - The port scanner(s) used.
+  - The port range scanned.
+  - The ping round trip time 
+  - Whether credentialed or third-party patch management
+    checks are possible.
+  - Whether the display of superseded patches is enabled
+  - The date of the scan.
+  - The duration of the scan.
+  - The number of hosts scanned in parallel.
+  - The number of checks done in parallel.","n/a","","Information about this scan : 
+
+Nessus version : 10.8.3
+Nessus build : 20010
+Plugin feed version : 202410170436
+Scanner edition used : Nessus
+Scanner OS : LINUX
+Scanner distribution : ubuntu1604-x86-64
+Scan type : Normal
+Scan name : DAY 2 BIG FLEXI (2) LINUX
+Scan policy used : Advanced Scan
+Scanner IP : 10.46.254.222
+Port scanner(s) : nessus_syn_scanner 
+Port range : all
+Ping RTT : Unavailable
+Thorough tests : no
+Experimental tests : no
+Scan for Unpatched Vulnerabilities : no
+Plugin debugging enabled : no
+Paranoia level : 1
+Report verbosity : 1
+Safe checks : yes
+Optimize the test : no
+Credentialed checks : yes
+Patch management checks : None
+Display superseded patches : no (supersedence plugin did not launch)
+CGI scanning : disabled
+Web application tests : disabled
+Max hosts : 100
+Max checks : 5
+Recv timeout : 5
+Backports : None
+Allow post-scan editing : Yes
+Nessus Plugin Signature Checking : Enabled
+Audit File Signature Checking : Disabled
+Scan Start Date : 2024/11/4 1:45 EST
+Scan duration : 321 sec
+Scan for malware : no
+","","None","","","","2005/08/26","2024/10/04","","",""
+"21643","","","None","10.46.254.236","tcp","443","SSL Cipher Suites Supported","The remote service encrypts communications using SSL.","This plugin detects which SSL ciphers are supported by the remote
+service for encrypting communications.","n/a","https://www.openssl.org/docs/man1.0.2/man1/ciphers.html
+http://www.nessus.org/u?e17ffced","
+Here is the list of SSL ciphers supported by the remote server :
+Each group is reported per SSL Version.
+
+SSL Version : TLSv12
+  High Strength Ciphers (>= 112-bit key)
+
+    Name                          Code             KEX           Auth     Encryption             MAC
+    ----------------------        ----------       ---           ----     ---------------------  ---
+    RSA-AES128-SHA256             0x00, 0x9C       RSA           RSA      AES-GCM(128)           SHA256
+    RSA-AES256-SHA384             0x00, 0x9D       RSA           RSA      AES-GCM(256)           SHA384
+    AES128-SHA                    0x00, 0x2F       RSA           RSA      AES-CBC(128)           SHA1
+    AES256-SHA                    0x00, 0x35       RSA           RSA      AES-CBC(256)           SHA1
+    CAMELLIA128-SHA               0x00, 0x41       RSA           RSA      Camellia-CBC(128)      SHA1
+    CAMELLIA256-SHA               0x00, 0x84       RSA           RSA      Camellia-CBC(256)      SHA1
+    IDEA-CBC-SHA                  0x00, 0x07       RSA           RSA      IDEA-CBC(128)          SHA1
+    SEED-SHA                      0x00, 0x96       RSA           RSA      SEED-CBC(128)          SHA1
+    RSA-AES128-SHA256             0x00, 0x3C       RSA           RSA      AES-CBC(128)           SHA256
+    RSA-AES256-SHA256             0x00, 0x3D       RSA           RSA      AES-CBC(256)           SHA256
+
+
+SSL Version : TLSv11
+  High Strength Ciphers (>= 112-bit key)
+
+    Name                          Code             KEX           Auth     Encryption             MAC
+    ----------------------        ----------       ---           ----     ---------------------  ---
+    AES128-SHA                    0x00, 0x2F       RSA           RSA      AES-CBC(128)           SHA1
+    AES256-SHA                    0x00, 0x35       RSA           RSA      AES-CBC(256)           SHA1
+    CAMELLIA128-SHA               0x00, 0x41       RSA           RSA      Camellia-CBC(128)      SHA1
+    CAMELLIA256-SHA               0x00, 0x84       RSA           RSA      Camellia-CBC(256)      SHA1
+    IDEA-CBC-SHA                  0x00, 0x07       RSA           RSA      IDEA-CBC(128)          SHA1
+    SEED-SHA                      0x00, 0x96       RSA           RSA      SEED-CBC(128)          SHA1
+    RSA-AES256-SHA256             0x00, 0x3D       RSA           RSA      AES-CBC(256)           SHA256
+
+
+SSL Version : TLSv1
+  High Strength Ciphers (>= 112-bit key)
+
+    Name                          Code             KEX           Auth     Encryption             MAC
+    ----------------------        ----------       ---           ----     ---------------------  ---
+    AES128-SHA                    0x00, 0x2F       RSA           RSA      AES-CBC(128)           SHA1
+    AES256-SHA                    0x00, 0x35       RSA           RSA      AES-CBC(256)           SHA1
+    CAMELLIA128-SHA               0x00, 0x41       RSA           RSA      Camellia-CBC(128)      SHA1
+    CAMELLIA256-SHA               0x00, 0x84       RSA           RSA      Camellia-CBC(256)      SHA1
+    IDEA-CBC-SHA                  0x00, 0x07       RSA           RSA      IDEA-CBC(128)          SHA1
+    SEED-SHA                      0x00, 0x96       RSA           RSA      SEED-CBC(128)          SHA1
+    RSA-AES256-SHA256             0x00, 0x3D       RSA           RSA      AES-CBC(256)           SHA256
+
+The fields above are :
+
+  {Tenable ciphername}
+  {Cipher ID code}
+  Kex={key exchange}
+  Auth={authentication}
+  Encrypt={symmetric encryption method}
+  MAC={message authentication code}
+  {export flag}
+","","None","","","","2006/06/05","2024/09/11","","",""
+"22964","","","None","10.46.254.236","tcp","22","Service Detection","The remote service could be identified.","Nessus was able to identify the remote service by its banner or by
+looking at the error message it sends when it receives an HTTP
+request.","n/a","","An SSH server is running on this port.","","None","","","","2007/08/19","2024/03/26","","",""
+"22964","","","None","10.46.254.236","tcp","443","Service Detection","The remote service could be identified.","Nessus was able to identify the remote service by its banner or by
+looking at the error message it sends when it receives an HTTP
+request.","n/a","","A TLSv1 server answered on this port.
+","","None","","","","2007/08/19","2024/03/26","","",""
+"22964","","","None","10.46.254.236","tcp","443","Service Detection","The remote service could be identified.","Nessus was able to identify the remote service by its banner or by
+looking at the error message it sends when it receives an HTTP
+request.","n/a","","A web server is running on this port through TLSv1.","","None","","","","2007/08/19","2024/03/26","","",""
+"24260","","","None","10.46.254.236","tcp","443","HyperText Transfer Protocol (HTTP) Information","Some information about the remote HTTP configuration can be extracted.","This test gives some information about the remote HTTP protocol - the
+version used, whether HTTP Keep-Alive is enabled, etc... 
+
+This test is informational only and does not denote any security
+problem.","n/a","","
+Response Code : HTTP/1.1 200 OK
+
+Protocol version : HTTP/1.1
+HTTP/2 TLS Support: No
+HTTP/2 Cleartext Support: No
+SSL : yes
+Keep-Alive : no
+Options allowed : (Not implemented)
+Headers :
+
+  Date: Mon, 04 Nov 2024 05:46:21 GMT
+  Connection: close
+  Transfer-Encoding: chunked
+  Content-Type: text/html
+  Pragma: no-cache
+  Expires: Mon, 04 Nov 2024 05:46:21 GMT
+  Last-Modified: Mon, 04 Nov 2024 05:46:21 GMT
+  Cache-Control: no-cache
+  X-Frame-Options: sameorigin
+  Set-Cookie: sessionId=;PATH=/;Secure;HttpOnly
+  
+Response Body :
+
+
+   <!DOCTYPE HTML>
+<HTML>
+<HEAD>
+<meta http-equiv=""X-UA-Compatible"" content=""IE=edge,chrome=1"" />
+
+<TITLE>Cisco Systems Login</TITLE>
+
+<META http-equiv=Content-Type content=""text/html; charset=utf-8"">
+<meta charset=""UTF-8"">
+<link rel=""stylesheet"" href=""css/icon_styles_ciscologo.css"">
+<link rel=""stylesheet"" href=""css/login.css"">
+<STYLE type=text/css>
+.logintitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ffffff; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.login {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #ffffff; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.style1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+TEXTAREA.area{
+        COLOR: #4682B4;
+        BACKGROUND-COLOR: #FFFFFF;
+}
+span.copyright {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+        font-weight: bold;
+        text-align: left;
+	color: #999999;
+}
+</STYLE>
+<script type=""text/javascript"" src=""../javascript/jquery-2.0.3.min.js?ver=8.5.140.0""></script>
+<script src=""javascript/angular-1.3.3/angular.min.js?ver=8.5.140.0""></script>
+<script src=""javascript/angular-1.3.3/angular-route.min.js?ver=8.5.140.0""></script>
+<script src=""javascript/controllers/rfdashboard.js?ver=8.5.140.0""></script>
+<script src=""javascript/translate.js?ver=8.5.140.0""></script>
+<script>
+
+	function replaceSpaceHTML(str) {
+		var retVal = str;
+		if ((typeof retVal === 'string')|| (retVal instanceof String)) {
+			var lines = retVal.split('\n');
+			retVal = """";
+			for(var i = 0;i < lines.length;i++) {
+				var newStr = lines[i].trim();
+				retVal += newStr.replace(/\t/g, '').replace(/ /g, '&nbsp;').replace(/\r/g, '') + ""<br \>"";
+			}
+		}
+		return retVal;
+	}
+	function loginAction(){
+		document.location.href=""screens/preframeset.html"";
+	}
+	window.onload = function () {
+		if(document.getElementById(""loginBanner"") !== null){
+			document.getElementById(""banner"").innerHTML = replaceSpaceHTML(document.getElementById(""loginBanner"").value);
+		}
+		var message = """";
+
+	  message = ""2005 - "";
+
+		document.getElementById(""copyrightYear"").innerHTML = ""&copy ""+ message + document.getElementById(""systemtime"").value;
+	}
+</SCRIPT>
+<META content=""MSHTML 6.00.2900.2180"" name=GENERATOR>
+</HEAD>
+<BODY text=#000000 leftMargin=0 topMargin=0 marginwidth=""0"" marginheight=""0"" height=""100%"" ng-app=""rfDashboard"">
+<FORM method=""post"" ACTION=""/main_login.html"">
+<INPUT id=""systemtime"" style=""display:none"" type=""TEXT"" readonly name=""systemtime"" SIZE=""1"" MAXLENGTH=""31"" VALUE=""2024
+"">
+<div class=""configLoginScreen"" valign=""middle"" id=""loginPage"">
+	<div class=""configLoginScreenContainer"">
+		<div class=""configLoginCompanyLogoWrapper"">
+			<div class=""icon-cisco_logo""  title=""{{'login_cisco_logo' | translate }}"" id=""cisco_logo""></div>
+		</div>
+		<div class=""configProductName"">
+			{{'login_product_name' | translate }}
+		</div>
+		<div class=""configWelcomeMessage"">
+			{{'login_welcome_message' | translate }}
+		</div>
+	   	<p></p>
+		<div id=""banner"" class=""configWelcomeMessage""></div>
+		<div class=""configLoginFields"">
+			<BUTTON class=""k-button"" name=""bSubmit "" onclick=""loginAction()"" type=""button"">{{'login_action_login' | translate }}</button>
+		</div>
+                <div id=""copyrightmessage"" class=""configLoginCopyright"">
+			<span id=""copyrightYear""></span>
+			{{'login_copyrights_latest' | translate}}
+		</div>
+	</div>
+</div>
+
+</FORM>
+</BODY></HTML>
+
+","","None","","","","2007/01/30","2024/02/26","","",""
+"25220","","","None","10.46.254.236","tcp","0","TCP/IP Timestamps Supported","The remote service implements TCP timestamps.","The remote host implements TCP timestamps, as defined by RFC1323.  A
+side effect of this feature is that the uptime of the remote host can
+sometimes be computed.","n/a","http://www.ietf.org/rfc/rfc1323.txt","","","None","","","","2007/05/16","2023/10/17","","",""
+"43111","","","None","10.46.254.236","tcp","443","HTTP Methods Allowed (per directory)","This plugin determines which HTTP methods are allowed on various CGI
+directories.","By calling the OPTIONS method, it is possible to determine which HTTP
+methods are allowed on each directory.
+
+The following HTTP methods are considered insecure:
+  PUT, DELETE, CONNECT, TRACE, HEAD
+
+Many frameworks and languages treat 'HEAD' as a 'GET' request, albeit
+one without any body in the response. If a security constraint was
+set on 'GET' requests such that only 'authenticatedUsers' could
+access GET requests for a particular servlet or resource, it would be
+bypassed for the 'HEAD' version. This allowed unauthorized blind
+submission of any privileged GET request.
+
+As this list may be incomplete, the plugin also tests - if 'Thorough
+tests' are enabled or 'Enable web applications tests' is set to 'yes'
+in the scan policy - various known HTTP methods on each directory and
+considers them as unsupported if it receives a response code of 400,
+403, 405, or 501.
+
+Note that the plugin output is only informational and does not
+necessarily indicate the presence of any security vulnerabilities.","n/a","http://www.nessus.org/u?d9c03a9a
+http://www.nessus.org/u?b019cbdb
+https://www.owasp.org/index.php/Test_HTTP_Methods_(OTG-CONFIG-006)","Based on the response to an OPTIONS request :
+
+  - HTTP methods  GET  OPTIONS HEAD are allowed on : 
+
+    /
+
+","","None","","","","2009/12/10","2022/04/11","","",""
+"45590","","","None","10.46.254.236","tcp","0","Common Platform Enumeration (CPE)","It was possible to enumerate CPE names that matched on the remote
+system.","By using information obtained from a Nessus scan, this plugin reports
+CPE (Common Platform Enumeration) matches for various hardware and
+software products found on a host. 
+
+Note that if an official CPE is not available for the product, this
+plugin computes the best possible CPE based on the information
+available from the scan.","n/a","http://cpe.mitre.org/
+https://nvd.nist.gov/products/cpe","
+The remote operating system matched the following CPE : 
+
+  cpe:/o:cisco:wireless_lan_controller_software:8.5.140.0 -> Cisco Wireless LAN Controller (WLC) Software -
+
+Following application CPE matched on the remote system : 
+
+  cpe:/a:jquery:jquery:2.0.3 -> jQuery
+","","None","","","","2010/04/21","2024/10/10","","",""
+"50845","","","None","10.46.254.236","tcp","443","OpenSSL Detection","The remote service appears to use OpenSSL to encrypt traffic.","Based on its response to a TLS request with a specially crafted
+server name extension, it seems that the remote service is using the
+OpenSSL library to encrypt traffic.
+
+Note that this plugin can only detect OpenSSL implementations that
+have enabled support for TLS extensions (RFC 4366).","n/a","https://www.openssl.org/","","","None","","","","2010/11/30","2020/06/12","","",""
+"51192","","6.4","Medium","10.46.254.236","tcp","443","SSL Certificate Cannot Be Trusted","The SSL certificate for this service cannot be trusted.","The server's X.509 certificate cannot be trusted. This situation can
+occur in three different ways, in which the chain of trust can be
+broken, as stated below :
+
+  - First, the top of the certificate chain sent by the
+    server might not be descended from a known public
+    certificate authority. This can occur either when the
+    top of the chain is an unrecognized, self-signed
+    certificate, or when intermediate certificates are
+    missing that would connect the top of the certificate
+    chain to a known public certificate authority.
+
+  - Second, the certificate chain may contain a certificate
+    that is not valid at the time of the scan. This can
+    occur either when the scan occurs before one of the
+    certificate's 'notBefore' dates, or after one of the
+    certificate's 'notAfter' dates.
+
+  - Third, the certificate chain may contain a signature
+    that either didn't match the certificate's information
+    or could not be verified. Bad signatures can be fixed by
+    getting the certificate with the bad signature to be
+    re-signed by its issuer. Signatures that could not be
+    verified are the result of the certificate's issuer
+    using a signing algorithm that Nessus either does not
+    support or does not recognize.
+
+If the remote host is a public host in production, any break in the
+chain makes it more difficult for users to verify the authenticity and 
+identity of the web server. This could make it easier to carry out 
+man-in-the-middle attacks against the remote host.","Purchase or generate a proper SSL certificate for this service.","https://www.itu.int/rec/T-REC-X.509/en
+https://en.wikipedia.org/wiki/X.509","
+The following certificate was at the top of the certificate
+chain sent by the remote host, but it is signed by an unknown
+certificate authority :
+
+|-Subject : C=US/O=Cisco Systems Inc./OU=DeviceSSL (WebAdmin)/CN=10.46.254.236
+|-Issuer  : C=US/O=Cisco Systems Inc./OU=DeviceSSL (WebAdmin)/CN=10.46.254.236
+","","Medium","","","","2010/12/15","2020/04/27","","",""
+"54615","","","None","10.46.254.236","tcp","0","Device Type","It is possible to guess the remote device type.","Based on the remote operating system, it is possible to determine
+what the remote system type is (eg: a printer, router, general-purpose
+computer, etc).","n/a","","Remote device type : wireless-access-point
+Confidence level : 95
+","","None","","","","2011/05/23","2022/09/09","","",""
+"56984","","","None","10.46.254.236","tcp","443","SSL / TLS Versions Supported","The remote service encrypts communications.","This plugin detects which SSL and TLS versions are supported by the
+remote service for encrypting communications.","n/a","","
+This port supports TLSv1.0/TLSv1.1/TLSv1.2.
+","","None","","","","2011/12/01","2023/07/10","","",""
+"57582","","6.4","Medium","10.46.254.236","tcp","443","SSL Self-Signed Certificate","The SSL certificate chain for this service ends in an unrecognized
+self-signed certificate.","The X.509 certificate chain for this service is not signed by a
+recognized certificate authority.  If the remote host is a public host
+in production, this nullifies the use of SSL as anyone could establish
+a man-in-the-middle attack against the remote host. 
+
+Note that this plugin does not check for certificate chains that end
+in a certificate that is not self-signed, but is signed by an
+unrecognized certificate authority.","Purchase or generate a proper SSL certificate for this service.","","
+The following certificate was found at the top of the certificate
+chain sent by the remote host, but is self-signed and was not
+found in the list of known certificate authorities :
+
+|-Subject : C=US/O=Cisco Systems Inc./OU=DeviceSSL (WebAdmin)/CN=10.46.254.236
+","","Medium","","","","2012/01/17","2022/06/14","","",""
+"66334","","","None","10.46.254.236","tcp","0","Patch Report","The remote host is missing several patches.","The remote host is missing one or more security patches. This plugin lists the newest version of each patch to install 
+to make sure the remote host is up-to-date.
+
+Note: Because the 'Show missing patches that have been superseded' setting in your scan policy depends on this plugin,
+it will always run and cannot be disabled.","Install the patches listed below.","","
+
+. You need to take the following action :
+
+[ SSH Terrapin Prefix Truncation Weakness (CVE-2023-48795) (187315) ]
+
++ Action to take : Contact the vendor for an update with the strict key exchange countermeasures or disable the affected algorithms.
+
+
+","","None","","","","2013/07/08","2024/10/15","","",""
+"70122","","","None","10.46.254.236","tcp","0","Cisco Wireless LAN Controller (WLC) Version","It is possible to obtain the WLC version of the remote Cisco device.","The remote host is running Cisco Wireless LAN Controller (WLC), an operating system for Cisco switches. It is possible
+to read the WLC version by connecting to the switch using SSH, SNMP, and/or CAPWAP.","n/a","","
+  Path         : /
+  Version      : 8.5.140.0
+  Build Info   : Engineering Special
+  Description  : Cisco 3500 Series Wireless LAN Controller
+  Model        : AIR-CT3504-K9
+  Name         : Chassis
+  Port         : 0
+  Product Name : Cisco Controller
+  Protocol     : TCP
+  Source       : SSH
+","","None","","IAVT:0001-T-0569","","2013/09/25","2022/10/12","","",""
+"70544","","","None","10.46.254.236","tcp","443","SSL Cipher Block Chaining Cipher Suites Supported","The remote service supports the use of SSL Cipher Block Chaining
+ciphers, which combine previous blocks with subsequent ones.","The remote host supports the use of SSL ciphers that operate in Cipher
+Block Chaining (CBC) mode.  These cipher suites offer additional
+security over Electronic Codebook (ECB) mode, but have the potential to
+leak information if used improperly.","n/a","https://www.openssl.org/docs/manmaster/man1/ciphers.html
+http://www.nessus.org/u?cc4a822a
+https://www.openssl.org/~bodo/tls-cbc.txt","
+Here is the list of SSL CBC ciphers supported by the remote server :
+
+  High Strength Ciphers (>= 112-bit key)
+
+    Name                          Code             KEX           Auth     Encryption             MAC
+    ----------------------        ----------       ---           ----     ---------------------  ---
+    AES128-SHA                    0x00, 0x2F       RSA           RSA      AES-CBC(128)           SHA1
+    AES256-SHA                    0x00, 0x35       RSA           RSA      AES-CBC(256)           SHA1
+    CAMELLIA128-SHA               0x00, 0x41       RSA           RSA      Camellia-CBC(128)      SHA1
+    CAMELLIA256-SHA               0x00, 0x84       RSA           RSA      Camellia-CBC(256)      SHA1
+    IDEA-CBC-SHA                  0x00, 0x07       RSA           RSA      IDEA-CBC(128)          SHA1
+    SEED-SHA                      0x00, 0x96       RSA           RSA      SEED-CBC(128)          SHA1
+    RSA-AES128-SHA256             0x00, 0x3C       RSA           RSA      AES-CBC(128)           SHA256
+    RSA-AES256-SHA256             0x00, 0x3D       RSA           RSA      AES-CBC(256)           SHA256
+
+The fields above are :
+
+  {Tenable ciphername}
+  {Cipher ID code}
+  Kex={key exchange}
+  Auth={authentication}
+  Encrypt={symmetric encryption method}
+  MAC={message authentication code}
+  {export flag}
+","","None","","","","2013/10/22","2021/02/03","","",""
+"70657","","","None","10.46.254.236","tcp","22","SSH Algorithms and Languages Supported","An SSH server is listening on this port.","This script detects which algorithms and languages are supported by
+the remote service for encrypting communications.","n/a","","
+Nessus negotiated the following encryption algorithm with the server : 
+
+The server supports the following options for kex_algorithms : 
+
+  curve25519-sha256@libssh.org
+  diffie-hellman-group-exchange-sha256
+  diffie-hellman-group14-sha1
+  ecdh-sha2-nistp256
+  ecdh-sha2-nistp384
+  ecdh-sha2-nistp521
+
+The server supports the following options for server_host_key_algorithms : 
+
+  ecdsa-sha2-nistp256
+  rsa-sha2-256
+  rsa-sha2-512
+  ssh-rsa
+
+The server supports the following options for encryption_algorithms_client_to_server : 
+
+  aes128-ctr
+  aes128-gcm@openssh.com
+  aes192-ctr
+  aes256-ctr
+  aes256-gcm@openssh.com
+  chacha20-poly1305@openssh.com
+
+The server supports the following options for encryption_algorithms_server_to_client : 
+
+  aes128-ctr
+  aes128-gcm@openssh.com
+  aes192-ctr
+  aes256-ctr
+  aes256-gcm@openssh.com
+  chacha20-poly1305@openssh.com
+
+The server supports the following options for mac_algorithms_client_to_server : 
+
+  hmac-sha1
+  hmac-sha1-etm@openssh.com
+  hmac-sha2-256
+  hmac-sha2-256-etm@openssh.com
+  hmac-sha2-512
+  hmac-sha2-512-etm@openssh.com
+  umac-128-etm@openssh.com
+  umac-128@openssh.com
+  umac-64-etm@openssh.com
+  umac-64@openssh.com
+
+The server supports the following options for mac_algorithms_server_to_client : 
+
+  hmac-sha1
+  hmac-sha1-etm@openssh.com
+  hmac-sha2-256
+  hmac-sha2-256-etm@openssh.com
+  hmac-sha2-512
+  hmac-sha2-512-etm@openssh.com
+  umac-128-etm@openssh.com
+  umac-128@openssh.com
+  umac-64-etm@openssh.com
+  umac-64@openssh.com
+
+The server supports the following options for compression_algorithms_client_to_server : 
+
+  none
+  zlib
+  zlib@openssh.com
+
+The server supports the following options for compression_algorithms_server_to_client : 
+
+  none
+  zlib
+  zlib@openssh.com
+","","None","","","","2013/10/28","2017/08/28","","",""
+"84502","","","None","10.46.254.236","tcp","443","HSTS Missing From HTTPS Server","The remote web server is not enforcing HSTS.","The remote HTTPS server is not enforcing HTTP Strict Transport Security (HSTS). 
+HSTS is an optional response header that can be configured on the server to instruct 
+the browser to only communicate via HTTPS. The lack of HSTS allows downgrade attacks,
+SSL-stripping man-in-the-middle attacks, and weakens cookie-hijacking protections.","Configure the remote web server to use HSTS.","https://tools.ietf.org/html/rfc6797","
+HTTP/1.1 200 OK
+Date: Mon, 04 Nov 2024 05:45:53 GMT
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: text/html
+Pragma: no-cache
+Expires: Mon, 04 Nov 2024 05:45:53 GMT
+Last-Modified: Mon, 04 Nov 2024 05:45:53 GMT
+Cache-Control: no-cache
+X-Frame-Options: sameorigin
+Set-Cookie: sessionId=w9sYgIgmrdhmADD075UOPEiT7UwjZAZ;PATH=/;Secure;HttpOnly
+
+
+The remote HTTPS server does not send the HTTP
+""Strict-Transport-Security"" header.
+","","None","","","","2015/07/02","2024/08/09","","",""
+"104743","","6.1","Medium","10.46.254.236","tcp","443","TLS Version 1.0 Protocol Detection","The remote service encrypts traffic using an older version of TLS.","The remote service accepts connections encrypted using TLS 1.0. TLS 1.0 has a
+number of cryptographic design flaws. Modern implementations of TLS 1.0
+mitigate these problems, but newer versions of TLS like 1.2 and 1.3 are
+designed against these flaws and should be used whenever possible.
+
+As of March 31, 2020, Endpoints that aren’t enabled for TLS 1.2
+and higher will no longer function properly with major web browsers and major vendors.
+
+PCI DSS v3.2 requires that TLS 1.0 be disabled entirely by June 30,
+2018, except for POS POI terminals (and the SSL/TLS termination
+points to which they connect) that can be verified as not being
+susceptible to any known exploits.","Enable support for TLS 1.2 and 1.3, and disable support for TLS 1.0.","https://tools.ietf.org/html/draft-ietf-tls-oldversions-deprecate-00","TLSv1 is enabled and the server supports at least one cipher.","","Medium","","CWE:327","","2017/11/22","2023/04/19","","",""
+"106658","","","None","10.46.254.236","tcp","443","JQuery Detection","The web server on the remote host uses JQuery.","Nessus was able to detect JQuery on the remote host.","n/a","https://jquery.com/","
+  URL     : https://10.46.254.236/javascript/jquery-2.0.3.min.js?ver=8.5.140.0
+  Version : 2.0.3
+","","None","","","","2018/02/07","2024/02/08","","",""
+"117887","","","None","10.46.254.236","tcp","0","OS Security Patch Assessment Available","Nessus was able to log in to the remote host using the provided
+credentials and enumerate OS security patch levels.","Nessus was able to determine OS security patch levels by logging
+into the remote host and running commands to determine the version
+of the operating system and its components.  The remote host was
+identified as an operating system or device that Nessus supports for
+patch and update assessment.  The necessary information was obtained
+to perform these checks.","n/a","","OS Security Patch Assessment is available.
+
+","","None","","IAVB:0001-B-0516","","2018/10/02","2021/07/12","","",""
+"121010","","","None","10.46.254.236","tcp","443","TLS Version 1.1 Protocol Detection","The remote service encrypts traffic using an older version of TLS.","The remote service accepts connections encrypted using TLS 1.1.
+TLS 1.1 lacks support for current and recommended cipher suites.
+Ciphers that support encryption before MAC computation, and
+authenticated encryption modes such as GCM cannot be used with
+TLS 1.1
+
+As of March 31, 2020, Endpoints that are not enabled for TLS 1.2 
+and higher will no longer function properly with major web browsers and major vendors.","Enable support for TLS 1.2 and/or 1.3, and disable support for TLS 1.1.","https://tools.ietf.org/html/draft-ietf-tls-oldversions-deprecate-00
+http://www.nessus.org/u?c8ae820d","TLSv1.1 is enabled and the server supports at least one cipher.","","None","","CWE:327","","2019/01/08","2023/04/19","","",""
+"130208","CVE-2019-15262","7.8","High","10.46.254.236","tcp","0","Cisco Wireless LAN Controller Secure Shell (SSH) Denial of Service Vulnerability (cisco-sa-20191016-wlc-ssh-dos)","The remote device is missing a vendor-supplied security patch","According to its self-reported version, Cisco Wireless LAN Controller (WLC) is affected by a denial of service (DoS)
+vulnerability in its Secure Shell (SSH) component due to insufficient process cleanup. An authenticated, remote 
+attacker can exploit this issue, by repeatedly initiating SSH connections, to exhaust system resources and cause the 
+system to stop responding. 
+
+Please see the included Cisco BIDs and Cisco Security Advisory for more information","Upgrade to the relevant fixed version referenced in Cisco bug ID 
+  CSCvp34148","http://www.nessus.org/u?728814ab
+https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvp34148","
+  Cisco bug ID      : CSCvp34148
+  Installed release : 8.5.140.0
+  Fixed release     : 8.5.151.0
+","6.5","High","","CISCO-BUG-ID:CSCvp34148;CISCO-SA:cisco-sa-20191016-wlc-ssh-dos;CWE:20","","2019/10/25","2024/05/14","","",""
+"130259","CVE-2019-15266","2.1","Medium","10.46.254.236","tcp","0","Cisco Wireless LAN Controller Path Traversal Vulnerability","The remote device is missing a vendor-supplied security patch","According to its self-reported version, Cisco Wireless LAN Controller (WLC) is affected by a directory traversal
+vulnerability due to improper sanitization of user-supplied input in command-line parameters that describe file names.
+An authenticated, local attacker can exploit this to view system files that should be restricted.
+
+Please see the included Cisco BIDs and Cisco Security Advisory for more information.
+
+Note that Nessus has not tested for this issue but has instead relied only on the application's self-reported version
+number.","Upgrade to the relevant fixed version referenced in Cisco bug ID CSCvq59683","http://www.nessus.org/u?d2da8949
+https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvq59683","
+  Cisco bug ID      : CSCvq59683
+  Installed release : 8.5.140.0
+  Fixed release     : 8.5.160.0
+","3.9","Low","","CISCO-BUG-ID:CSCvq59683;CISCO-SA:cisco-sa-20191016-wlc-pathtrav;CWE:22","","2019/10/25","2024/05/14","","",""
+"131230","CVE-2019-15276","4.0","Medium","10.46.254.236","tcp","0","Cisco Wireless LAN Controller HTTP Parsing Engine Denial of Service Vulnerability","The remote device is missing a vendor-supplied security patch","A denial of service (DoS) vulnerability exists in Cisco Wireless Lan Controller due to a HTTP Parsing Engine Vulnerability.
+An unauthenticated, remote attacker can exploit this issue, via a HTTP request, to cause the device to stop responding.
+Please see the included Cisco Bug IDs and Cisco Security Advisory for more information","Upgrade to the relevant fixed version for your machine as referenced in Cisco bug ID CSCvp92098","http://www.nessus.org/u?8f68b41a
+http://www.nessus.org/u?eafb222d","
+  Cisco bug ID      : CSCvp92098
+  Installed release : 8.5.140.0
+  Fixed release     : 8.5.160.0
+","5.9","Medium","","CISCO-BUG-ID:CSCvp92098;CISCO-SA:cisco-sa-20191106-wlc-dos;IAVA:2019-A-0424-S;CWE:20","","2019/11/22","2024/05/14","","",""
+"136318","","","None","10.46.254.236","tcp","443","TLS Version 1.2 Protocol Detection","The remote service encrypts traffic using a version of TLS.","The remote service accepts connections encrypted using TLS 1.2.","N/A","https://tools.ietf.org/html/rfc5246","TLSv1.2 is enabled and the server supports at least one cipher.","","None","","","","2020/05/04","2020/05/04","","",""
+"139036","CVE-2020-3262","5.0","High","10.46.254.236","tcp","0","Cisco Wireless LAN Controller CAPWAP DoS (cisco-sa-wlc-capwap-dos-Y2sD9uEw)","The remote device is missing a vendor-supplied security patch","According to its self-reported version, the Control and Provisioning of Wireless Access Points (CAPWAP) protocol
+handler of Cisco Wireless LAN Controller (WLC) is affected by a vulnerability due to insufficient validation of CAPWAP
+packets. An unauthenticated, remote attacker can exploit this, by sending a malformed CAPWAP packet to an affected
+device, in order to cause a denial of service (DoS).
+
+Please see the included Cisco BIDs and Cisco Security Advisory for more information.","Upgrade to the relevant fixed version referenced in Cisco bug ID CSCvq59667","http://www.nessus.org/u?15aca64f
+http://tools.cisco.com/security/center/viewErp.x?alertId=ERP-73978
+https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvq59667","
+  Cisco bug ID      : CSCvq59667
+  Installed release : 8.5.140.0
+  Fixed release     : 8.5.160.0
+","6.5","Medium","","CISCO-BUG-ID:CSCvq59667;CISCO-SA:cisco-sa-wlc-capwap-dos-Y2sD9uEw;IAVA:2019-A-0424-S;CWE:20","","2020/07/28","2024/05/14","","",""
+"141118","","","None","10.46.254.236","tcp","22","Target Credential Status by Authentication Protocol - Valid Credentials Provided","Valid credentials were provided for an available authentication protocol.","Nessus was able to determine that valid credentials were provided for
+an authentication protocol available on the remote target because it
+was able to successfully authenticate directly to the remote target
+using that authentication protocol at least once. Authentication was
+successful because the authentication protocol service was available
+remotely, the service was able to be identified, the authentication
+protocol was able to be negotiated successfully, and a set of
+credentials provided in the scan policy for that authentication
+protocol was accepted by the remote service. See plugin output for
+details, including protocol, port, and account.
+
+Please note the following :
+
+- This plugin reports per protocol, so it is possible for
+  valid credentials to be provided for one protocol and not
+  another. For example, authentication may succeed via SSH
+  but fail via SMB, while no credentials were provided for
+  an available SNMP service.
+
+- Providing valid credentials for all available
+  authentication protocols may improve scan coverage, but
+  the value of successful authentication for a given
+  protocol may vary from target to target depending upon
+  what data (if any) is gathered from the target via that
+  protocol. For example, successful authentication via SSH
+  is more valuable for Linux targets than for Windows
+  targets, and likewise successful authentication via SMB
+  is more valuable for Windows targets than for Linux
+  targets.","n/a","","
+Nessus was able to log in to the remote host via the following :
+
+User:       'auditor'
+Port:       22
+Proto:      SSH
+","","None","","","","2020/10/15","2024/03/25","","",""
+"141369","CVE-2020-3492","7.8","High","10.46.254.236","tcp","0","Cisco AireOS Software for Cisco Wireless LAN Controllers (WLC) DoS (cisco-sa-iosxe-wlc-fnfv9-EvrAQpNX)","The remote device is missing a vendor-supplied security patch","According to its self-reported version, the remote Cisco Wireless LAN Controller (WLC) device is affected by a DoS
+vulnerability in the Flexible NetFlow Version 9 packet processor due to insufficient validation of certain parameters
+in a Flexible NetFlow Version 9 record. An unauthenticated, remote attacker could cause a DoS condition on an affected
+device. Please see the included Cisco BID and Cisco Security Advisory for more information.","Upgrade to the relevant fixed version referenced in Cisco bug ID CSCvr53845","http://www.nessus.org/u?f624c003
+http://tools.cisco.com/security/center/viewErp.x?alertId=ERP-74268
+https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvr53845","
+  Cisco bug ID      : CSCvr53845
+  Installed release : 8.5.140.0
+  Fixed release     : 8.5.160.0
+","7.5","High","","CISCO-BUG-ID:CSCvr53845;CISCO-SA:cisco-sa-iosxe-wlc-fnfv9-EvrAQpNX;IAVA:2020-A-0439-S;CWE:20","","2020/10/12","2024/05/14","","",""
+"152684","","","None","10.46.254.236","tcp","22","SSH Cisco Wireless LAN Controller (WLC) Enumeration","The remote device is a Cisco Wireless LAN Controller (WLC).","The remote device is a Cisco Wireless LAN Controller (WLC).","n/a","http://www.nessus.org/u?d2102cd2
+https://quickview.cloudapps.cisco.com/quickview/bug/CSCve45024","The remote host has has been identified as a Cisco Wireless LAN Controller (WLC) device that does NOT
+directly put the user into the device user CLI when login in through an SSH terminal session but ends
+up at a username prompt and requires re-entry of credentials (Cisco Bug: CSCve45024).
+
+Nessus has managed to run commands in support of OS fingerprinting","","None","","","","2021/08/19","2024/07/24","","",""
+"153588","","","None","10.46.254.236","tcp","22","SSH SHA-1 HMAC Algorithms Enabled","The remote SSH server is configured to enable SHA-1 HMAC algorithms.","The remote SSH server is configured to enable SHA-1 HMAC algorithms.
+
+Although NIST has formally deprecated use of SHA-1 for digital signatures, SHA-1 is still considered secure for HMAC as
+the security of HMAC does not rely on the underlying hash function being resistant to collisions.
+
+Note that this plugin only checks for the options of the remote SSH server.","n/a","","
+The following client-to-server SHA-1 Hash-based Message Authentication Code (HMAC) algorithms are supported : 
+
+  hmac-sha1
+  hmac-sha1-etm@openssh.com
+
+The following server-to-client SHA-1 Hash-based Message Authentication Code (HMAC) algorithms are supported : 
+
+  hmac-sha1
+  hmac-sha1-etm@openssh.com
+","","None","","","","2021/09/23","2022/04/05","","",""
+"156899","","","None","10.46.254.236","tcp","443","SSL/TLS Recommended Cipher Suites","The remote host advertises discouraged SSL/TLS ciphers.","The remote host has open SSL/TLS ports which advertise discouraged cipher suites. It is recommended to only enable
+support for the following cipher suites:
+
+TLSv1.3:
+  - 0x13,0x01 TLS13_AES_128_GCM_SHA256
+  - 0x13,0x02 TLS13_AES_256_GCM_SHA384
+  - 0x13,0x03 TLS13_CHACHA20_POLY1305_SHA256
+
+TLSv1.2:
+  - 0xC0,0x2B ECDHE-ECDSA-AES128-GCM-SHA256
+  - 0xC0,0x2F ECDHE-RSA-AES128-GCM-SHA256
+  - 0xC0,0x2C ECDHE-ECDSA-AES256-GCM-SHA384
+  - 0xC0,0x30 ECDHE-RSA-AES256-GCM-SHA384
+  - 0xCC,0xA9 ECDHE-ECDSA-CHACHA20-POLY1305
+  - 0xCC,0xA8 ECDHE-RSA-CHACHA20-POLY1305
+
+This is the recommended configuration for the vast majority of services, as it is highly secure and compatible with
+nearly every client released in the last five (or more) years.","Only enable support for recommened cipher suites.","https://wiki.mozilla.org/Security/Server_Side_TLS
+https://ssl-config.mozilla.org/","The remote host has listening SSL/TLS ports which advertise the discouraged cipher suites outlined below:
+
+
+  High Strength Ciphers (>= 112-bit key)
+
+    Name                          Code             KEX           Auth     Encryption             MAC
+    ----------------------        ----------       ---           ----     ---------------------  ---
+    RSA-AES128-SHA256             0x00, 0x9C       RSA           RSA      AES-GCM(128)           SHA256
+    RSA-AES256-SHA384             0x00, 0x9D       RSA           RSA      AES-GCM(256)           SHA384
+    AES128-SHA                    0x00, 0x2F       RSA           RSA      AES-CBC(128)           SHA1
+    AES256-SHA                    0x00, 0x35       RSA           RSA      AES-CBC(256)           SHA1
+    CAMELLIA128-SHA               0x00, 0x41       RSA           RSA      Camellia-CBC(128)      SHA1
+    CAMELLIA256-SHA               0x00, 0x84       RSA           RSA      Camellia-CBC(256)      SHA1
+    IDEA-CBC-SHA                  0x00, 0x07       RSA           RSA      IDEA-CBC(128)          SHA1
+    SEED-SHA                      0x00, 0x96       RSA           RSA      SEED-CBC(128)          SHA1
+    RSA-AES128-SHA256             0x00, 0x3C       RSA           RSA      AES-CBC(128)           SHA256
+    RSA-AES256-SHA256             0x00, 0x3D       RSA           RSA      AES-CBC(256)           SHA256
+
+The fields above are :
+
+  {Tenable ciphername}
+  {Cipher ID code}
+  Kex={key exchange}
+  Auth={authentication}
+  Encrypt={symmetric encryption method}
+  MAC={message authentication code}
+  {export flag}
+","","None","","","","2022/01/20","2024/02/12","","",""
+"157288","","6.1","Medium","10.46.254.236","tcp","443","TLS Version 1.1 Deprecated Protocol","The remote service encrypts traffic using an older version of TLS.","The remote service accepts connections encrypted using TLS 1.1. TLS 1.1 lacks support for current and recommended
+cipher suites. Ciphers that support encryption before MAC computation, and authenticated encryption modes such as GCM
+cannot be used with TLS 1.1
+
+As of March 31, 2020, Endpoints that are not enabled for TLS 1.2 and higher will no longer function properly with major
+web browsers and major vendors.","Enable support for TLS 1.2 and/or 1.3, and disable support for TLS 1.1.","https://datatracker.ietf.org/doc/html/rfc8996
+http://www.nessus.org/u?c8ae820d","TLSv1.1 is enabled and the server supports at least one cipher.","","Medium","","CWE:327","","2022/04/04","2024/05/14","","",""
+"187315","CVE-2023-48795","5.4","Medium","10.46.254.236","tcp","22","SSH Terrapin Prefix Truncation Weakness (CVE-2023-48795)","The remote SSH server is vulnerable to a mitm prefix truncation attack.","The remote SSH server is vulnerable to a man-in-the-middle prefix truncation weakness known as Terrapin. This can
+allow a remote, man-in-the-middle attacker to bypass integrity checks and downgrade the connection's security.
+
+Note that this plugin only checks for remote SSH servers that support either ChaCha20-Poly1305 or CBC with
+Encrypt-then-MAC and do not support the strict key exchange countermeasures. It does not check for vulnerable software
+versions.","Contact the vendor for an update with the strict key exchange countermeasures or disable the affected algorithms.","https://terrapin-attack.com/","Supports following ChaCha20-Poly1305 Client to Server algorithm : chacha20-poly1305@openssh.com
+Supports following Encrypt-then-MAC Client to Server algorithm  : umac-64-etm@openssh.com
+Supports following Encrypt-then-MAC Client to Server algorithm  : umac-128-etm@openssh.com
+Supports following Encrypt-then-MAC Client to Server algorithm  : hmac-sha2-256-etm@openssh.com
+Supports following Encrypt-then-MAC Client to Server algorithm  : hmac-sha2-512-etm@openssh.com
+Supports following Encrypt-then-MAC Client to Server algorithm  : hmac-sha1-etm@openssh.com
+Supports following ChaCha20-Poly1305 Server to Client algorithm : chacha20-poly1305@openssh.com
+Supports following Encrypt-then-MAC Server to Client algorithm  : umac-64-etm@openssh.com
+Supports following Encrypt-then-MAC Server to Client algorithm  : umac-128-etm@openssh.com
+Supports following Encrypt-then-MAC Server to Client algorithm  : hmac-sha2-256-etm@openssh.com
+Supports following Encrypt-then-MAC Server to Client algorithm  : hmac-sha2-512-etm@openssh.com
+Supports following Encrypt-then-MAC Server to Client algorithm  : hmac-sha1-etm@openssh.com
+","5.3","Medium","","","","2023/12/27","2024/01/29","","",""
