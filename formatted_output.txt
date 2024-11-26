@@ -1,0 +1,5169 @@
+Name: 7-Zip < 23.00 Multiple Vulnerabilities
+- Plugin Output: 
+  Path              : C:\Program Files\7-Zip
+  Installed version : 16.4.0.0
+  Fixed version     : 23.00
+
+- Solution: Upgrade to 7-Zip version 23.00 or later.
+- Affected Hosts: 10.46.254.214/445, 10.46.254.48/445
+============
+Name: Apache 2.4.x < 2.4.62 Multiple Vulnerabilities
+- Plugin Output: 
+
+  Path              : /opt/httpd2443-NOK/bin/httpd
+
+  Installed version : 2.4.43
+
+  Fixed version     : 2.4.62
+
+
+- Solution: Upgrade to Apache version 2.4.62 or later.
+- Affected Hosts: 10.46.254.203
+- Plugin Output: 
+
+  URL               : http://10.46.254.4/
+
+  Installed version : 2.4.58
+
+  Fixed version     : 2.4.62
+
+
+- Solution: Upgrade to Apache version 2.4.62 or later.
+- Affected Hosts: 10.46.254.4/80
+============
+Name: Apache Log4j 1.2 JMSAppender Remote Code Execution (CVE-2021-4104)
+- Plugin Output: 
+
+  Path              : /repo/cms/backend/at/1.7.0-BZK/audittrail-log-search-1.7.0-BZK.war
+
+  Installed version : 1.2.13
+
+  Fixed version     : 2.16.0
+
+
+- Solution: Upgrade to Apache Log4j version 2.16.0 or later since 1.x is end of life.
+
+
+
+Upgrading to the latest versions for Apache Log4j is highly recommended as intermediate 
+
+versions / patches have known high severity vulnerabilities and the vendor is updating 
+
+their advisories often as new research and knowledge about the impact of Log4j is 
+
+discovered. Refer to https://logging.apache.org/log4j/2.x/security.html for the latest 
+
+versions.
+- Affected Hosts: 10.46.254.204
+============
+Name: Apache Log4j 1.x Multiple Vulnerabilities
+- Plugin Output: 
+
+  Path              : /oracle/12.2.0.1/database/.patch_storage/30886680_Apr_1_2020_01_36_23/files/md/jlib/log4j-1.2.17.jar
+
+  Installed version : 1.2.17
+
+
+- Solution: Upgrade to a version of Apache Log4j that is currently supported.
+
+
+
+Upgrading to the latest versions for Apache Log4j is highly recommended as intermediate 
+
+versions / patches have known high severity vulnerabilities and the vendor is updating 
+
+their advisories often as new research and knowledge about the impact of Log4j is 
+
+discovered. Refer to https://logging.apache.org/log4j/2.x/security.html for the latest 
+
+versions.
+- Affected Hosts: 10.46.254.152, 10.46.254.200, 10.46.254.204
+- Plugin Output: 
+
+  Path              : C:\Dinesh(SDI)\ePO_5.10.0_Update_8\resources\app\release\tomcat\server\lib\log4j-1.2.17.jar
+
+  Installed version : 1.2.17
+
+
+- Solution: Upgrade to a version of Apache Log4j that is currently supported.
+
+
+
+Upgrading to the latest versions for Apache Log4j is highly recommended as intermediate 
+
+versions / patches have known high severity vulnerabilities and the vendor is updating 
+
+their advisories often as new research and knowledge about the impact of Log4j is 
+
+discovered. Refer to https://logging.apache.org/log4j/2.x/security.html for the latest 
+
+versions.
+- Affected Hosts: 10.46.254.196/445, 10.46.254.199/445
+- Plugin Output: 
+
+  Path              : /oracle/12.2.0.1/database/ccr/lib/log4j-core.jar
+
+  Installed version : 1.1.1
+
+
+- Solution: Upgrade to a version of Apache Log4j that is currently supported.
+
+
+
+Upgrading to the latest versions for Apache Log4j is highly recommended as intermediate 
+
+versions / patches have known high severity vulnerabilities and the vendor is updating 
+
+their advisories often as new research and knowledge about the impact of Log4j is 
+
+discovered. Refer to https://logging.apache.org/log4j/2.x/security.html for the latest 
+
+versions.
+- Affected Hosts: 10.46.254.149
+============
+Name: Apache Log4j 2.0 < 2.3.2 / 2.4 < 2.12.4 / 2.13 < 2.17.1 RCE
+- Plugin Output: 
+
+  Path              : C:\temp\cis-cat\cis-cat-full\lib\log4j-core-2.3.jar
+
+  Installed version : 2.3
+
+  Fixed version     : 2.3.2
+
+
+- Solution: Upgrade to Apache Log4j version 2.17.1, 2.12.4, or 2.3.2 or later, or apply the vendor mitigation.
+
+
+
+Upgrading to the latest versions for Apache Log4j is highly recommended as intermediate 
+
+versions / patches have known high severity vulnerabilities and the vendor is updating 
+
+their advisories often as new research and knowledge about the impact of Log4j is 
+
+discovered. Refer to https://logging.apache.org/log4j/2.x/security.html for the latest 
+
+versions.
+- Affected Hosts: 10.46.254.196, 10.46.254.197, 10.46.254.199
+- Plugin Output: 
+
+  Path              : /oracle/12.2.0.1/database/md/jlib/log4j-core-2.9.1.jar
+
+  Installed version : 2.9.1
+
+  Fixed version     : 2.12.4
+
+
+- Solution: Upgrade to Apache Log4j version 2.17.1, 2.12.4, or 2.3.2 or later, or apply the vendor mitigation.
+
+
+
+Upgrading to the latest versions for Apache Log4j is highly recommended as intermediate 
+
+versions / patches have known high severity vulnerabilities and the vendor is updating 
+
+their advisories often as new research and knowledge about the impact of Log4j is 
+
+discovered. Refer to https://logging.apache.org/log4j/2.x/security.html for the latest 
+
+versions.
+- Affected Hosts: 10.46.254.152
+============
+Name: Apache Log4j 2.x < 2.17.0 DoS
+- Plugin Output: 
+
+  Path              : /opt/wildfly-10.1.0.Final/standalone/deployments-1.4.1/ems-server-1.4.1.war
+
+  Installed version : 2.8.2
+
+  Fixed version     : 2.12.3 / 2.17.0
+
+
+- Solution: Upgrade to Apache Log4j version 2.3.1, 2.12.3, 2.17.0 or later, or apply the vendor mitigation.
+
+
+
+Upgrading to the latest versions for Apache Log4j is highly recommended as intermediate 
+
+versions / patches have known high severity vulnerabilities and the vendor is updating 
+
+their advisories often as new research and knowledge about the impact of Log4j is 
+
+discovered. Refer to https://logging.apache.org/log4j/2.x/security.html for the latest 
+
+versions.
+- Affected Hosts: 10.46.254.103
+============
+Name: Apache Log4j SEoL (<= 1.x)
+- Plugin Output: 
+
+  Path                                   : /oracle/12.2.0.1/database/.patch_storage/30886680_Apr_1_2020_01_36_23/files/md/jlib/log4j-1.2.17.jar
+
+  Installed version                      : 1.2.17
+
+  Security End of Life                   : August 5, 2015
+
+  Time since Security End of Life (Est.) : >= 9 years
+
+
+- Solution: Upgrade to a version of Apache Log4j that is currently supported.
+- Affected Hosts: 10.46.254.152, 10.46.254.200, 10.46.254.204
+- Plugin Output: 
+
+  Path                                   : /oracle/12.2.0.1/database/ccr/lib/log4j-core.jar
+
+  Installed version                      : 1.1.1
+
+  Security End of Life                   : August 5, 2015
+
+  Time since Security End of Life (Est.) : >= 9 years
+
+
+- Solution: Upgrade to a version of Apache Log4j that is currently supported.
+- Affected Hosts: 10.46.254.149
+- Plugin Output: 
+
+  Path                                   : C:\Dinesh(SDI)\ePO_5.10.0_Update_8\resources\app\release\tomcat\server\lib\log4j-1.2.17.jar
+
+  Installed version                      : 1.2.17
+
+  Security End of Life                   : August 5, 2015
+
+  Time since Security End of Life (Est.) : >= 9 years
+
+
+- Solution: Upgrade to a version of Apache Log4j that is currently supported.
+- Affected Hosts: 10.46.254.196, 10.46.254.199
+============
+Name: Apache Tomcat 8.5.0 < 8.5.99 multiple vulnerabilities
+- Plugin Output: 
+
+  Path              : /oracle/19c/grid/tomcat
+
+  Installed version : 8.5.79
+
+  Fixed version     : 8.5.99
+
+
+- Solution: Upgrade to Apache Tomcat version 8.5.99 or later.
+- Affected Hosts: 10.46.254.149
+============
+Name: Apache Tomcat 9.0.0.M1 < 9.0.71
+- Plugin Output: 
+  Path              : C:\IACS\server\apache-tomcat-9.0.54\bin\Tomcat9.exe
+  Installed version : 9.0.54
+  Fixed version     : 9.0.71
+
+- Solution: Upgrade to Apache Tomcat version 9.0.71 or later.
+- Affected Hosts: 10.46.254.48/445
+============
+Name: Apache Tomcat 9.0.0.M1 < 9.0.72
+- Plugin Output: 
+  Path              : C:\IACS\server\apache-tomcat-9.0.54\bin\Tomcat9.exe
+  Installed version : 9.0.54
+  Fixed version     : 9.0.72
+
+- Solution: Upgrade to Apache Tomcat version 9.0.72 or later.
+- Affected Hosts: 10.46.254.48/445
+============
+Name: Apache Tomcat 9.0.0.M1 < 9.0.90
+- Plugin Output: 
+  Path              : C:\IACS\server\apache-tomcat-9.0.54\bin\Tomcat9.exe
+  Installed version : 9.0.54
+  Fixed version     : 9.0.90
+
+- Solution: Upgrade to Apache Tomcat version 9.0.90 or later.
+- Affected Hosts: 10.46.254.48/445
+============
+Name: Apache Tomcat 9.0.40 < 9.0.69
+- Plugin Output: 
+  Path              : C:\IACS\server\apache-tomcat-9.0.54\bin\Tomcat9.exe
+  Installed version : 9.0.54
+  Fixed version     : 9.0.69
+
+- Solution: Upgrade to Apache Tomcat version 9.0.69 or later.
+- Affected Hosts: 10.46.254.48/445
+============
+Name: Apache Tomcat SEoL (8.5.x)
+- Plugin Output: 
+
+  Path                                   : /oracle/19c/grid/tomcat
+
+  Installed version                      : 8.5.79
+
+  Security End of Life                   : March 31, 2024
+
+  Time since Security End of Life (Est.) : >= 6 months
+
+
+- Solution: Upgrade to a version of Apache Tomcat that is currently supported.
+- Affected Hosts: 10.46.254.149
+============
+Name: Cisco AireOS Software for Cisco Wireless LAN Controllers (WLC) DoS (cisco-sa-iosxe-wlc-fnfv9-EvrAQpNX)
+- Plugin Output: 
+
+  Cisco bug ID      : CSCvr53845
+
+  Installed release : 8.5.140.0
+
+  Fixed release     : 8.5.160.0
+
+
+- Solution: Upgrade to the relevant fixed version referenced in Cisco bug ID CSCvr53845
+- Affected Hosts: 10.46.254.236
+============
+Name: Cisco NX-OS Software Authenticated Simple Network Management Protocol Denial of Service Vulnerability
+- Plugin Output: 
+
+  Cisco bug ID      : CSCvn23531
+
+  Installed release : 6.2(9a)
+
+
+- Solution: Upgrade to the relevant fixed version referenced in the linked Cisco bug ID pages
+- Affected Hosts: 10.46.254.88
+============
+Name: Cisco NX-OS Software CLI Comm Injection (cisco-sa-nxos-cli-cmdinject-euQVK9u)
+- Plugin Output: 
+
+  Cisco bug ID      : CSCwd00653, CSCwd18009, CSCwd18011, CSCwd18012, CSCwd18013
+
+  Installed release : 6.2(9a)
+
+
+- Solution: Upgrade to the relevant fixed version referenced in Cisco bug IDs CSCwd00653, CSCwd18009, CSCwd18011, CSCwd18012,
+
+CSCwd18013
+- Affected Hosts: 10.46.254.88
+============
+Name: Cisco NX-OS Software CLI Comm Injection (cisco-sa-nxos-cmd-injection-xD9OhyOP)
+- Plugin Output: 
+
+  Cisco bug ID      : CSCwj94682, CSCwj97007, CSCwj97009, CSCwj97011
+
+  Installed release : 6.2(9a)
+
+
+- Solution: Upgrade to the relevant fixed version referenced in Cisco bug IDs CSCwj94682, CSCwj97007, CSCwj97009, CSCwj97011
+- Affected Hosts: 10.46.254.88
+============
+Name: Cisco NX-OS Software Sensitive File Read Information Disclosure Vulnerability (cisco-sa-20190515-nxos-fxos-info)
+- Plugin Output: 
+
+  Cisco bug ID      : CSCvk50808
+
+  Installed release : 6.2(9a)
+
+
+- Solution: Upgrade to the relevant fixed version referenced in the appropriate Cisco bug ID:
+
+  - CSCvj59436
+
+  - CSCvj50808
+
+  - CSCvj50810
+
+  - CSCvj50814
+
+  - CSCvj50816
+
+  - CSCvj50836
+- Affected Hosts: 10.46.254.88
+============
+Name: Cisco NX-OS System Software Authentication, Authorization, and Accounting Denial of Service Vulnerability Vulnerability
+- Plugin Output: 
+
+  Cisco bug ID      : CSCve03660/CSCvc33141/CSCus05214/CSCus05214/CSCuq71257CSCuq58760/CSCur97432
+
+  Installed release : 6.2(9a)
+
+  Fixed release     : 6.2(23)
+
+
+- Solution: Upgrade to the relevant fixed version referenced in Cisco Security
+
+Advisory cisco-sa-20171018-aaavty or use the referenced vendor
+
+workaround.
+- Affected Hosts: 10.46.254.88
+============
+Name: Cisco Wireless LAN Controller CAPWAP DoS (cisco-sa-wlc-capwap-dos-Y2sD9uEw)
+- Plugin Output: 
+
+  Cisco bug ID      : CSCvq59667
+
+  Installed release : 8.5.140.0
+
+  Fixed release     : 8.5.160.0
+
+
+- Solution: Upgrade to the relevant fixed version referenced in Cisco bug ID CSCvq59667
+- Affected Hosts: 10.46.254.236
+============
+Name: Cisco Wireless LAN Controller HTTP Parsing Engine Denial of Service Vulnerability
+- Plugin Output: 
+
+  Cisco bug ID      : CSCvp92098
+
+  Installed release : 8.5.140.0
+
+  Fixed release     : 8.5.160.0
+
+
+- Solution: Upgrade to the relevant fixed version for your machine as referenced in Cisco bug ID CSCvp92098
+- Affected Hosts: 10.46.254.236
+============
+Name: Cisco Wireless LAN Controller Path Traversal Vulnerability
+- Plugin Output: 
+
+  Cisco bug ID      : CSCvq59683
+
+  Installed release : 8.5.140.0
+
+  Fixed release     : 8.5.160.0
+
+
+- Solution: Upgrade to the relevant fixed version referenced in Cisco bug ID CSCvq59683
+- Affected Hosts: 10.46.254.236
+============
+Name: Cisco Wireless LAN Controller Secure Shell (SSH) Denial of Service Vulnerability (cisco-sa-20191016-wlc-ssh-dos)
+- Plugin Output: 
+
+  Cisco bug ID      : CSCvp34148
+
+  Installed release : 8.5.140.0
+
+  Fixed release     : 8.5.151.0
+
+
+- Solution: Upgrade to the relevant fixed version referenced in Cisco bug ID 
+
+  CSCvp34148
+- Affected Hosts: 10.46.254.236
+============
+Name: Curl Use-After-Free < 7.87 (CVE-2022-43552)
+- Plugin Output: 
+
+  Path              : c:\windows\system32\curl.exe
+
+  Installed version : 7.79.1.0
+
+  Fixed version     : 7.87.0
+
+
+- Solution: Upgrade Curl to version 7.87.0 or later
+- Affected Hosts: 10.46.254.196/445, 10.46.254.197/445, 10.46.254.199/445, 10.46.254.201/445
+============
+Name: ESXi 6.5 / 6.7 / 7.0 Multiple Vulnerabilities (VMSA-2022-0030)
+- Plugin Output: 
+
+  ESXi version    : 7.0
+
+  Installed build : 20036589
+
+  Fixed build     : 20841705
+
+
+- Solution: Apply the appropriate patch or workaround as referenced in the vendor advisory.
+- Affected Hosts: 10.46.254.111/443, 10.46.254.112/443, 10.46.254.113/443
+============
+Name: Grafana Labs Incorrect Authorization (CVE-2023-6152)
+- Plugin Output: 
+
+  URL               : https://10.46.254.243:10443/login
+
+  Installed version : 6.7.2
+
+  Fixed version     : 9.5.16
+
+
+- Solution: Upgrade to Grafana 9.5.16, 10.0.11, 10.1.7, 10.2.4, 10.3.3 or later
+- Affected Hosts: 10.46.254.243/10443, 10.46.254.244/10443
+============
+Name: ICMP Timestamp Request Remote Date Disclosure
+- Plugin Output: This host returns non-standard timestamps (high bit is set)
+
+The ICMP timestamps might be in little endian format (not in network format)
+
+The difference between the local and remote clocks is 7 seconds.
+
+
+- Solution: Filter out the ICMP timestamp requests (13), and the outgoing ICMP
+
+timestamp replies (14).
+- Affected Hosts: 10.46.254.196, 10.46.254.197, 10.46.254.199, 10.46.254.201
+- Plugin Output: The difference between the local and remote clocks is 8 seconds.
+
+
+- Solution: Filter out the ICMP timestamp requests (13), and the outgoing ICMP
+
+timestamp replies (14).
+- Affected Hosts: 10.46.254.4
+- Plugin Output: The difference between the local and remote clocks is 9 seconds.
+
+
+- Solution: Filter out the ICMP timestamp requests (13), and the outgoing ICMP
+
+timestamp replies (14).
+- Affected Hosts: 10.46.254.243, 10.46.254.244
+- Plugin Output: The difference between the local and remote clocks is -55124 seconds.
+
+
+- Solution: Filter out the ICMP timestamp requests (13), and the outgoing ICMP
+
+timestamp replies (14).
+- Affected Hosts: 10.46.254.238
+- Plugin Output: This host returns non-standard timestamps (high bit is set)
+
+The ICMP timestamps might be in little endian format (not in network format)
+
+The difference between the local and remote clocks is 8 seconds.
+
+
+- Solution: Filter out the ICMP timestamp requests (13), and the outgoing ICMP
+
+timestamp replies (14).
+- Affected Hosts: 10.46.254.131, 10.46.254.48, 10.46.254.49
+- Plugin Output: This host returns non-standard timestamps (high bit is set)
+The ICMP timestamps might be in little endian format (not in network format)
+The difference between the local and remote clocks is 14 seconds.
+
+- Solution: Filter out the ICMP timestamp requests (13), and the outgoing ICMP
+timestamp replies (14).
+- Affected Hosts: 10.46.254.214, 10.46.254.48
+- Plugin Output: The difference between the local and remote clocks is -29824 seconds.
+
+
+- Solution: Filter out the ICMP timestamp requests (13), and the outgoing ICMP
+
+timestamp replies (14).
+- Affected Hosts: 10.46.254.236, 10.46.254.70
+- Plugin Output: The ICMP timestamps seem to be in little endian format (not in network format)
+
+The difference between the local and remote clocks is 8 seconds.
+
+
+- Solution: Filter out the ICMP timestamp requests (13), and the outgoing ICMP
+
+timestamp replies (14).
+- Affected Hosts: 10.46.254.214
+- Plugin Output: This host returns non-standard timestamps (high bit is set)
+
+
+- Solution: Filter out the ICMP timestamp requests (13), and the outgoing ICMP
+
+timestamp replies (14).
+- Affected Hosts: 10.46.254.100, 10.46.254.101, 10.46.254.103, 10.46.254.104, 10.46.254.120, 10.46.254.121, 10.46.254.122, 10.46.254.200, 10.46.254.203, 10.46.254.204, 10.46.254.71, 10.46.254.73, 10.46.254.88
+- Plugin Output: The difference between the local and remote clocks is 1045 seconds.
+
+
+- Solution: Filter out the ICMP timestamp requests (13), and the outgoing ICMP
+
+timestamp replies (14).
+- Affected Hosts: 10.46.254.74, 10.46.254.76, 10.46.254.77, 10.46.254.88
+============
+Name: Insecure Windows Service Permissions
+- Plugin Output: 
+
+Path : c:\eimservice\eim.exe
+
+Used by services : EIM Service
+
+File write allowed for groups : Authenticated Users (S-1-5-11)
+
+
+
+Path : c:\iacs\server\apache-tomcat-9.0.54\bin\tomcat9.exe
+
+Used by services : eim
+
+File write allowed for groups : Authenticated Users (S-1-5-11)
+
+
+
+Path : c:\morpho\morphosmart usb driver\serv_spusb.exe
+
+Used by services : MSO_SpUsb_Service
+
+File write allowed for groups : Authenticated Users (S-1-5-11)
+
+
+
+Path : d:\deployservice\deployservice.exe
+
+Used by services : DeployService
+
+File write allowed for groups : Authenticated Users (S-1-5-11)
+
+
+
+Path : d:\edoorservice\bin\edoorservice.exe
+
+Used by services : eDoor
+
+File write allowed for groups : Authenticated Users (S-1-5-11)
+
+
+
+Path : d:\morphowayupsservice\upsservice.exe
+
+Used by services : MorphoWayUPSService
+
+File write allowed for groups : Authenticated Users (S-1-5-11)
+
+
+
+Path : d:\onelook.service\onelook.control.service.exe
+
+Used by services : ONELOOK
+
+File write allowed for groups : Authenticated Users (S-1-5-11)
+
+
+- Solution: Ensure the groups listed above do not have permissions to modify or
+
+write service executables. Additionally, ensure these groups do not
+
+have Full Control permission to any directories that contain service
+
+executables.
+- Affected Hosts: 10.46.254.48/445, 10.46.254.49/445
+- Plugin Output: 
+Path : c:\eimservice\eim.exe
+Used by services : EIM Service
+File write allowed for groups : Authenticated Users (S-1-5-11)
+
+Path : c:\iacs\server\apache-tomcat-9.0.54\bin\tomcat9.exe
+Used by services : eim
+File write allowed for groups : Authenticated Users (S-1-5-11)
+
+Path : c:\morpho\morphosmart usb driver\serv_spusb.exe
+Used by services : MSO_SpUsb_Service
+File write allowed for groups : Authenticated Users (S-1-5-11)
+
+Path : d:\deployservice\deployservice.exe
+Used by services : DeployService
+File write allowed for groups : Authenticated Users (S-1-5-11)
+
+Path : d:\edoorservice\bin\edoorservice.exe
+Used by services : eDoor
+File write allowed for groups : Authenticated Users (S-1-5-11)
+
+Path : d:\morphowayupsservice\upsservice.exe
+Used by services : MorphoWayUPSService
+File write allowed for groups : Authenticated Users (S-1-5-11)
+
+Path : d:\onelook.service\onelook.control.service.exe
+Used by services : ONELOOK
+File write allowed for groups : Authenticated Users (S-1-5-11)
+
+- Solution: Ensure the groups listed above do not have permissions to modify or
+write service executables. Additionally, ensure these groups do not
+have Full Control permission to any directories that contain service
+executables.
+- Affected Hosts: 10.46.254.48/445
+============
+Name: Intel Chipset Device Software < 10.1.19444.8378 Escalation of Privilege
+- Plugin Output: 
+
+  Path              : C:\Program Files\Intel\Intel(R) Chipset Device Software
+
+  Installed version : 10.1.17861.8101
+
+  Fixed version     : 10.1.19444.8378
+
+
+- Solution: Upgrade to Intel Chipset Device Software version 10.1.19444.8378 or later.
+- Affected Hosts: 10.46.254.201/445
+- Plugin Output: 
+  Path              : C:\Program Files\Intel\Intel(R) Chipset Device Software
+  Installed version : 10.1.1.42
+  Fixed version     : 10.1.19444.8378
+
+- Solution: Upgrade to Intel Chipset Device Software version 10.1.19444.8378 or later.
+- Affected Hosts: 10.46.254.214/445, 10.46.254.48/445
+============
+Name: JQuery 1.2 < 3.5.0 Multiple XSS
+- Plugin Output: 
+
+  URL               : https://10.46.254.198/js/lib/jquery.min.js?v=6.0.0
+
+  Installed version : 3.3.1
+
+  Fixed version     : 3.5.0
+
+
+- Solution: Upgrade to JQuery version 3.5.0 or later.
+- Affected Hosts: 10.46.254.198/443
+============
+Name: KB5044277: Windows 10 version 1809 / Windows Server 2019 Security Update (October 2024)
+- Plugin Output: 
+The remote host is missing one of the following rollup KBs : 
+  - 5044277
+
+  - C:\Windows\system32\ntoskrnl.exe has not been patched.
+    Remote version : 10.0.17763.2928
+    Should be      : 10.0.17763.6414
+
+
+- Solution: Apply Security Update 5044277
+- Affected Hosts: 10.46.254.214/445
+- Plugin Output: 
+
+The remote host is missing one of the following rollup KBs : 
+
+  - 5044277
+
+
+
+  - C:\Windows\system32\ntoskrnl.exe has not been patched.
+
+    Remote version : 10.0.17763.2928
+
+    Should be      : 10.0.17763.6414
+
+
+
+
+- Solution: Apply Security Update 5044277
+- Affected Hosts: 10.46.254.196/445, 10.46.254.197/445, 10.46.254.199/445, 10.46.254.201/445
+============
+Name: KB5044293: Windows 10 Version 1607 / Windows Server 2016 Security Update (October 2024)
+- Plugin Output: 
+The remote host is missing one of the following rollup KBs : 
+  - 5044293
+
+  - C:\Windows\system32\ntoskrnl.exe has not been patched.
+    Remote version : 10.0.14393.5125
+    Should be      : 10.0.14393.7426
+
+
+- Solution: Apply Security Update 5044293
+- Affected Hosts: 10.46.254.48/445
+============
+Name: McAfee ePolicy Orchestrator Multiple Vulnerabilities (SB10387)
+- Plugin Output: 
+
+  Path              : C:\Program Files (x86)\McAfee\ePolicy Orchestrator\
+
+  Installed version : 5.10.0.3242
+
+  Fixed version     : 5.10.0 Update 14
+
+
+- Solution: Upgrade to McAfee ePO version 5.10.0 Update 14 or later.
+- Affected Hosts: 10.46.254.199
+============
+Name: Microsoft Edge (Chromium) < 129.0.2792.89 Multiple Vulnerabilities
+- Plugin Output: 
+  Path              : C:\Program Files (x86)\Microsoft\Edge\Application
+  Installed version : 101.0.1210.53
+  Fixed version     : 129.0.2792.89
+
+- Solution: Upgrade to Microsoft Edge version 129.0.2792.89 or later.
+- Affected Hosts: 10.46.254.214/445
+============
+Name: Microsoft Internet Explorer Unsupported Version Detection
+- Plugin Output: 
+The remote host has Internet Explorer version 11.4350.14393.0 installed, which is no longer supported.
+Internet Explorer was found on the host and may still be available for use as a
+standalone browser. To prevent the use of Internet Explorer, Microsoft has included a
+Browser Helper Object (BHO) to handle redirects from Internet Explorer to Edge.
+The InternetExplorerIntegrationReloadInIEModeAllowed policy is not configured
+which means users can render content in IE Mode.
+
+- Solution: Either Upgrade to a version of Internet Explorer that is currently supported
+or disable Internet Explorer on the target device.
+- Affected Hosts: 10.46.254.214/445, 10.46.254.48/445
+============
+Name: Microsoft SQL Server Unsupported Version Detection
+- Plugin Output: 
+
+The following unsupported installations of Microsoft SQL Server were
+
+detected :
+
+
+
+  Installed version         : 13.0.5865.1 Express Edition
+
+  Install path              : C:\Program Files\Microsoft SQL Server\MSSQL13.VEEAMSQL2016\MSSQL\Binn
+
+  Instance                  : VEEAMSQL2016
+
+  Minimum supported version : 13.0.6300.2 (2016 SP3)
+
+
+- Solution: Upgrade to a version of Microsoft SQL Server that is currently
+
+supported.
+- Affected Hosts: 10.46.254.201/445
+============
+Name: Microsoft Windows Admin Center Spoofing (July 2023)
+- Plugin Output: 
+
+  Path              : C:\Program Files\Windows Admin Center\
+
+  Installed version : 1.2.2003.11001
+
+  Fixed version     : 1.5.2306.14001
+
+
+- Solution: Apply the appropriate update referenced in the Microsoft advisory.
+- Affected Hosts: 10.46.254.199/445
+============
+Name: Microsoft Windows SMB Registry : Autologon Enabled
+- Plugin Output: Autologon is enabled on this host.
+This allows an attacker to access the domain: iacs.wlds as gatekioskuser/6******S
+
+Note: The password displayed has been partially obfuscated.
+- Solution: Delete the keys AutoAdminLogon and DefaultPassword under
+HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon
+- Affected Hosts: 10.46.254.214/445, 10.46.254.48/445
+============
+Name: Microsoft Windows Unquoted Service Path Enumeration
+- Plugin Output: 
+Nessus found the following services with an untrusted path : 
+  Eaton IntelligentPowerProtector : C:\Program Files\Eaton\IntelligentPowerProtector\mc2.exe
+  DSCameraControlWinService : C:\Program Files\IDS\uEye\OtherDrivers\DirectShow\64\DSCameraControl.exe
+
+
+- Solution: Ensure that any services that contain a space in the path enclose the
+path in quotes.
+- Affected Hosts: 10.46.254.48/445
+- Plugin Output: 
+
+Nessus found the following services with an untrusted path : 
+
+  Eaton IntelligentPowerProtector : C:\Program Files\Eaton\IntelligentPowerProtector\mc2.exe
+
+  DSCameraControlWinService : C:\Program Files\IDS\uEye\OtherDrivers\DirectShow\64\DSCameraControl.exe
+
+
+
+
+- Solution: Ensure that any services that contain a space in the path enclose the
+
+path in quotes.
+- Affected Hosts: 10.46.254.48/445, 10.46.254.49/445
+============
+Name: Mozilla Firefox < 131.0.3
+- Plugin Output: 
+
+  Path              : C:\Program Files\Mozilla Firefox
+
+  Installed version : 75.0
+
+  Fixed version     : 131.0.3
+
+
+- Solution: Upgrade to Mozilla Firefox version 131.0.3 or later.
+- Affected Hosts: 10.46.254.199/445, 10.46.254.201/445
+- Plugin Output: 
+  Path              : C:\Program Files\Mozilla Firefox
+  Installed version : 63.0.1
+  Fixed version     : 131.0.3
+
+- Solution: Upgrade to Mozilla Firefox version 131.0.3 or later.
+- Affected Hosts: 10.46.254.48/445
+============
+Name: Mozilla Foundation Unsupported Application Detection
+- Plugin Output: 
+
+  Product           : Mozilla Firefox
+
+  Path              : C:\Program Files\Mozilla Firefox
+
+  Installed version : 75.0
+
+  Latest version    : 121.0.0
+
+  EOL URL           : https://www.mozilla.org/en-US/security/known-vulnerabilities/firefox/#firefox99
+
+
+- Solution: Upgrade to a version that is currently supported.
+- Affected Hosts: 10.46.254.199/445, 10.46.254.201/445
+- Plugin Output: 
+  Product           : Mozilla Firefox
+  Path              : C:\Program Files\Mozilla Firefox
+  Installed version : 63.0.1
+  Latest version    : 121.0.0
+  EOL URL           : https://www.mozilla.org/en-US/security/known-vulnerabilities/firefox/#firefox99
+
+- Solution: Upgrade to a version that is currently supported.
+- Affected Hosts: 10.46.254.48/445
+============
+Name: Notepad++ < 8.5.7 Multiple Buffer Overflow Vulnerabilities
+- Plugin Output: 
+  Path              : C:\Program Files\Notepad++
+  Installed version : 7.2.1.0
+  Fixed version     : 8.5.7
+
+- Solution: Upgrade to Notepad++ 8.5.7 or later.
+- Affected Hosts: 10.46.254.48
+- Plugin Output: 
+
+  Path              : C:\Program Files\Notepad++
+
+  Installed version : 7.0.0.0
+
+  Fixed version     : 8.5.7
+
+
+- Solution: Upgrade to Notepad++ 8.5.7 or later.
+- Affected Hosts: 10.46.254.201
+============
+Name: OpenSSH < 9.6 Multiple Vulnerabilities
+- Plugin Output: 
+
+  Version source    : SSH-2.0-OpenSSH_7.8
+
+  Installed version : 7.8
+
+  Fixed version     : 9.6p1 / 9.6
+
+
+- Solution: Upgrade to OpenSSH version 9.6 or later.
+- Affected Hosts: 10.46.254.206/22
+- Plugin Output: 
+
+  Version source    : SSH-2.0-OpenSSH_7.6
+
+  Installed version : 7.6
+
+  Fixed version     : 9.6p1 / 9.6
+
+
+- Solution: Upgrade to OpenSSH version 9.6 or later.
+- Affected Hosts: 10.46.254.150/22
+============
+Name: OpenSSL 1.0.2 < 1.0.2zl Vulnerability
+- Plugin Output: 
+
+  Path             : /opt/veeam/transport/vddk_6_0/lib64/libcrypto.so.1.0.2
+
+  Reported version : 1.0.2j
+
+  Fixed version    : 1.0.2zl
+- Solution: Upgrade to OpenSSL version 1.0.2zl or later.
+- Affected Hosts: 10.46.254.152
+- Plugin Output: 
+
+  Path             : /opt/tfa/oracle_ahf_old/python/bin/libcrypto.so.1.0.0
+
+  Reported version : 1.0.2u
+
+  Fixed version    : 1.0.2zl
+- Solution: Upgrade to OpenSSL version 1.0.2zl or later.
+- Affected Hosts: 10.46.254.149
+============
+Name: OpenSSL 1.1.1 < 1.1.1zb Vulnerability
+- Plugin Output: 
+
+  Banner           : Apache/2.4.58 (Unix) OpenSSL/1.1.1x
+
+  Reported version : 1.1.1x
+
+  Fixed version    : 1.1.1zb
+- Solution: Upgrade to OpenSSL version 1.1.1zb or later.
+- Affected Hosts: 10.46.254.4/80
+- Plugin Output: 
+
+  Path             : /usr/lib64/libcrypto.so.1.1
+
+  Reported version : 1.1.1f
+
+  Fixed version    : 1.1.1zb
+- Solution: Upgrade to OpenSSL version 1.1.1zb or later.
+- Affected Hosts: 10.46.254.203
+============
+Name: OpenSSL SEoL (1.0.2.x)
+- Plugin Output: 
+
+  Path                                   : /opt/tfa/oracle_ahf_old/python/bin/libcrypto.so.1.0.0
+
+  Installed version                      : 1.0.2u
+
+  Security End of Life                   : January 1, 2020
+
+  Time since Security End of Life (Est.) : >= 4 years
+
+
+- Solution: Upgrade to a version of OpenSSL that is currently supported.
+- Affected Hosts: 10.46.254.149
+- Plugin Output: 
+
+  Path                                   : /opt/veeam/transport/vddk_6_0/lib64/libcrypto.so.1.0.2
+
+  Installed version                      : 1.0.2j
+
+  Security End of Life                   : January 1, 2020
+
+  Time since Security End of Life (Est.) : >= 4 years
+
+
+- Solution: Upgrade to a version of OpenSSL that is currently supported.
+- Affected Hosts: 10.46.254.152
+============
+Name: OpenSSL SEoL (1.1.1.x)
+- Plugin Output: 
+
+  Path                                   : /usr/lib64/libcrypto.so.1.1
+
+  Installed version                      : 1.1.1f
+
+  Security End of Life                   : September 11, 2023
+
+  Time since Security End of Life (Est.) : >= 1 year
+
+
+- Solution: Upgrade to a version of OpenSSL that is currently supported.
+- Affected Hosts: 10.46.254.203
+- Plugin Output: 
+
+  Path                                   : /opt/tfa/oracle_ahf_old/python/bin/libcrypto.so.1.1
+
+  Installed version                      : 1.1.1m
+
+  Security End of Life                   : September 11, 2023
+
+  Time since Security End of Life (Est.) : >= 1 year
+
+
+- Solution: Upgrade to a version of OpenSSL that is currently supported.
+- Affected Hosts: 10.46.254.149
+============
+Name: Oracle Database Server (Jul 2024 CPU)
+- Plugin Output: 
+
+  Component         : RDBMS
+
+  Installed version : 19.16.0.0.220719
+
+  Fixed version     : 19.24.0.0.240716
+
+  Missing patch     : 36582781
+
+
+
+  Component         : OJVM
+
+  Installed version : 19.16.0.0.220719
+
+  Fixed version     : 19.24.0.0.240716
+
+  Missing patch     : 36414915
+
+
+- Solution: Apply the appropriate patch according to the July 2024 Oracle Critical Patch Update advisory.
+- Affected Hosts: 10.46.254.152
+============
+Name: Oracle Database Unsupported Version Detection
+- Plugin Output: 
+
+The following unsupported instance of Oracle Database is installed on the
+
+remote host :
+
+
+
+  SID                : 
+
+  Oracle home path   : /oracle/12.2.0.1/database
+
+  Database version   : 12.2.0.1.0
+
+  Supported versions : 19c / 21c
+
+  EOL URL            : http://www.oracle.com/us/support/library/lifetime-support-technology-069183.pdf
+
+
+
+
+- Solution: Upgrade to a version of Oracle Database that is currently supported.
+- Affected Hosts: 10.46.254.152
+============
+Name: Oracle Java SE 1.7.0_331 / 1.8.0_321 / 1.11.0_14 / 1.17.0_2 Multiple Vulnerabilities (January 2022 CPU)
+- Plugin Output: 
+The following vulnerable instances of Java are installed on the
+remote host :
+
+  Path              : C:\Program Files\Amazon Corretto\jdk1.8.0_292\
+  Path              : C:\Program Files\Amazon Corretto\jre8
+  Installed version : 1.8.0_292.10
+  Fixed version     : 1.7.0_331 / 1.8.0_321 / 1.11.0_14 / 1.17.0_2
+
+- Solution: Apply the appropriate patch according to the January 2022 Oracle Critical Patch Update advisory.
+- Affected Hosts: 10.46.254.48/445
+============
+Name: Oracle Java SE Multiple Vulnerabilities (July2024 CPU)
+- Plugin Output: 
+
+  Path              : /opt/jdk1.8.0_144/
+
+  Installed version : 8.0.144.01 / build 8.0.144
+
+  Fixed version     : Upgrade to version 8.0.421 or greater
+
+
+- Solution: Apply the appropriate patch according to the July 2024 Oracle Critical Patch Update advisory.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152
+- Plugin Output: 
+
+  Path              : C:\Program Files\Java\jre1.8.0_241\
+
+  Installed version : 8.0.241.7 / build 8.0.241
+
+  Fixed version     : Upgrade to version 8.0.421 or greater
+
+
+- Solution: Apply the appropriate patch according to the July 2024 Oracle Critical Patch Update advisory.
+- Affected Hosts: 10.46.254.196/445, 10.46.254.201/445
+============
+Name: Oracle Linux 6 / 7 : Unbreakable Enterprise kernel (ELSA-2021-9395)
+- Plugin Output: 
+
+Remote package installed : kernel-uek-4.1.12-112.17.3.el7uek
+
+Should be                : kernel-uek-4.1.12-124.53.5.el7uek
+
+
+
+Remote package installed : kernel-uek-devel-4.1.12-112.17.3.el7uek
+
+Should be                : kernel-uek-devel-4.1.12-124.53.5.el7uek
+
+
+
+Remote package installed : kernel-uek-firmware-4.1.12-112.17.3.el7uek
+
+Should be                : kernel-uek-firmware-4.1.12-124.53.5.el7uek
+
+
+
+
+- Solution: Update the affected packages.
+- Affected Hosts: 10.46.254.152
+- Plugin Output: 
+
+Remote package installed : kernel-uek-4.1.12-112.17.3.el7uek
+
+Should be                : kernel-uek-4.1.12-124.53.5.el7uek
+
+
+
+Remote package installed : kernel-uek-firmware-4.1.12-112.17.3.el7uek
+
+Should be                : kernel-uek-firmware-4.1.12-124.53.5.el7uek
+
+
+
+
+- Solution: Update the affected packages.
+- Affected Hosts: 10.46.254.243
+============
+Name: Oracle Linux 6 / 7 : Unbreakable Enterprise kernel (ELSA-2023-12375)
+- Plugin Output: 
+
+Remote package installed : kernel-uek-firmware-4.1.12-112.17.3.el7uek
+
+Should be                : kernel-uek-firmware-4.1.12-124.75.3.el7uek
+
+
+
+Remote package installed : kernel-uek-4.1.12-112.17.3.el7uek
+
+Should be                : kernel-uek-4.1.12-124.75.3.el7uek
+
+
+
+Remote package installed : kernel-uek-devel-4.1.12-112.17.3.el7uek
+
+Should be                : kernel-uek-devel-4.1.12-124.75.3.el7uek
+
+
+
+
+- Solution: Update the affected packages.
+- Affected Hosts: 10.46.254.152
+============
+Name: Oracle Linux 6 / 7 : Unbreakable Enterprise kernel (ELSA-2024-12700)
+- Plugin Output: 
+
+Remote package installed : kernel-uek-4.1.12-112.17.3.el7uek
+
+Should be                : kernel-uek-4.1.12-124.90.3.el7uek
+
+
+
+Remote package installed : kernel-uek-firmware-4.1.12-112.17.3.el7uek
+
+Should be                : kernel-uek-firmware-4.1.12-124.90.3.el7uek
+
+
+
+
+- Solution: Update the affected packages.
+- Affected Hosts: 10.46.254.243
+- Plugin Output: 
+
+Remote package installed : kernel-uek-4.1.12-112.17.3.el7uek
+
+Should be                : kernel-uek-4.1.12-124.90.3.el7uek
+
+
+
+Remote package installed : kernel-uek-devel-4.1.12-112.17.3.el7uek
+
+Should be                : kernel-uek-devel-4.1.12-124.90.3.el7uek
+
+
+
+Remote package installed : kernel-uek-firmware-4.1.12-112.17.3.el7uek
+
+Should be                : kernel-uek-firmware-4.1.12-124.90.3.el7uek
+
+
+
+
+- Solution: Update the affected packages.
+- Affected Hosts: 10.46.254.152
+============
+Name: Oracle Linux 7 / 8 : vim (ELSA-2019-1619)
+- Plugin Output: 
+
+Remote package installed : vim-minimal-7.4.160-5.el7
+
+Should be                : vim-minimal-7.4.160-6.el7_6
+
+
+
+
+- Solution: Update the affected vim packages.
+- Affected Hosts: 10.46.254.243, 10.46.254.244
+- Plugin Output: 
+
+Remote package installed : vim-common-7.4.160-5.el7
+
+Should be                : vim-common-7.4.160-6.el7_6
+
+
+
+Remote package installed : vim-enhanced-7.4.160-5.el7
+
+Should be                : vim-enhanced-7.4.160-6.el7_6
+
+
+
+Remote package installed : vim-filesystem-7.4.160-5.el7
+
+Should be                : vim-filesystem-7.4.160-6.el7_6
+
+
+
+Remote package installed : vim-minimal-7.4.160-5.el7
+
+Should be                : vim-minimal-7.4.160-6.el7_6
+
+
+
+
+- Solution: Update the affected vim packages.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : GNOME (ELSA-2020-1021)
+- Plugin Output: 
+
+Remote package installed : shared-mime-info-1.8-4.el7
+
+Should be                : shared-mime-info-1.8-5.el7
+
+
+
+
+- Solution: Update the affected packages.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : NetworkManager (ELSA-2018-3665)
+- Plugin Output: 
+
+Remote package installed : NetworkManager-1.12.0-6.el7
+
+Should be                : NetworkManager-1.12.0-8.el7_6
+
+
+
+Remote package installed : NetworkManager-config-server-1.12.0-6.el7
+
+Should be                : NetworkManager-config-server-1.12.0-8.el7_6
+
+
+
+Remote package installed : NetworkManager-libnm-1.12.0-6.el7
+
+Should be                : NetworkManager-libnm-1.12.0-8.el7_6
+
+
+
+Remote package installed : NetworkManager-team-1.12.0-6.el7
+
+Should be                : NetworkManager-team-1.12.0-8.el7_6
+
+
+
+Remote package installed : NetworkManager-tui-1.12.0-6.el7
+
+Should be                : NetworkManager-tui-1.12.0-8.el7_6
+
+
+
+
+- Solution: Update the affected networkmanager packages.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : NetworkManager (ELSA-2020-4003)
+- Plugin Output: 
+
+Remote package installed : NetworkManager-1.12.0-6.el7
+
+Should be                : NetworkManager-1.18.8-1.el7
+
+
+
+Remote package installed : NetworkManager-config-server-1.12.0-6.el7
+
+Should be                : NetworkManager-config-server-1.18.8-1.el7
+
+
+
+Remote package installed : NetworkManager-libnm-1.12.0-6.el7
+
+Should be                : NetworkManager-libnm-1.18.8-1.el7
+
+
+
+Remote package installed : NetworkManager-team-1.12.0-6.el7
+
+Should be                : NetworkManager-team-1.18.8-1.el7
+
+
+
+Remote package installed : NetworkManager-tui-1.12.0-6.el7
+
+Should be                : NetworkManager-tui-1.18.8-1.el7
+
+
+
+
+- Solution: Update the affected packages.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : Unbreakable Enterprise kernel (ELSA-2022-9014)
+- Plugin Output: 
+
+Remote package installed : kernel-uek-4.1.12-112.17.3.el7uek
+
+Should be                : kernel-uek-4.1.12-124.59.1.2.el7uek
+
+
+
+Remote package installed : kernel-uek-firmware-4.1.12-112.17.3.el7uek
+
+Should be                : kernel-uek-firmware-4.1.12-124.59.1.2.el7uek
+
+
+
+
+- Solution: Update the affected packages.
+- Affected Hosts: 10.46.254.243
+- Plugin Output: 
+
+Remote package installed : kernel-uek-4.1.12-112.17.3.el7uek
+
+Should be                : kernel-uek-4.1.12-124.59.1.2.el7uek
+
+
+
+Remote package installed : kernel-uek-devel-4.1.12-112.17.3.el7uek
+
+Should be                : kernel-uek-devel-4.1.12-124.59.1.2.el7uek
+
+
+
+Remote package installed : kernel-uek-firmware-4.1.12-112.17.3.el7uek
+
+Should be                : kernel-uek-firmware-4.1.12-124.59.1.2.el7uek
+
+
+
+
+- Solution: Update the affected packages.
+- Affected Hosts: 10.46.254.152
+============
+Name: Oracle Linux 7 : Unbreakable Enterprise kernel (ELSA-2022-9367)
+- Plugin Output: 
+
+Remote package installed : kernel-uek-4.14.35-1818.3.3.el7uek
+
+Should be                : kernel-uek-4.14.35-2047.513.2.el7uek
+
+
+
+
+- Solution: Update the affected packages.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : Unbreakable Enterprise kernel (ELSA-2023-12242)
+- Plugin Output: 
+
+Remote package installed : kernel-uek-4.14.35-1818.3.3.el7uek
+
+Should be                : kernel-uek-4.14.35-2047.524.5.el7uek
+
+
+
+Remote package installed : kernel-uek-4.14.35-1818.3.3.el7uek
+
+Should be                : kernel-uek-4.14.35-2047.524.5.el7uek
+
+
+
+
+- Solution: Update the affected packages.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : Unbreakable Enterprise kernel (ELSA-2023-12792)
+- Plugin Output: 
+
+Remote package installed : kernel-uek-4.14.35-1818.3.3.el7uek
+
+Should be                : kernel-uek-4.14.35-2047.529.3.el7uek
+
+
+
+Remote package installed : kernel-uek-4.14.35-1818.3.3.el7uek
+
+Should be                : kernel-uek-4.14.35-2047.529.3.el7uek
+
+
+
+
+- Solution: Update the affected packages.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : Unbreakable Enterprise kernel (ELSA-2024-12571)
+- Plugin Output: 
+
+Remote package installed : kernel-uek-4.1.12-112.17.3.el7uek
+
+Should be                : kernel-uek-4.1.12-124.88.3.el7uek
+
+
+
+Remote package installed : kernel-uek-firmware-4.1.12-112.17.3.el7uek
+
+Should be                : kernel-uek-firmware-4.1.12-124.88.3.el7uek
+
+
+
+
+- Solution: Update the affected packages.
+- Affected Hosts: 10.46.254.243
+- Plugin Output: 
+
+Remote package installed : kernel-uek-4.1.12-112.17.3.el7uek
+
+Should be                : kernel-uek-4.1.12-124.88.3.el7uek
+
+
+
+Remote package installed : kernel-uek-devel-4.1.12-112.17.3.el7uek
+
+Should be                : kernel-uek-devel-4.1.12-124.88.3.el7uek
+
+
+
+Remote package installed : kernel-uek-firmware-4.1.12-112.17.3.el7uek
+
+Should be                : kernel-uek-firmware-4.1.12-124.88.3.el7uek
+
+
+
+
+- Solution: Update the affected packages.
+- Affected Hosts: 10.46.254.152
+============
+Name: Oracle Linux 7 : Xorg (ELSA-2019-2079)
+- Plugin Output: 
+
+Remote package installed : libX11-common-1.6.5-2.el7
+
+Should be                : libX11-common-1.6.7-2.el7
+
+
+
+Remote package installed : libX11-1.6.5-2.el7
+
+Should be                : libX11-1.6.7-2.el7
+
+
+
+Remote package installed : libX11-devel-1.6.5-2.el7
+
+Should be                : libX11-devel-1.6.7-2.el7
+
+
+
+
+- Solution: Update the affected packages.
+- Affected Hosts: 10.46.254.152, 10.46.254.204
+============
+Name: Oracle Linux 7 : aide (ELSA-2022-0473)
+- Plugin Output: 
+
+Remote package installed : aide-0.15.1-13.el7
+
+Should be                : aide-0.15.1-13.0.1.el7_9.1
+
+
+
+
+- Solution: Update the affected aide package.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : apr-util (ELSA-2023-3145)
+- Plugin Output: 
+
+Remote package installed : apr-util-1.5.2-6.0.1.el7
+
+Should be                : apr-util-1.5.2-6.0.1.el7_9.1
+
+
+
+
+- Solution: Update the affected packages.
+- Affected Hosts: 10.46.254.152, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : avahi (ELSA-2020-1176)
+- Plugin Output: 
+
+Remote package installed : avahi-libs-0.6.31-19.el7
+
+Should be                : avahi-libs-0.6.31-20.el7
+
+
+
+
+- Solution: Update the affected packages.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : bash (ELSA-2020-1113)
+- Plugin Output: 
+
+Remote package installed : bash-4.2.46-31.el7
+
+Should be                : bash-4.2.46-34.el7
+
+
+
+
+- Solution: Update the affected bash and / or bash-doc packages.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : bind (ELSA-2020-2344)
+- Plugin Output: 
+
+Remote package installed : bind-libs-9.9.4-72.el7
+
+Should be                : bind-libs-9.11.4-16.P2.el7_8.6
+
+
+
+Remote package installed : bind-libs-lite-9.9.4-72.el7
+
+Should be                : bind-libs-lite-9.11.4-16.P2.el7_8.6
+
+
+
+Remote package installed : bind-license-9.9.4-72.el7
+
+Should be                : bind-license-9.11.4-16.P2.el7_8.6
+
+
+
+Remote package installed : bind-utils-9.9.4-72.el7
+
+Should be                : bind-utils-9.11.4-16.P2.el7_8.6
+
+
+
+
+- Solution: Update the affected bind packages.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : bind (ELSA-2023-0402)
+- Plugin Output: 
+
+Remote package installed : bind-license-9.9.4-72.el7
+
+Should be                : bind-license-9.11.4-26.P2.el7_9.13
+
+
+
+Remote package installed : bind-libs-9.9.4-72.el7
+
+Should be                : bind-libs-9.11.4-26.P2.el7_9.13
+
+
+
+Remote package installed : bind-libs-lite-9.9.4-72.el7
+
+Should be                : bind-libs-lite-9.11.4-26.P2.el7_9.13
+
+
+
+Remote package installed : bind-utils-9.9.4-72.el7
+
+Should be                : bind-utils-9.11.4-26.P2.el7_9.13
+
+
+
+
+- Solution: Update the affected packages.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : bind (ELSA-2024-5930)
+- Plugin Output: 
+
+Remote package installed : bind-libs-9.9.4-72.el7
+
+Should be                : bind-libs-9.11.4-26.0.1.P2.el7_9.16
+
+
+
+Remote package installed : bind-libs-lite-9.9.4-72.el7
+
+Should be                : bind-libs-lite-9.11.4-26.0.1.P2.el7_9.16
+
+
+
+Remote package installed : bind-license-9.9.4-72.el7
+
+Should be                : bind-license-9.11.4-26.0.1.P2.el7_9.16
+
+
+
+Remote package installed : bind-utils-9.9.4-72.el7
+
+Should be                : bind-utils-9.11.4-26.0.1.P2.el7_9.16
+
+
+
+
+- Solution: Update the affected packages.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : binutils (ELSA-2021-4033)
+- Plugin Output: 
+
+Remote package installed : binutils-2.27-34.base.0.1.el7
+
+Should be                : binutils-2.27-44.base.0.3.el7_9.1
+
+
+
+
+- Solution: Update the affected binutils and / or binutils-devel packages.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : cloud-init (ELSA-2019-0597)
+- Plugin Output: 
+
+Remote package installed : cloud-init-18.2-1.0.1.el7
+
+Should be                : cloud-init-18.2-1.0.1.el7_6.2
+
+
+
+
+- Solution: Update the affected cloud-init package.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : cloud-init (ELSA-2020-3898)
+- Plugin Output: 
+
+Remote package installed : cloud-init-18.2-1.0.1.el7
+
+Should be                : cloud-init-19.4-7.0.3.el7
+
+
+
+
+- Solution: Update the affected cloud-init package.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : cpio (ELSA-2020-3908)
+- Plugin Output: 
+
+Remote package installed : cpio-2.11-27.el7
+
+Should be                : cpio-2.11-28.el7
+
+
+
+
+- Solution: Update the affected cpio package.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : cups (ELSA-2020-3864)
+- Plugin Output: 
+
+Remote package installed : cups-libs-1.6.3-35.el7
+
+Should be                : cups-libs-1.6.3-51.el7
+
+
+
+
+- Solution: Update the affected packages.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : curl (ELSA-2020-5002)
+- Plugin Output: 
+
+Remote package installed : curl-7.29.0-51.el7
+
+Should be                : curl-7.29.0-59.0.1.el7_9.1
+
+
+
+Remote package installed : libcurl-7.29.0-51.el7
+
+Should be                : libcurl-7.29.0-59.0.1.el7_9.1
+
+
+
+
+- Solution: Update the affected curl, libcurl and / or libcurl-devel packages.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : curl (ELSA-2020-5562)
+- Plugin Output: 
+
+Remote package installed : curl-7.29.0-51.el7
+
+Should be                : curl-7.29.0-54.0.5.el7_7.2
+
+
+
+Remote package installed : libcurl-7.29.0-51.el7
+
+Should be                : libcurl-7.29.0-54.0.5.el7_7.2
+
+
+
+
+- Solution: Update the affected curl packages.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : cyrus-sasl (ELSA-2022-0666)
+- Plugin Output: 
+
+Remote package installed : cyrus-sasl-gssapi-2.1.26-23.el7
+
+Should be                : cyrus-sasl-gssapi-2.1.26-24.0.1.el7_9
+
+
+
+Remote package installed : cyrus-sasl-lib-2.1.26-23.el7
+
+Should be                : cyrus-sasl-lib-2.1.26-24.0.1.el7_9
+
+
+
+
+- Solution: Update the affected packages.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : dbus (ELSA-2020-2894)
+- Plugin Output: 
+
+Remote package installed : dbus-1.10.24-12.0.1.el7
+
+Should be                : dbus-1.10.24-14.0.1.el7_8
+
+
+
+Remote package installed : dbus-libs-1.10.24-12.0.1.el7
+
+Should be                : dbus-libs-1.10.24-14.0.1.el7_8
+
+
+
+
+- Solution: Update the affected dbus packages.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : dbus (ELSA-2020-4032)
+- Plugin Output: 
+
+Remote package installed : dbus-1.10.24-12.0.1.el7
+
+Should be                : dbus-1.10.24-15.0.1.el7
+
+
+
+Remote package installed : dbus-libs-1.10.24-12.0.1.el7
+
+Should be                : dbus-libs-1.10.24-15.0.1.el7
+
+
+
+
+- Solution: Update the affected packages.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : device-mapper-multipath (ELSA-2022-7186)
+- Plugin Output: 
+
+Remote package installed : kpartx-0.4.9-123.el7
+
+Should be                : kpartx-0.4.9-136.0.1.el7_9
+
+
+
+
+- Solution: Update the affected packages.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.203, 10.46.254.204
+- Plugin Output: 
+
+Remote package installed : device-mapper-multipath-0.4.9-123.el7
+
+Should be                : device-mapper-multipath-0.4.9-136.0.1.el7_9
+
+
+
+Remote package installed : device-mapper-multipath-libs-0.4.9-123.el7
+
+Should be                : device-mapper-multipath-libs-0.4.9-136.0.1.el7_9
+
+
+
+Remote package installed : kpartx-0.4.9-123.el7
+
+Should be                : kpartx-0.4.9-136.0.1.el7_9
+
+
+
+
+- Solution: Update the affected packages.
+- Affected Hosts: 10.46.254.149
+============
+Name: Oracle Linux 7 : dhcp (ELSA-2021-2357)
+- Plugin Output: 
+
+Remote package installed : dhclient-4.2.5-68.0.1.el7_5.1
+
+Should be                : dhclient-4.2.5-83.0.1.el7_9.1
+
+
+
+Remote package installed : dhcp-common-4.2.5-68.0.1.el7_5.1
+
+Should be                : dhcp-common-4.2.5-83.0.1.el7_9.1
+
+
+
+Remote package installed : dhcp-libs-4.2.5-68.0.1.el7_5.1
+
+Should be                : dhcp-libs-4.2.5-83.0.1.el7_9.1
+
+
+
+
+- Solution: Update the affected packages.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : e2fsprogs (ELSA-2020-4011)
+- Plugin Output: 
+
+Remote package installed : e2fsprogs-1.42.9-13.el7
+
+Should be                : e2fsprogs-1.42.9-19.el7
+
+
+
+Remote package installed : e2fsprogs-libs-1.42.9-13.el7
+
+Should be                : e2fsprogs-libs-1.42.9-19.el7
+
+
+
+Remote package installed : libcom_err-1.42.9-13.el7
+
+Should be                : libcom_err-1.42.9-19.el7
+
+
+
+Remote package installed : libss-1.42.9-13.el7
+
+Should be                : libss-1.42.9-19.el7
+
+
+
+
+- Solution: Update the affected packages.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : elfutils (ELSA-2019-2197)
+- Plugin Output: 
+
+Remote package installed : elfutils-default-yama-scope-0.172-2.el7
+
+Should be                : elfutils-default-yama-scope-0.176-2.el7
+
+
+
+Remote package installed : elfutils-libelf-0.172-2.el7
+
+Should be                : elfutils-libelf-0.176-2.el7
+
+
+
+Remote package installed : elfutils-libelf-devel-0.172-2.el7
+
+Should be                : elfutils-libelf-devel-0.176-2.el7
+
+
+
+Remote package installed : elfutils-libs-0.172-2.el7
+
+Should be                : elfutils-libs-0.176-2.el7
+
+
+
+
+- Solution: Update the affected packages.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : evolution (ELSA-2020-1080)
+- Plugin Output: 
+
+Remote package installed : atk-2.28.1-1.el7
+
+Should be                : atk-2.28.1-2.el7
+
+
+
+
+- Solution: Update the affected packages.
+- Affected Hosts: 10.46.254.203
+============
+Name: Oracle Linux 7 : expat (ELSA-2022-6834)
+- Plugin Output: 
+
+Remote package installed : expat-2.1.0-10.el7_3
+
+Should be                : expat-2.1.0-15.0.1.el7_9
+
+
+
+Remote package installed : expat-devel-2.1.0-10.el7_3
+
+Should be                : expat-devel-2.1.0-15.0.1.el7_9
+
+
+
+
+- Solution: Update the affected expat, expat-devel and / or expat-static packages.
+- Affected Hosts: 10.46.254.149
+- Plugin Output: 
+
+Remote package installed : expat-2.1.0-10.el7_3
+
+Should be                : expat-2.1.0-15.0.1.el7_9
+
+
+
+
+- Solution: Update the affected expat, expat-devel and / or expat-static packages.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : file (ELSA-2020-1022)
+- Plugin Output: 
+
+Remote package installed : file-5.11-35.el7
+
+Should be                : file-5.11-36.el7
+
+
+
+Remote package installed : file-libs-5.11-35.el7
+
+Should be                : file-libs-5.11-36.el7
+
+
+
+
+- Solution: Update the affected packages.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : freetype (ELSA-2020-4907)
+- Plugin Output: 
+
+Remote package installed : freetype-2.8-12.el7
+
+Should be                : freetype-2.8-14.el7_9.1
+
+
+
+Remote package installed : freetype-devel-2.8-12.el7
+
+Should be                : freetype-devel-2.8-14.el7_9.1
+
+
+
+
+- Solution: Update the affected freetype, freetype-demos and / or freetype-devel packages.
+- Affected Hosts: 10.46.254.149
+- Plugin Output: 
+
+Remote package installed : freetype-2.8-12.el7
+
+Should be                : freetype-2.8-14.el7_9.1
+
+
+
+
+- Solution: Update the affected freetype, freetype-demos and / or freetype-devel packages.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : fribidi (ELSA-2019-4326)
+- Plugin Output: 
+
+Remote package installed : fribidi-1.0.2-1.el7
+
+Should be                : fribidi-1.0.2-1.el7_7.1
+
+
+
+
+- Solution: Update the affected fribidi packages.
+- Affected Hosts: 10.46.254.203
+============
+Name: Oracle Linux 7 : fuse (ELSA-2020-5773)
+- Plugin Output: 
+
+Remote package installed : fuse-2.9.4-1.0.4.el7
+
+Should be                : fuse-2.9.4-1.0.7.el7
+
+
+
+Remote package installed : fuse-libs-2.9.4-1.0.4.el7
+
+Should be                : fuse-libs-2.9.4-1.0.7.el7
+
+
+
+
+- Solution: Update the affected fuse, fuse-devel and / or fuse-libs packages.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.203, 10.46.254.204
+- Plugin Output: 
+
+Remote package installed : fuse-libs-2.9.4-1.0.4.el7
+
+Should be                : fuse-libs-2.9.4-1.0.7.el7
+
+
+
+
+- Solution: Update the affected fuse, fuse-devel and / or fuse-libs packages.
+- Affected Hosts: 10.46.254.149
+============
+Name: Oracle Linux 7 : gd (ELSA-2020-5443)
+- Plugin Output: 
+
+Remote package installed : gd-2.0.35-26.el7
+
+Should be                : gd-2.0.35-27.el7_9
+
+
+
+
+- Solution: Update the affected gd, gd-devel and / or gd-progs packages.
+- Affected Hosts: 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : gettext (ELSA-2020-1138)
+- Plugin Output: 
+
+Remote package installed : gettext-0.19.8.1-2.el7
+
+Should be                : gettext-0.19.8.1-3.el7
+
+
+
+Remote package installed : gettext-libs-0.19.8.1-2.el7
+
+Should be                : gettext-libs-0.19.8.1-3.el7
+
+
+
+
+- Solution: Update the affected packages.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : ghostscript (ELSA-2019-2281)
+- Plugin Output: 
+
+Remote package installed : ghostscript-9.07-31.el7
+
+Should be                : ghostscript-9.25-2.el7
+
+
+
+
+- Solution: Update the affected packages.
+- Affected Hosts: 10.46.254.203
+============
+Name: Oracle Linux 7 : ghostscript (ELSA-2019-3888)
+- Plugin Output: 
+
+Remote package installed : ghostscript-9.07-31.el7
+
+Should be                : ghostscript-9.25-2.el7_7.3
+
+
+
+
+- Solution: Update the affected ghostscript packages.
+- Affected Hosts: 10.46.254.203
+============
+Name: Oracle Linux 7 : git (ELSA-2020-2337)
+- Plugin Output: 
+
+Remote package installed : git-1.8.3.1-19.el7
+
+Should be                : git-1.8.3.1-23.el7_8
+
+
+
+Remote package installed : perl-Git-1.8.3.1-19.el7
+
+Should be                : perl-Git-1.8.3.1-23.el7_8
+
+
+
+
+- Solution: Update the affected git packages.
+- Affected Hosts: 10.46.254.200, 10.46.254.203
+============
+Name: Oracle Linux 7 : git (ELSA-2023-3263)
+- Plugin Output: 
+
+Remote package installed : perl-Git-1.8.3.1-19.el7
+
+Should be                : perl-Git-1.8.3.1-25.el7_9
+
+
+
+Remote package installed : git-1.8.3.1-19.el7
+
+Should be                : git-1.8.3.1-25.el7_9
+
+
+
+
+- Solution: Update the affected packages.
+- Affected Hosts: 10.46.254.200, 10.46.254.203
+============
+Name: Oracle Linux 7 : glib2 (ELSA-2021-2147)
+- Plugin Output: 
+
+Remote package installed : glib2-2.56.1-2.el7
+
+Should be                : glib2-2.56.1-9.el7_9
+
+
+
+
+- Solution: Update the affected packages.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : glibc (ELSA-2022-9358)
+- Plugin Output: 
+
+Remote package installed : glibc-2.17-260.0.9.el7
+
+Should be                : glibc-2.17-325.0.3.el7_9
+
+
+
+Remote package installed : glibc-common-2.17-260.0.9.el7
+
+Should be                : glibc-common-2.17-325.0.3.el7_9
+
+
+
+Remote package installed : glibc-devel-2.17-260.0.9.el7
+
+Should be                : glibc-devel-2.17-325.0.3.el7_9
+
+
+
+Remote package installed : glibc-headers-2.17-260.0.9.el7
+
+Should be                : glibc-headers-2.17-325.0.3.el7_9
+
+
+
+
+- Solution: Update the affected packages.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : grafana / kubernetes-cni / kubernetes-cni-plugins / kubernetes / kubernetes / olcne (ELSA-2020-5726)
+- Plugin Output: 
+
+Remote package installed : grafana-6.7.2-1
+
+Should be                : grafana-6.7.4-1.0.1.el7
+
+
+
+
+- Solution: Update the affected packages.
+- Affected Hosts: 10.46.254.243, 10.46.254.244
+============
+Name: Oracle Linux 7 : grub2 (ELSA-2020-5782)
+- Plugin Output: 
+
+Remote package installed : grub2-2.02-0.76.0.1.el7
+
+Should be                : grub2-2.02-0.81.0.3.el7
+
+
+
+Remote package installed : grub2-common-2.02-0.76.0.1.el7
+
+Should be                : grub2-common-2.02-0.81.0.3.el7
+
+
+
+Remote package installed : grub2-pc-2.02-0.76.0.1.el7
+
+Should be                : grub2-pc-2.02-0.81.0.3.el7
+
+
+
+Remote package installed : grub2-pc-modules-2.02-0.76.0.1.el7
+
+Should be                : grub2-pc-modules-2.02-0.81.0.3.el7
+
+
+
+Remote package installed : grub2-tools-2.02-0.76.0.1.el7
+
+Should be                : grub2-tools-2.02-0.81.0.3.el7
+
+
+
+Remote package installed : grub2-tools-extra-2.02-0.76.0.1.el7
+
+Should be                : grub2-tools-extra-2.02-0.81.0.3.el7
+
+
+
+Remote package installed : grub2-tools-minimal-2.02-0.76.0.1.el7
+
+Should be                : grub2-tools-minimal-2.02-0.81.0.3.el7
+
+
+
+
+- Solution: Update the affected grub2 packages.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.203, 10.46.254.204
+- Plugin Output: 
+
+Remote package installed : grub2-2.02-0.76.0.1.el7
+
+Should be                : grub2-2.02-0.81.0.3.el7
+
+
+
+Remote package installed : grub2-common-2.02-0.76.0.1.el7
+
+Should be                : grub2-common-2.02-0.81.0.3.el7
+
+
+
+Remote package installed : grub2-efi-x64-2.02-0.76.0.1.el7
+
+Should be                : grub2-efi-x64-2.02-0.81.0.3.el7
+
+
+
+Remote package installed : grub2-pc-2.02-0.76.0.1.el7
+
+Should be                : grub2-pc-2.02-0.81.0.3.el7
+
+
+
+Remote package installed : grub2-pc-modules-2.02-0.76.0.1.el7
+
+Should be                : grub2-pc-modules-2.02-0.81.0.3.el7
+
+
+
+Remote package installed : grub2-tools-2.02-0.76.0.1.el7
+
+Should be                : grub2-tools-2.02-0.81.0.3.el7
+
+
+
+Remote package installed : grub2-tools-extra-2.02-0.76.0.1.el7
+
+Should be                : grub2-tools-extra-2.02-0.81.0.3.el7
+
+
+
+Remote package installed : grub2-tools-minimal-2.02-0.76.0.1.el7
+
+Should be                : grub2-tools-minimal-2.02-0.81.0.3.el7
+
+
+
+
+- Solution: Update the affected grub2 packages.
+- Affected Hosts: 10.46.254.243, 10.46.254.244
+============
+Name: Oracle Linux 7 : grub2 (ELSA-2022-9469)
+- Plugin Output: 
+
+Remote package installed : grub2-2.02-0.76.0.1.el7
+
+Should be                : grub2-2.02-0.87.0.21.el7_9.9
+
+
+
+Remote package installed : grub2-common-2.02-0.76.0.1.el7
+
+Should be                : grub2-common-2.02-0.87.0.21.el7_9.9
+
+
+
+Remote package installed : grub2-efi-x64-2.02-0.76.0.1.el7
+
+Should be                : grub2-efi-x64-2.02-0.87.0.21.el7_9.9
+
+
+
+Remote package installed : grub2-pc-2.02-0.76.0.1.el7
+
+Should be                : grub2-pc-2.02-0.87.0.21.el7_9.9
+
+
+
+Remote package installed : grub2-pc-modules-2.02-0.76.0.1.el7
+
+Should be                : grub2-pc-modules-2.02-0.87.0.21.el7_9.9
+
+
+
+Remote package installed : grub2-tools-2.02-0.76.0.1.el7
+
+Should be                : grub2-tools-2.02-0.87.0.21.el7_9.9
+
+
+
+Remote package installed : grub2-tools-extra-2.02-0.76.0.1.el7
+
+Should be                : grub2-tools-extra-2.02-0.87.0.21.el7_9.9
+
+
+
+Remote package installed : grub2-tools-minimal-2.02-0.76.0.1.el7
+
+Should be                : grub2-tools-minimal-2.02-0.87.0.21.el7_9.9
+
+
+
+
+- Solution: Update the affected packages.
+- Affected Hosts: 10.46.254.243, 10.46.254.244
+- Plugin Output: 
+
+Remote package installed : grub2-2.02-0.76.0.1.el7
+
+Should be                : grub2-2.02-0.87.0.21.el7_9.9
+
+
+
+Remote package installed : grub2-common-2.02-0.76.0.1.el7
+
+Should be                : grub2-common-2.02-0.87.0.21.el7_9.9
+
+
+
+Remote package installed : grub2-pc-2.02-0.76.0.1.el7
+
+Should be                : grub2-pc-2.02-0.87.0.21.el7_9.9
+
+
+
+Remote package installed : grub2-pc-modules-2.02-0.76.0.1.el7
+
+Should be                : grub2-pc-modules-2.02-0.87.0.21.el7_9.9
+
+
+
+Remote package installed : grub2-tools-2.02-0.76.0.1.el7
+
+Should be                : grub2-tools-2.02-0.87.0.21.el7_9.9
+
+
+
+Remote package installed : grub2-tools-extra-2.02-0.76.0.1.el7
+
+Should be                : grub2-tools-extra-2.02-0.87.0.21.el7_9.9
+
+
+
+Remote package installed : grub2-tools-minimal-2.02-0.76.0.1.el7
+
+Should be                : grub2-tools-minimal-2.02-0.87.0.21.el7_9.9
+
+
+
+
+- Solution: Update the affected packages.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : gzip (ELSA-2022-2191)
+- Plugin Output: 
+
+Remote package installed : gzip-1.5-10.el7
+
+Should be                : gzip-1.5-11.el7_9
+
+
+
+
+- Solution: Update the affected gzip package.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : http-parser (ELSA-2019-2258)
+- Plugin Output: 
+
+Remote package installed : http-parser-2.7.1-5.el7_4
+
+Should be                : http-parser-2.7.1-8.el7
+
+
+
+
+- Solution: Update the affected http-parser and / or http-parser-devel packages.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : http-parser (ELSA-2020-0703)
+- Plugin Output: 
+
+Remote package installed : http-parser-2.7.1-5.el7_4
+
+Should be                : http-parser-2.7.1-8.el7_7.2
+
+
+
+
+- Solution: Update the affected http-parser packages.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : httpd (ELSA-2019-1898)
+- Plugin Output: 
+
+Remote package installed : httpd-tools-2.4.6-88.0.1.el7
+
+Should be                : httpd-tools-2.4.6-89.0.1.el7_6.1
+
+
+
+
+- Solution: Update the affected httpd packages.
+- Affected Hosts: 10.46.254.152, 10.46.254.204
+============
+Name: Oracle Linux 7 : httpd (ELSA-2023-1593)
+- Plugin Output: 
+
+Remote package installed : httpd-tools-2.4.6-88.0.1.el7
+
+Should be                : httpd-tools-2.4.6-98.0.3.el7_9.7
+
+
+
+
+- Solution: Update the affected packages.
+- Affected Hosts: 10.46.254.152, 10.46.254.204
+============
+Name: Oracle Linux 7 : icu (ELSA-2020-0897)
+- Plugin Output: 
+
+Remote package installed : libicu-50.1.2-17.el7
+
+Should be                : libicu-50.2-4.el7_7
+
+
+
+
+- Solution: Update the affected icu packages.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : krb5 (ELSA-2022-8640)
+- Plugin Output: 
+
+Remote package installed : krb5-libs-1.15.1-34.el7
+
+Should be                : krb5-libs-1.15.1-55.0.1.el7_9
+
+
+
+Remote package installed : krb5-workstation-1.15.1-34.el7
+
+Should be                : krb5-workstation-1.15.1-55.0.1.el7_9
+
+
+
+Remote package installed : libkadm5-1.15.1-34.el7
+
+Should be                : libkadm5-1.15.1-55.0.1.el7_9
+
+
+
+
+- Solution: Update the affected packages.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : ksh (ELSA-2020-0568)
+- Plugin Output: 
+
+Remote package installed : ksh-20120801-139.0.1.el7
+
+Should be                : ksh-20120801-140.0.1.el7_7
+
+
+
+
+- Solution: Update the affected ksh package.
+- Affected Hosts: 10.46.254.152
+============
+Name: Oracle Linux 7 : libX11 (ELSA-2021-3296)
+- Plugin Output: 
+
+Remote package installed : libX11-1.6.5-2.el7
+
+Should be                : libX11-1.6.7-4.el7_9
+
+
+
+Remote package installed : libX11-common-1.6.5-2.el7
+
+Should be                : libX11-common-1.6.7-4.el7_9
+
+
+
+Remote package installed : libX11-devel-1.6.5-2.el7
+
+Should be                : libX11-devel-1.6.7-4.el7_9
+
+
+
+
+- Solution: Update the affected libX11, libX11-common and / or libX11-devel packages.
+- Affected Hosts: 10.46.254.152, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : libXpm (ELSA-2023-0377)
+- Plugin Output: 
+
+Remote package installed : libXpm-3.5.12-1.el7
+
+Should be                : libXpm-3.5.12-2.el7_9
+
+
+
+
+- Solution: Update the affected libXpm and / or libXpm-devel packages.
+- Affected Hosts: 10.46.254.152, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : libcgroup (ELSA-2019-2047)
+- Plugin Output: 
+
+Remote package installed : libcgroup-0.41-20.el7
+
+Should be                : libcgroup-0.41-21.el7
+
+
+
+
+- Solution: Update the affected packages.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : libcroco (ELSA-2020-4072)
+- Plugin Output: 
+
+Remote package installed : libcroco-0.6.12-4.el7
+
+Should be                : libcroco-0.6.12-6.el7_9
+
+
+
+
+- Solution: Update the affected libcroco and / or libcroco-devel packages.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : libjpeg-turbo (ELSA-2019-2052)
+- Plugin Output: 
+
+Remote package installed : libjpeg-turbo-1.2.90-6.el7
+
+Should be                : libjpeg-turbo-1.2.90-8.el7
+
+
+
+
+- Solution: Update the affected packages.
+- Affected Hosts: 10.46.254.204
+============
+Name: Oracle Linux 7 : libldb (ELSA-2021-1072)
+- Plugin Output: 
+
+Remote package installed : libldb-1.3.4-1.el7
+
+Should be                : libldb-1.5.4-2.el7_9
+
+
+
+
+- Solution: Update the affected packages.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : libmspack (ELSA-2020-3848)
+- Plugin Output: 
+
+Remote package installed : libmspack-0.5-0.6.alpha.el7
+
+Should be                : libmspack-0.5-0.8.alpha.el7
+
+
+
+
+- Solution: Update the affected libmspack and / or libmspack-devel packages.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : libndp (ELSA-2024-4622)
+- Plugin Output: 
+
+Remote package installed : libndp-1.2-7.el7
+
+Should be                : libndp-1.2-10.0.1.el7_9
+
+
+
+
+- Solution: Update the affected libndp and / or libndp-devel packages.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152
+============
+Name: Oracle Linux 7 : libpng (ELSA-2020-3901)
+- Plugin Output: 
+
+Remote package installed : libpng-1.5.13-7.el7_2
+
+Should be                : libpng-1.5.13-8.el7
+
+
+
+
+- Solution: Update the affected libpng, libpng-devel and / or libpng-static packages.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.203, 10.46.254.204
+- Plugin Output: 
+
+Remote package installed : libpng-1.5.13-7.el7_2
+
+Should be                : libpng-1.5.13-8.el7
+
+
+
+Remote package installed : libpng-devel-1.5.13-7.el7_2
+
+Should be                : libpng-devel-1.5.13-8.el7
+
+
+
+
+- Solution: Update the affected libpng, libpng-devel and / or libpng-static packages.
+- Affected Hosts: 10.46.254.149
+============
+Name: Oracle Linux 7 : libssh2 (ELSA-2019-1884)
+- Plugin Output: 
+
+Remote package installed : libssh2-1.4.3-12.el7
+
+Should be                : libssh2-1.4.3-12.0.1.el7_6.3
+
+
+
+
+- Solution: Update the affected libssh2 packages.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : libssh2 (ELSA-2020-3915)
+- Plugin Output: 
+
+Remote package installed : libssh2-1.4.3-12.el7
+
+Should be                : libssh2-1.8.0-4.el7
+
+
+
+
+- Solution: Update the affected libssh2, libssh2-devel and / or libssh2-docs packages.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : libtiff (ELSA-2020-3902)
+- Plugin Output: 
+
+Remote package installed : libtiff-4.0.3-27.el7_3
+
+Should be                : libtiff-4.0.3-35.el7
+
+
+
+
+- Solution: Update the affected packages.
+- Affected Hosts: 10.46.254.203
+============
+Name: Oracle Linux 7 : libwebp (ELSA-2023-2077)
+- Plugin Output: 
+
+Remote package installed : libwebp-0.3.0-7.el7
+
+Should be                : libwebp-0.3.0-11.el7
+
+
+
+
+- Solution: Update the affected packages.
+- Affected Hosts: 10.46.254.203
+============
+Name: Oracle Linux 7 : libxml2 (ELSA-2021-3810)
+- Plugin Output: 
+
+Remote package installed : libxml2-2.9.1-6.0.1.el7_2.3
+
+Should be                : libxml2-2.9.1-6.0.3.el7_9.6
+
+
+
+Remote package installed : libxml2-python-2.9.1-6.0.1.el7_2.3
+
+Should be                : libxml2-python-2.9.1-6.0.3.el7_9.6
+
+
+
+
+- Solution: Update the affected packages.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : libxslt (ELSA-2020-4005)
+- Plugin Output: 
+
+Remote package installed : libxslt-1.1.28-5.0.1.el7
+
+Should be                : libxslt-1.1.28-6.0.1.el7
+
+
+
+
+- Solution: Update the affected libxslt, libxslt-devel and / or libxslt-python packages.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : mariadb (ELSA-2020-4026)
+- Plugin Output: 
+
+Remote package installed : mariadb-libs-5.5.60-1.el7_5
+
+Should be                : mariadb-libs-5.5.68-1.el7
+
+
+
+
+- Solution: Update the affected packages.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.204
+============
+Name: Oracle Linux 7 : microcode_ctl (ELSA-2019-4867)
+- Plugin Output: 
+
+Remote package installed : microcode_ctl-2.1-47.0.2.el7
+
+Should be                : microcode_ctl-2.1-53.3.0.4.el7_7
+
+
+
+
+- Solution: Update the affected microcode_ctl package.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : microcode_ctl (ELSA-2020-2432)
+- Plugin Output: 
+
+Remote package installed : microcode_ctl-2.1-47.0.2.el7
+
+Should be                : microcode_ctl-2.1-61.6.el7_8
+
+
+
+
+- Solution: Update the affected microcode_ctl package.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : microcode_ctl (ELSA-2022-9507)
+- Plugin Output: 
+
+Remote package installed : microcode_ctl-2.1-47.0.2.el7
+
+Should be                : microcode_ctl-2.1-73.13.0.5.el7_9
+
+
+
+
+- Solution: Update the affected microcode_ctl package.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : net-snmp (ELSA-2020-5350)
+- Plugin Output: 
+
+Remote package installed : net-snmp-5.7.2-37.el7
+
+Should be                : net-snmp-5.7.2-49.el7_9.1
+
+
+
+Remote package installed : net-snmp-agent-libs-5.7.2-37.el7
+
+Should be                : net-snmp-agent-libs-5.7.2-49.el7_9.1
+
+
+
+Remote package installed : net-snmp-libs-5.7.2-37.el7
+
+Should be                : net-snmp-libs-5.7.2-49.el7_9.1
+
+
+
+Remote package installed : net-snmp-perl-5.7.2-37.el7
+
+Should be                : net-snmp-perl-5.7.2-49.el7_9.1
+
+
+
+Remote package installed : net-snmp-utils-5.7.2-37.el7
+
+Should be                : net-snmp-utils-5.7.2-49.el7_9.1
+
+
+
+
+- Solution: Update the affected packages.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : nettle (ELSA-2021-1145)
+- Plugin Output: 
+
+Remote package installed : nettle-2.7.1-8.el7
+
+Should be                : nettle-2.7.1-9.el7_9
+
+
+
+
+- Solution: Update the affected nettle and / or nettle-devel packages.
+- Affected Hosts: 10.46.254.203
+============
+Name: Oracle Linux 7 : nss (ELSA-2023-1332)
+- Plugin Output: 
+
+Remote package installed : nss-3.36.0-7.el7_5
+
+Should be                : nss-3.79.0-5.el7_9
+
+
+
+Remote package installed : nss-sysinit-3.36.0-7.el7_5
+
+Should be                : nss-sysinit-3.79.0-5.el7_9
+
+
+
+Remote package installed : nss-tools-3.36.0-7.el7_5
+
+Should be                : nss-tools-3.79.0-5.el7_9
+
+
+
+
+- Solution: Update the affected packages.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : nss / nss-softokn / nss-util (ELSA-2019-4190)
+- Plugin Output: 
+
+Remote package installed : nss-3.36.0-7.el7_5
+
+Should be                : nss-3.44.0-7.el7_7
+
+
+
+Remote package installed : nss-softokn-3.36.0-5.0.1.el7_5
+
+Should be                : nss-softokn-3.44.0-8.0.1.el7_7
+
+
+
+Remote package installed : nss-softokn-freebl-3.36.0-5.0.1.el7_5
+
+Should be                : nss-softokn-freebl-3.44.0-8.0.1.el7_7
+
+
+
+Remote package installed : nss-sysinit-3.36.0-7.el7_5
+
+Should be                : nss-sysinit-3.44.0-7.el7_7
+
+
+
+Remote package installed : nss-tools-3.36.0-7.el7_5
+
+Should be                : nss-tools-3.44.0-7.el7_7
+
+
+
+Remote package installed : nss-util-3.36.0-1.el7_5
+
+Should be                : nss-util-3.44.0-4.el7_7
+
+
+
+
+- Solution: Update the affected nss, nss-softokn and / or nss-util packages.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : ntp (ELSA-2019-2077)
+- Plugin Output: 
+
+Remote package installed : ntp-4.2.6p5-28.0.1.el7
+
+Should be                : ntp-4.2.6p5-29.0.1.el7
+
+
+
+Remote package installed : ntpdate-4.2.6p5-28.0.1.el7
+
+Should be                : ntpdate-4.2.6p5-29.0.1.el7
+
+
+
+
+- Solution: Update the affected packages.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : ntp (ELSA-2020-2663)
+- Plugin Output: 
+
+Remote package installed : ntp-4.2.6p5-28.0.1.el7
+
+Should be                : ntp-4.2.6p5-29.0.1.el7_8.2
+
+
+
+Remote package installed : ntpdate-4.2.6p5-28.0.1.el7
+
+Should be                : ntpdate-4.2.6p5-29.0.1.el7_8.2
+
+
+
+
+- Solution: Update the affected ntp packages.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : olcne / conmon / coredns / cri-o / cri-tools / etcd / flannel / grafana / helm / istio / kata / kata-agent / kata-image / kata-ksm-throttler / kata-proxy / kata-runtime / kata-shim / kubernetes / kubernetes-cni / kubernetes-cni-plugins / kubernetes-dashboard / prometheus / yq (ELSA-2020-5827)
+- Plugin Output: 
+
+Remote package installed : grafana-6.7.2-1
+
+Should be                : grafana-6.7.4-1.0.2.el7
+
+
+
+
+- Solution: Update the affected packages.
+- Affected Hosts: 10.46.254.243, 10.46.254.244
+============
+Name: Oracle Linux 7 : olcne / nginx (ELSA-2020-5862)
+- Plugin Output: 
+
+Remote package installed : nginx-1.12.2-2.el7
+
+Should be                : nginx-1.17.7-2.el7
+
+
+
+Remote package installed : nginx-all-modules-1.12.2-2.el7
+
+Should be                : nginx-all-modules-1.17.7-2.el7
+
+
+
+Remote package installed : nginx-filesystem-1.12.2-2.el7
+
+Should be                : nginx-filesystem-1.17.7-2.el7
+
+
+
+Remote package installed : nginx-mod-http-image-filter-1.12.2-2.el7
+
+Should be                : nginx-mod-http-image-filter-1.17.7-2.el7
+
+
+
+Remote package installed : nginx-mod-http-perl-1.12.2-2.el7
+
+Should be                : nginx-mod-http-perl-1.17.7-2.el7
+
+
+
+Remote package installed : nginx-mod-http-xslt-filter-1.12.2-2.el7
+
+Should be                : nginx-mod-http-xslt-filter-1.17.7-2.el7
+
+
+
+Remote package installed : nginx-mod-mail-1.12.2-2.el7
+
+Should be                : nginx-mod-mail-1.17.7-2.el7
+
+
+
+Remote package installed : nginx-mod-stream-1.12.2-2.el7
+
+Should be                : nginx-mod-stream-1.17.7-2.el7
+
+
+
+
+- Solution: Update the affected packages.
+- Affected Hosts: 10.46.254.204
+============
+Name: Oracle Linux 7 : open-vm-tools (ELSA-2022-6381)
+- Plugin Output: 
+
+Remote package installed : open-vm-tools-10.2.5-3.0.1.el7
+
+Should be                : open-vm-tools-11.0.5-3.0.1.el7_9.4
+
+
+
+
+- Solution: Update the affected packages.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : openldap (ELSA-2022-0621)
+- Plugin Output: 
+
+Remote package installed : openldap-2.4.44-20.el7
+
+Should be                : openldap-2.4.44-25.el7_9
+
+
+
+Remote package installed : openldap-clients-2.4.44-20.el7
+
+Should be                : openldap-clients-2.4.44-25.el7_9
+
+
+
+
+- Solution: Update the affected packages.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : openssh (ELSA-2021-4782)
+- Plugin Output: 
+
+Remote package installed : openssh-7.4p1-16.el7
+
+Should be                : openssh-7.4p1-22.0.1.el7_9
+
+
+
+Remote package installed : openssh-clients-7.4p1-16.el7
+
+Should be                : openssh-clients-7.4p1-22.0.1.el7_9
+
+
+
+Remote package installed : openssh-server-7.4p1-16.el7
+
+Should be                : openssh-server-7.4p1-22.0.1.el7_9
+
+
+
+
+- Solution: Update the affected packages.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : openssl (ELSA-2019-0483)
+- Plugin Output: 
+
+Remote package installed : openssl-1.0.2k-16.0.1.el7
+
+Should be                : openssl-1.0.2k-16.0.1.el7_6.1
+
+
+
+Remote package installed : openssl-libs-1.0.2k-16.0.1.el7
+
+Should be                : openssl-libs-1.0.2k-16.0.1.el7_6.1
+
+
+
+
+- Solution: Update the affected openssl packages.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : openssl (ELSA-2023-1335)
+- Plugin Output: 
+
+Remote package installed : openssl-1.0.2k-16.0.1.el7
+
+Should be                : openssl-1.0.2k-26.el7_9
+
+
+
+Remote package installed : openssl-libs-1.0.2k-16.0.1.el7
+
+Should be                : openssl-libs-1.0.2k-26.el7_9
+
+
+
+
+- Solution: Update the affected packages.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : pango (ELSA-2019-2571)
+- Plugin Output: 
+
+Remote package installed : pango-1.42.4-3.el7
+
+Should be                : pango-1.42.4-4.el7_7
+
+
+
+
+- Solution: Update the affected pango packages.
+- Affected Hosts: 10.46.254.203
+============
+Name: Oracle Linux 7 : perl (ELSA-2019-0109)
+- Plugin Output: 
+
+Remote package installed : perl-5.16.3-293.el7
+
+Should be                : perl-5.16.3-294.el7_6
+
+
+
+Remote package installed : perl-Pod-Escapes-1.04-293.el7
+
+Should be                : perl-Pod-Escapes-1.04-294.el7_6
+
+
+
+Remote package installed : perl-libs-5.16.3-293.el7
+
+Should be                : perl-libs-5.16.3-294.el7_6
+
+
+
+Remote package installed : perl-macros-5.16.3-293.el7
+
+Should be                : perl-macros-5.16.3-294.el7_6
+
+
+
+
+- Solution: Update the affected perl packages.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : perl (ELSA-2021-0343)
+- Plugin Output: 
+
+Remote package installed : perl-5.16.3-293.el7
+
+Should be                : perl-5.16.3-299.el7_9
+
+
+
+Remote package installed : perl-libs-5.16.3-293.el7
+
+Should be                : perl-libs-5.16.3-299.el7_9
+
+
+
+Remote package installed : perl-macros-5.16.3-293.el7
+
+Should be                : perl-macros-5.16.3-299.el7_9
+
+
+
+Remote package installed : perl-Pod-Escapes-1.04-293.el7
+
+Should be                : perl-Pod-Escapes-1.04-299.el7_9
+
+
+
+
+- Solution: Update the affected packages.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : polkit (ELSA-2020-1135)
+- Plugin Output: 
+
+Remote package installed : polkit-0.112-18.0.1.el7
+
+Should be                : polkit-0.112-26.0.1.el7
+
+
+
+
+- Solution: Update the affected polkit, polkit-devel and / or polkit-docs packages.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : polkit (ELSA-2022-0274)
+- Plugin Output: 
+
+Remote package installed : polkit-0.112-18.0.1.el7
+
+Should be                : polkit-0.112-26.0.1.el7_9.1
+
+
+
+
+- Solution: Update the affected polkit, polkit-devel and / or polkit-docs packages.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : postgresql (ELSA-2022-5162)
+- Plugin Output: 
+
+Remote package installed : postgresql-libs-9.2.24-1.el7_5
+
+Should be                : postgresql-libs-9.2.24-8.el7_9
+
+
+
+
+- Solution: Update the affected packages.
+- Affected Hosts: 10.46.254.203
+============
+Name: Oracle Linux 7 : procps-ng (ELSA-2019-2189)
+- Plugin Output: 
+
+Remote package installed : procps-ng-3.3.10-23.el7
+
+Should be                : procps-ng-3.3.10-26.el7
+
+
+
+
+- Solution: Update the affected procps-ng, procps-ng-devel and / or procps-ng-i18n packages.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : python (ELSA-2019-1587)
+- Plugin Output: 
+
+Remote package installed : python-2.7.5-76.0.1.el7
+
+Should be                : python-2.7.5-80.0.1.el7_6
+
+
+
+Remote package installed : python-libs-2.7.5-76.0.1.el7
+
+Should be                : python-libs-2.7.5-80.0.1.el7_6
+
+
+
+
+- Solution: Update the affected python packages.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : python (ELSA-2022-5235)
+- Plugin Output: 
+
+Remote package installed : python-2.7.5-76.0.1.el7
+
+Should be                : python-2.7.5-92.0.1.el7_9
+
+
+
+Remote package installed : python-libs-2.7.5-76.0.1.el7
+
+Should be                : python-libs-2.7.5-92.0.1.el7_9
+
+
+
+
+- Solution: Update the affected packages.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : python-jinja2 (ELSA-2019-1022)
+- Plugin Output: 
+
+Remote package installed : python-jinja2-2.7.2-2.el7
+
+Should be                : python-jinja2-2.7.2-3.el7_6
+
+
+
+
+- Solution: Update the affected python-jinja2 package.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : python-paramiko (ELSA-2018-3347)
+- Plugin Output: 
+
+Remote package installed : python-paramiko-2.1.1-5.el7
+
+Should be                : python-paramiko-2.1.1-9.el7
+
+
+
+
+- Solution: Update the affected python-paramiko packages.
+- Affected Hosts: 10.46.254.200
+============
+Name: Oracle Linux 7 : python-requests (ELSA-2019-2035)
+- Plugin Output: 
+
+Remote package installed : python-requests-2.6.0-1.el7_1
+
+Should be                : python-requests-2.6.0-5.el7
+
+
+
+
+- Solution: Update the affected python-requests package.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : python-urllib3 (ELSA-2019-2272)
+- Plugin Output: 
+
+Remote package installed : python-urllib3-1.10.2-5.el7
+
+Should be                : python-urllib3-1.10.2-7.el7
+
+
+
+
+- Solution: Update the affected python-urllib3 package.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : rpm (ELSA-2021-4785)
+- Plugin Output: 
+
+Remote package installed : rpm-4.11.3-35.el7
+
+Should be                : rpm-4.11.3-48.el7_9
+
+
+
+Remote package installed : rpm-build-libs-4.11.3-35.el7
+
+Should be                : rpm-build-libs-4.11.3-48.el7_9
+
+
+
+Remote package installed : rpm-libs-4.11.3-35.el7
+
+Should be                : rpm-libs-4.11.3-48.el7_9
+
+
+
+Remote package installed : rpm-python-4.11.3-35.el7
+
+Should be                : rpm-python-4.11.3-48.el7_9
+
+
+
+
+- Solution: Update the affected packages.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : rsync (ELSA-2022-6170)
+- Plugin Output: 
+
+Remote package installed : rsync-3.1.2-4.el7
+
+Should be                : rsync-3.1.2-11.el7_9
+
+
+
+
+- Solution: Update the affected rsync package.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : rsyslog (ELSA-2022-4803)
+- Plugin Output: 
+
+Remote package installed : rsyslog-8.24.0-34.el7
+
+Should be                : rsyslog-8.24.0-57.0.1.el7_9.3
+
+
+
+
+- Solution: Update the affected packages.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : ruby (ELSA-2019-1235)
+- Plugin Output: 
+
+Remote package installed : ruby-2.0.0.648-33.el7_4
+
+Should be                : ruby-2.0.0.648-35.el7_6
+
+
+
+Remote package installed : ruby-irb-2.0.0.648-33.el7_4
+
+Should be                : ruby-irb-2.0.0.648-35.el7_6
+
+
+
+Remote package installed : ruby-libs-2.0.0.648-33.el7_4
+
+Should be                : ruby-libs-2.0.0.648-35.el7_6
+
+
+
+Remote package installed : rubygem-bigdecimal-1.2.0-33.el7_4
+
+Should be                : rubygem-bigdecimal-1.2.0-35.el7_6
+
+
+
+Remote package installed : rubygem-io-console-0.4.2-33.el7_4
+
+Should be                : rubygem-io-console-0.4.2-35.el7_6
+
+
+
+Remote package installed : rubygem-json-1.7.7-33.el7_4
+
+Should be                : rubygem-json-1.7.7-35.el7_6
+
+
+
+Remote package installed : rubygem-psych-2.0.0-33.el7_4
+
+Should be                : rubygem-psych-2.0.0-35.el7_6
+
+
+
+Remote package installed : rubygem-rdoc-4.0.0-33.el7_4
+
+Should be                : rubygem-rdoc-4.0.0-35.el7_6
+
+
+
+Remote package installed : rubygems-2.0.14.1-33.el7_4
+
+Should be                : rubygems-2.0.14.1-35.el7_6
+
+
+
+
+- Solution: Update the affected ruby packages.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : ruby (ELSA-2019-2028)
+- Plugin Output: 
+
+Remote package installed : ruby-irb-2.0.0.648-33.el7_4
+
+Should be                : ruby-irb-2.0.0.648-36.el7
+
+
+
+Remote package installed : rubygem-rdoc-4.0.0-33.el7_4
+
+Should be                : rubygem-rdoc-4.0.0-36.el7
+
+
+
+Remote package installed : rubygems-2.0.14.1-33.el7_4
+
+Should be                : rubygems-2.0.14.1-36.el7
+
+
+
+Remote package installed : ruby-2.0.0.648-33.el7_4
+
+Should be                : ruby-2.0.0.648-36.el7
+
+
+
+Remote package installed : ruby-libs-2.0.0.648-33.el7_4
+
+Should be                : ruby-libs-2.0.0.648-36.el7
+
+
+
+Remote package installed : rubygem-bigdecimal-1.2.0-33.el7_4
+
+Should be                : rubygem-bigdecimal-1.2.0-36.el7
+
+
+
+Remote package installed : rubygem-io-console-0.4.2-33.el7_4
+
+Should be                : rubygem-io-console-0.4.2-36.el7
+
+
+
+Remote package installed : rubygem-json-1.7.7-33.el7_4
+
+Should be                : rubygem-json-1.7.7-36.el7
+
+
+
+Remote package installed : rubygem-psych-2.0.0-33.el7_4
+
+Should be                : rubygem-psych-2.0.0-36.el7
+
+
+
+
+- Solution: Update the affected packages.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : samba (ELSA-2023-1090)
+- Plugin Output: 
+
+Remote package installed : samba-common-4.8.3-4.el7
+
+Should be                : samba-common-4.10.16-24.0.1.el7_9
+
+
+
+Remote package installed : libsmbclient-4.8.3-4.el7
+
+Should be                : libsmbclient-4.10.16-24.0.1.el7_9
+
+
+
+Remote package installed : libwbclient-4.8.3-4.el7
+
+Should be                : libwbclient-4.10.16-24.0.1.el7_9
+
+
+
+Remote package installed : samba-client-libs-4.8.3-4.el7
+
+Should be                : samba-client-libs-4.10.16-24.0.1.el7_9
+
+
+
+Remote package installed : samba-common-libs-4.8.3-4.el7
+
+Should be                : samba-common-libs-4.10.16-24.0.1.el7_9
+
+
+
+Remote package installed : samba-common-tools-4.8.3-4.el7
+
+Should be                : samba-common-tools-4.10.16-24.0.1.el7_9
+
+
+
+Remote package installed : samba-libs-4.8.3-4.el7
+
+Should be                : samba-libs-4.10.16-24.0.1.el7_9
+
+
+
+
+- Solution: Update the affected packages.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : screen (ELSA-2021-0742)
+- Plugin Output: 
+
+Remote package installed : screen-4.1.0-0.25.20120314git3c2946.el7
+
+Should be                : screen-4.1.0-0.27.20120314git3c2946.el7_9
+
+
+
+
+- Solution: Update the affected screen package.
+- Affected Hosts: 10.46.254.149
+============
+Name: Oracle Linux 7 : shim-signed (ELSA-2022-9466)
+- Plugin Output: 
+
+Remote package installed : mokutil-15-1.0.1.el7
+
+Should be                : mokutil-15.6-1.0.7.el7
+
+
+
+Remote package installed : shim-x64-15-1.0.1.el7
+
+Should be                : shim-x64-15.6-1.0.7.el7
+
+
+
+
+- Solution: Update the affected mokutil, shim-ia32 and / or shim-x64 packages.
+- Affected Hosts: 10.46.254.152
+============
+Name: Oracle Linux 7 : sqlite (ELSA-2020-0227)
+- Plugin Output: 
+
+Remote package installed : sqlite-3.7.17-8.el7
+
+Should be                : sqlite-3.7.17-8.el7_7.1
+
+
+
+
+- Solution: Update the affected sqlite packages.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : sssd (ELSA-2023-0403)
+- Plugin Output: 
+
+Remote package installed : python-sssdconfig-1.16.2-13.el7
+
+Should be                : python-sssdconfig-1.16.5-10.0.3.el7_9.15
+
+
+
+Remote package installed : libipa_hbac-1.16.2-13.el7
+
+Should be                : libipa_hbac-1.16.5-10.0.3.el7_9.15
+
+
+
+Remote package installed : libsss_autofs-1.16.2-13.el7
+
+Should be                : libsss_autofs-1.16.5-10.0.3.el7_9.15
+
+
+
+Remote package installed : libsss_certmap-1.16.2-13.el7
+
+Should be                : libsss_certmap-1.16.5-10.0.3.el7_9.15
+
+
+
+Remote package installed : libsss_idmap-1.16.2-13.el7
+
+Should be                : libsss_idmap-1.16.5-10.0.3.el7_9.15
+
+
+
+Remote package installed : libsss_nss_idmap-1.16.2-13.el7
+
+Should be                : libsss_nss_idmap-1.16.5-10.0.3.el7_9.15
+
+
+
+Remote package installed : libsss_sudo-1.16.2-13.el7
+
+Should be                : libsss_sudo-1.16.5-10.0.3.el7_9.15
+
+
+
+Remote package installed : sssd-1.16.2-13.el7
+
+Should be                : sssd-1.16.5-10.0.3.el7_9.15
+
+
+
+Remote package installed : sssd-ad-1.16.2-13.el7
+
+Should be                : sssd-ad-1.16.5-10.0.3.el7_9.15
+
+
+
+Remote package installed : sssd-client-1.16.2-13.el7
+
+Should be                : sssd-client-1.16.5-10.0.3.el7_9.15
+
+
+
+Remote package installed : sssd-common-1.16.2-13.el7
+
+Should be                : sssd-common-1.16.5-10.0.3.el7_9.15
+
+
+
+Remote package installed : sssd-common-pac-1.16.2-13.el7
+
+Should be                : sssd-common-pac-1.16.5-10.0.3.el7_9.15
+
+
+
+Remote package installed : sssd-ipa-1.16.2-13.el7
+
+Should be                : sssd-ipa-1.16.5-10.0.3.el7_9.15
+
+
+
+Remote package installed : sssd-krb5-1.16.2-13.el7
+
+Should be                : sssd-krb5-1.16.5-10.0.3.el7_9.15
+
+
+
+Remote package installed : sssd-krb5-common-1.16.2-13.el7
+
+Should be                : sssd-krb5-common-1.16.5-10.0.3.el7_9.15
+
+
+
+Remote package installed : sssd-ldap-1.16.2-13.el7
+
+Should be                : sssd-ldap-1.16.5-10.0.3.el7_9.15
+
+
+
+Remote package installed : sssd-proxy-1.16.2-13.el7
+
+Should be                : sssd-proxy-1.16.5-10.0.3.el7_9.15
+
+
+
+
+- Solution: Update the affected packages.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : sudo (ELSA-2021-0221)
+- Plugin Output: 
+
+Remote package installed : sudo-1.8.23-3.el7
+
+Should be                : sudo-1.8.23-10.el7_9.1
+
+
+
+
+- Solution: Update the affected sudo and / or sudo-devel packages.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : sudo (ELSA-2023-0291)
+- Plugin Output: 
+
+Remote package installed : sudo-1.8.23-3.el7
+
+Should be                : sudo-1.8.23-10.el7_9.3
+
+
+
+
+- Solution: Update the affected sudo and / or sudo-devel packages.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : systemd (ELSA-2019-0368)
+- Plugin Output: 
+
+Remote package installed : libgudev1-219-62.0.1.el7
+
+Should be                : libgudev1-219-62.0.4.el7_6.5
+
+
+
+Remote package installed : systemd-219-62.0.1.el7
+
+Should be                : systemd-219-62.0.4.el7_6.5
+
+
+
+Remote package installed : systemd-libs-219-62.0.1.el7
+
+Should be                : systemd-libs-219-62.0.4.el7_6.5
+
+
+
+Remote package installed : systemd-python-219-62.0.1.el7
+
+Should be                : systemd-python-219-62.0.4.el7_6.5
+
+
+
+Remote package installed : systemd-sysv-219-62.0.1.el7
+
+Should be                : systemd-sysv-219-62.0.4.el7_6.5
+
+
+
+
+- Solution: Update the affected systemd packages.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : systemd (ELSA-2022-6160)
+- Plugin Output: 
+
+Remote package installed : libgudev1-219-62.0.1.el7
+
+Should be                : libgudev1-219-78.0.9.el7_9.7
+
+
+
+Remote package installed : systemd-219-62.0.1.el7
+
+Should be                : systemd-219-78.0.9.el7_9.7
+
+
+
+Remote package installed : systemd-libs-219-62.0.1.el7
+
+Should be                : systemd-libs-219-78.0.9.el7_9.7
+
+
+
+Remote package installed : systemd-python-219-62.0.1.el7
+
+Should be                : systemd-python-219-78.0.9.el7_9.7
+
+
+
+Remote package installed : systemd-sysv-219-62.0.1.el7
+
+Should be                : systemd-sysv-219-78.0.9.el7_9.7
+
+
+
+
+- Solution: Update the affected packages.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : tcpdump (ELSA-2019-3976)
+- Plugin Output: 
+
+Remote package installed : tcpdump-4.9.2-3.el7
+
+Should be                : tcpdump-4.9.2-4.el7_7.1
+
+
+
+
+- Solution: Update the affected tcpdump package.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104
+============
+Name: Oracle Linux 7 : tcpdump (ELSA-2020-5662)
+- Plugin Output: 
+
+Remote package installed : tcpdump-4.9.2-3.el7
+
+Should be                : tcpdump-4.9.2-4.0.1.el7_7.1
+
+
+
+
+- Solution: Update the affected tcpdump package.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104
+============
+Name: Oracle Linux 7 : telnet (ELSA-2020-1334)
+- Plugin Output: 
+
+Remote package installed : telnet-0.17-64.el7
+
+Should be                : telnet-0.17-65.el7_8
+
+
+
+
+- Solution: Update the affected telnet packages.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.200, 10.46.254.203
+============
+Name: Oracle Linux 7 : unixODBC (ELSA-2019-2336)
+- Plugin Output: 
+
+Remote package installed : unixODBC-2.3.1-11.el7
+
+Should be                : unixODBC-2.3.1-14.0.1.el7
+
+
+
+
+- Solution: Update the affected unixODBC and / or unixODBC-devel packages.
+- Affected Hosts: 10.46.254.203
+============
+Name: Oracle Linux 7 : unzip (ELSA-2020-1181)
+- Plugin Output: 
+
+Remote package installed : unzip-6.0-19.el7
+
+Should be                : unzip-6.0-21.el7
+
+
+
+
+- Solution: Update the affected unzip package.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : wget (ELSA-2019-1228)
+- Plugin Output: 
+
+Remote package installed : wget-1.14-18.el7
+
+Should be                : wget-1.14-18.el7_6.1
+
+
+
+
+- Solution: Update the affected wget package.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : wpa_supplicant (ELSA-2021-0808)
+- Plugin Output: 
+
+Remote package installed : wpa_supplicant-2.6-12.el7
+
+Should be                : wpa_supplicant-2.6-12.el7_9.2
+
+
+
+
+- Solution: Update the affected wpa_supplicant package.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : xz (ELSA-2022-5052)
+- Plugin Output: 
+
+Remote package installed : xz-5.2.2-1.el7
+
+Should be                : xz-5.2.2-2.el7_9
+
+
+
+Remote package installed : xz-libs-5.2.2-1.el7
+
+Should be                : xz-libs-5.2.2-2.el7_9
+
+
+
+
+- Solution: Update the affected packages.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Oracle Linux 7 : zlib (ELSA-2023-1095)
+- Plugin Output: 
+
+Remote package installed : zlib-1.2.7-18.el7
+
+Should be                : zlib-1.2.7-21.el7_9
+
+
+
+Remote package installed : zlib-devel-1.2.7-18.el7
+
+Should be                : zlib-devel-1.2.7-21.el7_9
+
+
+
+
+- Solution: Update the affected packages.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.203, 10.46.254.204
+============
+Name: Red Hat Enterprise Linux SEoL (7.6.x)
+- Plugin Output: 
+
+  OS                                     : Red Hat Enterprise Linux Server 7.6 (Maipo)
+
+  Security End of Life                   : May 31, 2021
+
+  Time since Security End of Life (Est.) : >= 3 years
+
+
+- Solution: Upgrade to a version of Red Hat Enterprise Linux that is currently supported.
+- Affected Hosts: 10.46.254.148, 10.46.254.149
+============
+Name: SSH Server CBC Mode Ciphers Enabled
+- Plugin Output: 
+
+The following client-to-server Cipher Block Chaining (CBC) algorithms
+
+are supported : 
+
+
+
+  3des-cbc
+
+  aes128-cbc
+
+  aes192-cbc
+
+  aes256-cbc
+
+  rijndael-cbc@lysator.liu.se
+
+
+
+The following server-to-client Cipher Block Chaining (CBC) algorithms
+
+are supported : 
+
+
+
+  3des-cbc
+
+  aes128-cbc
+
+  aes192-cbc
+
+  aes256-cbc
+
+  rijndael-cbc@lysator.liu.se
+
+
+- Solution: Contact the vendor or consult product documentation to disable CBC mode
+
+cipher encryption, and enable CTR or GCM cipher mode encryption.
+- Affected Hosts: 10.46.254.88/22
+============
+Name: SSH Terrapin Prefix Truncation Weakness (CVE-2023-48795)
+- Plugin Output: Supports following ChaCha20-Poly1305 Client to Server algorithm : chacha20-poly1305@openssh.com
+
+Supports following Encrypt-then-MAC Client to Server algorithm  : hmac-sha2-512-etm@openssh.com
+
+Supports following Encrypt-then-MAC Client to Server algorithm  : hmac-sha2-256-etm@openssh.com
+
+Supports following ChaCha20-Poly1305 Server to Client algorithm : chacha20-poly1305@openssh.com
+
+Supports following Encrypt-then-MAC Server to Client algorithm  : hmac-sha2-512-etm@openssh.com
+
+Supports following Encrypt-then-MAC Server to Client algorithm  : hmac-sha2-256-etm@openssh.com
+
+
+- Solution: Contact the vendor for an update with the strict key exchange countermeasures or disable the affected algorithms.
+- Affected Hosts: 10.46.254.120/22, 10.46.254.121/22, 10.46.254.122/22
+- Plugin Output: Supports following ChaCha20-Poly1305 Client to Server algorithm : chacha20-poly1305@openssh.com
+
+Supports following Encrypt-then-MAC Client to Server algorithm  : umac-64-etm@openssh.com
+
+Supports following Encrypt-then-MAC Client to Server algorithm  : umac-128-etm@openssh.com
+
+Supports following Encrypt-then-MAC Client to Server algorithm  : hmac-sha2-256-etm@openssh.com
+
+Supports following Encrypt-then-MAC Client to Server algorithm  : hmac-sha2-512-etm@openssh.com
+
+Supports following Encrypt-then-MAC Client to Server algorithm  : hmac-sha1-etm@openssh.com
+
+Supports following ChaCha20-Poly1305 Server to Client algorithm : chacha20-poly1305@openssh.com
+
+Supports following Encrypt-then-MAC Server to Client algorithm  : umac-64-etm@openssh.com
+
+Supports following Encrypt-then-MAC Server to Client algorithm  : umac-128-etm@openssh.com
+
+Supports following Encrypt-then-MAC Server to Client algorithm  : hmac-sha2-256-etm@openssh.com
+
+Supports following Encrypt-then-MAC Server to Client algorithm  : hmac-sha2-512-etm@openssh.com
+
+Supports following Encrypt-then-MAC Server to Client algorithm  : hmac-sha1-etm@openssh.com
+
+
+- Solution: Contact the vendor for an update with the strict key exchange countermeasures or disable the affected algorithms.
+- Affected Hosts: 10.46.254.236/22
+============
+Name: SSH Weak Key Exchange Algorithms Enabled
+- Plugin Output: 
+
+The following weak key exchange algorithms are enabled : 
+
+
+
+  diffie-hellman-group-exchange-sha1
+
+
+- Solution: Contact the vendor or consult product documentation to disable the weak algorithms.
+- Affected Hosts: 10.46.254.70/22
+============
+Name: SSH Weak MAC Algorithms Enabled
+- Plugin Output: 
+
+The following client-to-server Message Authentication Code (MAC) algorithms
+
+are supported : 
+
+
+
+  hmac-sha1-96
+
+
+
+The following server-to-client Message Authentication Code (MAC) algorithms
+
+are supported : 
+
+
+
+  hmac-sha1-96
+
+
+- Solution: Contact the vendor or consult product documentation to disable MD5 and
+
+96-bit MAC algorithms.
+- Affected Hosts: 10.46.254.88/22
+============
+Name: SSL Certificate Cannot Be Trusted
+- Plugin Output: 
+
+The following certificate was at the top of the certificate
+
+chain sent by the remote host, but it is signed by an unknown
+
+certificate authority :
+
+
+
+|-Subject : C=SG/O=IDEMIA/OU=T4/CN=Servers CA
+
+|-Issuer  : C=SG/O=IDEMIA/OU=T4/CN=Technical Root CA
+
+
+- Solution: Purchase or generate a proper SSL certificate for this service.
+- Affected Hosts: 10.46.254.196/3269, 10.46.254.196/3389, 10.46.254.196/636, 10.46.254.197/3269, 10.46.254.197/3389, 10.46.254.197/636, 10.46.254.199/3389, 10.46.254.199/443, 10.46.254.199/8443, 10.46.254.199/8444, 10.46.254.199/9443, 10.46.254.201/3389
+- Plugin Output: 
+
+The following certificate was at the top of the certificate
+
+chain sent by the remote host, but it is signed by an unknown
+
+certificate authority :
+
+
+
+|-Subject : C=US/O=Cisco Systems Inc./OU=DeviceSSL (WebAdmin)/CN=10.46.254.236
+
+|-Issuer  : C=US/O=Cisco Systems Inc./OU=DeviceSSL (WebAdmin)/CN=10.46.254.236
+
+
+- Solution: Purchase or generate a proper SSL certificate for this service.
+- Affected Hosts: 10.46.254.236/443
+- Plugin Output: 
+
+The following certificate was at the top of the certificate
+
+chain sent by the remote host, but it is signed by an unknown
+
+certificate authority :
+
+
+
+|-Subject : CN=NWC05BBBIGX4013.iacs.wlds
+
+|-Issuer  : CN=NWC05BBBIGX4013.iacs.wlds
+
+
+- Solution: Purchase or generate a proper SSL certificate for this service.
+- Affected Hosts: 10.46.254.48/3389, 10.46.254.49/3389
+- Plugin Output: 
+
+The following certificate was at the top of the certificate
+
+chain sent by the remote host, but it is signed by an unknown
+
+certificate authority :
+
+
+
+|-Subject : CN=LC01OEIACSSTR1
+
+|-Issuer  : CN=LC01OEIACSSTR1
+
+
+- Solution: Purchase or generate a proper SSL certificate for this service.
+- Affected Hosts: 10.46.254.150/443, 10.46.254.153/443, 10.46.254.198/443
+- Plugin Output: 
+
+The following certificate was at the top of the certificate
+
+chain sent by the remote host, but it is signed by an unknown
+
+certificate authority :
+
+
+
+|-Subject : C=SG/O=IDEMIA/OU=T4/CN=Technical Root CA
+
+|-Issuer  : C=SG/O=IDEMIA/OU=T4/CN=Technical Root CA
+
+
+- Solution: Purchase or generate a proper SSL certificate for this service.
+- Affected Hosts: 10.46.254.120/443, 10.46.254.121/443, 10.46.254.122/443
+- Plugin Output: 
+
+The following certificate was at the top of the certificate
+
+chain sent by the remote host, but it is signed by an unknown
+
+certificate authority :
+
+
+
+|-Subject : CN=ASA Temporary Self Signed Certificate
+
+|-Issuer  : CN=ASA Temporary Self Signed Certificate
+
+
+- Solution: Purchase or generate a proper SSL certificate for this service.
+- Affected Hosts: 10.46.178.9/443
+- Plugin Output: 
+
+The following certificate was at the top of the certificate
+
+chain sent by the remote host, but it is signed by an unknown
+
+certificate authority :
+
+
+
+|-Subject : C=US/ST=California/L=Palo Alto/O=VMware/OU=VMware Engineering/CN=lc01oaiacshpv1.iacs.wlds/E=vmca@vmware.com
+
+|-Issuer  : CN=CA/DC=iacs/DC=local/C=US/ST=California/O=LC01LAIACSVCTR.iacs.wlds/OU=VMware Engineering
+
+
+- Solution: Purchase or generate a proper SSL certificate for this service.
+- Affected Hosts: 10.46.254.111/443, 10.46.254.112/443, 10.46.254.113/443, 10.46.254.206/443, 10.46.254.206/5480, 10.46.254.206/636
+- Plugin Output: 
+
+The following certificate was part of the certificate chain
+
+sent by the remote host, but it has expired :
+
+
+
+|-Subject   : C=SG/O=ICA/OU=Land Checkpoints Ops IACS WBH/CN=service.fbh.iacs.wlds
+
+|-Not After : May 04 03:30:02 2023 GMT
+
+
+
+The following certificate was at the top of the certificate
+
+chain sent by the remote host, but it is signed by an unknown
+
+certificate authority :
+
+
+
+|-Subject : C=SG/O=IDEMIA/OU=T4/CN=Technical Root CA
+
+|-Issuer  : C=SG/O=IDEMIA/OU=T4/CN=Technical Root CA
+
+
+- Solution: Purchase or generate a proper SSL certificate for this service.
+- Affected Hosts: 10.46.254.243/10443, 10.46.254.244/10443
+- Plugin Output: 
+The following certificate was at the top of the certificate
+chain sent by the remote host, but it is signed by an unknown
+certificate authority :
+
+|-Subject : CN=NWC05BBBIGX4013.iacs.wlds
+|-Issuer  : CN=NWC05BBBIGX4013.iacs.wlds
+
+- Solution: Purchase or generate a proper SSL certificate for this service.
+- Affected Hosts: 10.46.254.48/3389
+============
+Name: SSL Certificate Expiry
+- Plugin Output: 
+
+The SSL certificate has already expired :
+
+
+
+  Subject          : C=SG, O=ICA, OU=Land Checkpoints Ops IACS WBH, CN=LC01LAIACSUPDT.iacs.wlds
+
+  Issuer           : C=SG, O=IDEMIA, OU=T4, CN=Servers CA
+
+  Not valid before : Apr  8 04:06:57 2020 GMT
+
+  Not valid after  : Apr  8 04:06:57 2023 GMT
+
+
+- Solution: Purchase or generate a new SSL certificate to replace the existing
+
+one.
+- Affected Hosts: 10.46.254.199/443
+- Plugin Output: 
+
+The SSL certificate has already expired :
+
+
+
+  Subject          : C=SG, O=ICA, OU=Land Checkpoints Ops IACS WBH, CN=service.fbh.iacs.wlds
+
+  Issuer           : C=SG, O=IDEMIA, OU=T4, CN=Servers CA
+
+  Not valid before : May  4 03:30:02 2020 GMT
+
+  Not valid after  : May  4 03:30:02 2023 GMT
+
+
+- Solution: Purchase or generate a new SSL certificate to replace the existing
+
+one.
+- Affected Hosts: 10.46.254.243/10443, 10.46.254.244/10443
+============
+Name: SSL Certificate with Wrong Hostname
+- Plugin Output: 
+
+The identities known by Nessus are :
+
+
+
+  10.46.254.199
+
+  lc01laiacsupdt
+
+  10.46.254.199
+
+
+
+The Common Name in the certificate is :
+
+
+
+  Orion_ClientAuth_LC01LAIACSUPDT
+
+
+
+The Subject Alternate Name in the certificate is :
+
+
+
+  Orion_ClientAuth_LC01LAIACSUPDT
+
+
+- Solution: Purchase or generate a proper SSL certificate for this service.
+- Affected Hosts: 10.46.254.199/8444, 10.46.254.199/9443, 10.46.254.201/3389
+============
+Name: SSL Medium Strength Cipher Suites Supported (SWEET32)
+- Plugin Output: 
+  Medium Strength Ciphers (> 64-bit and < 112-bit key, or 3DES)
+
+    Name                          Code             KEX           Auth     Encryption             MAC
+    ----------------------        ----------       ---           ----     ---------------------  ---
+    DES-CBC3-SHA                  0x00, 0x0A       RSA           RSA      3DES-CBC(168)          SHA1
+
+The fields above are :
+
+  {Tenable ciphername}
+  {Cipher ID code}
+  Kex={key exchange}
+  Auth={authentication}
+  Encrypt={symmetric encryption method}
+  MAC={message authentication code}
+  {export flag}
+
+- Solution: Reconfigure the affected application if possible to avoid use of
+medium strength ciphers.
+- Affected Hosts: 10.46.254.48/3389
+- Plugin Output: 
+
+  Medium Strength Ciphers (> 64-bit and < 112-bit key, or 3DES)
+
+
+
+    Name                          Code             KEX           Auth     Encryption             MAC
+
+    ----------------------        ----------       ---           ----     ---------------------  ---
+
+    DES-CBC3-SHA                  0x00, 0x0A       RSA           RSA      3DES-CBC(168)          SHA1
+
+
+
+The fields above are :
+
+
+
+  {Tenable ciphername}
+
+  {Cipher ID code}
+
+  Kex={key exchange}
+
+  Auth={authentication}
+
+  Encrypt={symmetric encryption method}
+
+  MAC={message authentication code}
+
+  {export flag}
+
+
+- Solution: Reconfigure the affected application if possible to avoid use of
+
+medium strength ciphers.
+- Affected Hosts: 10.46.254.48/3389, 10.46.254.49/3389
+============
+Name: SSL RC4 Cipher Suites Supported (Bar Mitzvah)
+- Plugin Output: 
+List of RC4 cipher suites supported by the remote server :
+
+  High Strength Ciphers (>= 112-bit key)
+
+    Name                          Code             KEX           Auth     Encryption             MAC
+    ----------------------        ----------       ---           ----     ---------------------  ---
+    RC4-MD5                       0x00, 0x04       RSA           RSA      RC4(128)               MD5
+    RC4-SHA                       0x00, 0x05       RSA           RSA      RC4(128)               SHA1
+
+The fields above are :
+
+  {Tenable ciphername}
+  {Cipher ID code}
+  Kex={key exchange}
+  Auth={authentication}
+  Encrypt={symmetric encryption method}
+  MAC={message authentication code}
+  {export flag}
+
+- Solution: Reconfigure the affected application, if possible, to avoid use of RC4
+ciphers. Consider using TLS 1.2 with AES-GCM suites subject to browser
+and web server support.
+- Affected Hosts: 10.46.254.48/3389
+- Plugin Output: 
+
+List of RC4 cipher suites supported by the remote server :
+
+
+
+  High Strength Ciphers (>= 112-bit key)
+
+
+
+    Name                          Code             KEX           Auth     Encryption             MAC
+
+    ----------------------        ----------       ---           ----     ---------------------  ---
+
+    RC4-MD5                       0x00, 0x04       RSA           RSA      RC4(128)               MD5
+
+    RC4-SHA                       0x00, 0x05       RSA           RSA      RC4(128)               SHA1
+
+
+
+The fields above are :
+
+
+
+  {Tenable ciphername}
+
+  {Cipher ID code}
+
+  Kex={key exchange}
+
+  Auth={authentication}
+
+  Encrypt={symmetric encryption method}
+
+  MAC={message authentication code}
+
+  {export flag}
+
+
+- Solution: Reconfigure the affected application, if possible, to avoid use of RC4
+
+ciphers. Consider using TLS 1.2 with AES-GCM suites subject to browser
+
+and web server support.
+- Affected Hosts: 10.46.254.48/3389, 10.46.254.49/3389
+============
+Name: SSL Self-Signed Certificate
+- Plugin Output: 
+The following certificate was found at the top of the certificate
+chain sent by the remote host, but is self-signed and was not
+found in the list of known certificate authorities :
+
+|-Subject : CN=NWC05BBBIGX4013.iacs.wlds
+
+- Solution: Purchase or generate a proper SSL certificate for this service.
+- Affected Hosts: 10.46.254.48/3389
+- Plugin Output: 
+
+The following certificate was found at the top of the certificate
+
+chain sent by the remote host, but is self-signed and was not
+
+found in the list of known certificate authorities :
+
+
+
+|-Subject : C=SG/O=IDEMIA/OU=T4/CN=Technical Root CA
+
+
+- Solution: Purchase or generate a proper SSL certificate for this service.
+- Affected Hosts: 10.46.254.120/443, 10.46.254.121/443, 10.46.254.122/443
+- Plugin Output: 
+
+The following certificate was found at the top of the certificate
+
+chain sent by the remote host, but is self-signed and was not
+
+found in the list of known certificate authorities :
+
+
+
+|-Subject : O=McAfee/OU=Orion/CN=Orion_CA_LC01LAIACSUPDT
+
+
+- Solution: Purchase or generate a proper SSL certificate for this service.
+- Affected Hosts: 10.46.254.199/8444
+- Plugin Output: 
+
+The following certificate was found at the top of the certificate
+
+chain sent by the remote host, but is self-signed and was not
+
+found in the list of known certificate authorities :
+
+
+
+|-Subject : CN=NWC05BBBIGX4013.iacs.wlds
+
+
+- Solution: Purchase or generate a proper SSL certificate for this service.
+- Affected Hosts: 10.46.254.48/3389, 10.46.254.49/3389
+- Plugin Output: 
+
+The following certificate was found at the top of the certificate
+
+chain sent by the remote host, but is self-signed and was not
+
+found in the list of known certificate authorities :
+
+
+
+|-Subject : C=US/O=Cisco Systems Inc./OU=DeviceSSL (WebAdmin)/CN=10.46.254.236
+
+
+- Solution: Purchase or generate a proper SSL certificate for this service.
+- Affected Hosts: 10.46.254.236/443
+- Plugin Output: 
+
+The following certificate was found at the top of the certificate
+
+chain sent by the remote host, but is self-signed and was not
+
+found in the list of known certificate authorities :
+
+
+
+|-Subject : CN=LC01OEIACSSTR1
+
+
+- Solution: Purchase or generate a proper SSL certificate for this service.
+- Affected Hosts: 10.46.254.150/443, 10.46.254.153/443
+- Plugin Output: 
+
+The following certificate was found at the top of the certificate
+
+chain sent by the remote host, but is self-signed and was not
+
+found in the list of known certificate authorities :
+
+
+
+|-Subject : CN=ASA Temporary Self Signed Certificate
+
+
+- Solution: Purchase or generate a proper SSL certificate for this service.
+- Affected Hosts: 10.46.178.9/443
+============
+Name: Security Update for Microsoft .NET Core (October 2024)
+- Plugin Output: 
+
+  Path              : C:\Program Files\dotnet\shared\Microsoft.NetCore.App\6.0.24\
+
+  Installed version : 6.0.24.33018
+
+  Fixed version     : 6.0.35
+
+
+- Solution: Update .NET Core, remove vulnerable packages and refer to vendor advisory.
+- Affected Hosts: 10.46.254.201/445
+============
+Name: Security Update for Microsoft ASP.NET Core (February 2024) (CVE-2024-21386)
+- Plugin Output: 
+
+  Path              : C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.24
+
+  Installed version : 6.0.24
+
+  Fixed version     : 6.0.27
+
+
+- Solution: Update .NET Core, remove vulnerable packages and refer to vendor advisory.
+- Affected Hosts: 10.46.254.201/445
+============
+Name: Security Updates for Microsoft .NET Framework (October 2024)
+- Plugin Output: 
+Microsoft .NET Framework 4.7.2
+The remote host is missing one of the following rollup KBs : 
+
+Cumulative
+  - 5044016
+
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\system.core.dll has not been patched.
+    Remote version : 4.7.3910.0
+    Should be      : 4.7.4115.0
+
+
+
+- Solution: Microsoft has released security updates for Microsoft .NET Framework.
+- Affected Hosts: 10.46.254.214/445
+- Plugin Output: 
+
+Microsoft .NET Framework 4.7.2
+
+The remote host is missing one of the following rollup KBs : 
+
+
+
+Cumulative
+
+  - 5044016
+
+
+
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\system.core.dll has not been patched.
+
+    Remote version : 4.7.3910.0
+
+    Should be      : 4.7.4115.0
+
+
+
+
+
+
+- Solution: Microsoft has released security updates for Microsoft .NET Framework.
+- Affected Hosts: 10.46.254.196/445, 10.46.254.197/445, 10.46.254.199/445, 10.46.254.201/445
+- Plugin Output: 
+
+Microsoft .NET Framework 4.8
+
+The remote host is missing one of the following rollup KBs : 
+
+
+
+Cumulative
+
+  - 5044022
+
+
+
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\system.web.dll has not been patched.
+
+    Remote version : 4.8.4494.0
+
+    Should be      : 4.8.4762.0
+
+
+
+
+
+
+- Solution: Microsoft has released security updates for Microsoft .NET Framework.
+- Affected Hosts: 10.46.254.131/445
+============
+Name: Security Updates for Microsoft SQL Server (CVE-2024-43474) (September 2024)
+- Plugin Output: 
+
+
+
+  KB : 5042217
+
+  - c:\Program Files\Microsoft SQL Server\MSSQL14.SQLEXPRESS_EPO\MSSQL\Binn\sqlservr.exe has not been patched.
+
+    Remote version : 2017.140.2037.2
+
+    Should be      : 2017.140.2060.1
+
+
+
+  SQL Server Version   : 14.0.2037.2 Express Edition
+
+  SQL Server Instance  : SQLEXPRESS_EPO
+
+
+
+
+- Solution: Microsoft has released security updates for Microsoft SQL Server.
+- Affected Hosts: 10.46.254.199/445
+============
+Name: Security Updates for Microsoft SQL Server (June 2022)
+- Plugin Output: 
+
+
+
+  KB : 5014351
+
+  - C:\Program Files\Microsoft SQL Server\MSSQL13.VEEAMSQL2016\MSSQL\Binn\sqlservr.exe has not been patched.
+
+    Remote version : 2015.131.5865.1
+
+    Should be      : 2015.131.5893.48
+
+
+
+  SQL Server Version   : 13.0.5865.1 Express Edition
+
+  SQL Server Instance  : VEEAMSQL2016
+
+
+
+
+- Solution: Microsoft has released the following security updates to address this issue:  
+
+  -KB5015371
+
+  -KB5014553
+
+  -KB5014351
+
+  -KB5014353
+
+  -KB5014354
+
+  -KB5014356
+
+  -KB5014365
+
+  -KB5014355
+
+  -KB5014165
+
+  -KB5014164
+- Affected Hosts: 10.46.254.201/445
+============
+Name: Security Updates for Windows Malicious Software Removal Tool (January 2023)
+- Plugin Output: 
+  Product           : Microsoft Malicious Software Removal Tool
+  Installed version : 5.101.19137.3
+  Fixed version     : 5.109.19957.1
+
+- Solution: Microsoft has released version 5.109 to address this issue.
+- Affected Hosts: 10.46.254.214/445, 10.46.254.48/445
+- Plugin Output: 
+
+  Product           : Microsoft Malicious Software Removal Tool
+
+  Installed version : 5.101.19137.3
+
+  Fixed version     : 5.109.19957.1
+
+
+- Solution: Microsoft has released version 5.109 to address this issue.
+- Affected Hosts: 10.46.254.196/445, 10.46.254.197/445, 10.46.254.199/445, 10.46.254.201/445
+============
+Name: TLS Version 1.0 Protocol Detection
+- Plugin Output: TLSv1 is enabled and the server supports at least one cipher.
+- Solution: Enable support for TLS 1.2 and 1.3, and disable support for TLS 1.0.
+- Affected Hosts: 10.46.254.236/443
+============
+Name: TLS Version 1.1 Deprecated Protocol
+- Plugin Output: TLSv1.1 is enabled and the server supports at least one cipher.
+- Solution: Enable support for TLS 1.2 and/or 1.3, and disable support for TLS 1.1.
+- Affected Hosts: 10.46.254.236/443
+- Plugin Output: TLSv1.1 is enabled and the server supports at least one cipher.
+- Solution: Enable support for TLS 1.2 and/or 1.3, and disable support for TLS 1.1.
+- Affected Hosts: 10.46.254.48/3389
+============
+Name: Tenable Nessus Agent < 10.7.3 and earlier Multiple Vulnerabilities (TNS-2024-14)
+- Plugin Output: 
+
+  Path              : C:\Program Files\Tenable\Nessus Agent
+
+  Installed version : 8.3.0
+
+  Fixed version     : 10.7.3
+
+
+- Solution: Upgrade to Tenable Nessus Agent 10.7.3 or later.
+- Affected Hosts: 10.46.254.196, 10.46.254.197, 10.46.254.199, 10.46.254.201
+- Plugin Output: 
+
+  Path              : /opt/nessus_agent
+
+  Installed version : 8.3.0
+
+  Fixed version     : 10.7.3
+
+
+- Solution: Upgrade to Tenable Nessus Agent 10.7.3 or later.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.203, 10.46.254.204
+- Plugin Output: 
+  Path              : C:\Program Files\Tenable\Nessus Agent
+  Installed version : 8.3.0
+  Fixed version     : 10.7.3
+
+- Solution: Upgrade to Tenable Nessus Agent 10.7.3 or later.
+- Affected Hosts: 10.46.254.214, 10.46.254.48
+============
+Name: Tenable Nessus Agent SEoL (8.3.x)
+- Plugin Output: 
+  Path                                   : C:\Program Files\Tenable\Nessus Agent
+  Installed version                      : 8.3.0
+  Security End of Life                   : December 31, 2022
+  Time since Security End of Life (Est.) : >= 1 year
+
+- Solution: Upgrade to a version of Tenable Nessus Agent that is currently supported.
+- Affected Hosts: 10.46.254.214, 10.46.254.48
+- Plugin Output: 
+
+  Path                                   : /opt/nessus_agent
+
+  Installed version                      : 8.3.0
+
+  Security End of Life                   : December 31, 2022
+
+  Time since Security End of Life (Est.) : >= 1 year
+
+
+- Solution: Upgrade to a version of Tenable Nessus Agent that is currently supported.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104, 10.46.254.152, 10.46.254.200, 10.46.254.203, 10.46.254.204
+- Plugin Output: 
+
+  Path                                   : C:\Program Files\Tenable\Nessus Agent
+
+  Installed version                      : 8.3.0
+
+  Security End of Life                   : December 31, 2022
+
+  Time since Security End of Life (Est.) : >= 1 year
+
+
+- Solution: Upgrade to a version of Tenable Nessus Agent that is currently supported.
+- Affected Hosts: 10.46.254.196, 10.46.254.197, 10.46.254.199, 10.46.254.201
+============
+Name: Trellix Agent < 5.7.9 Multiple Vulnerabilities (SB10396)
+- Plugin Output: 
+
+  Path              : C:\Program Files\McAfee\Agent\x86
+
+  Installed version : 5.7.6.251
+
+  Fixed version     : 5.7.9
+
+
+- Solution: Upgrade to McAfee Agent version 5.7.9 or later.
+- Affected Hosts: 10.46.254.196/445, 10.46.254.197/445, 10.46.254.199/445, 10.46.254.201/445
+- Plugin Output: 
+  Path              : C:\Program Files\McAfee\Agent\x86
+  Installed version : 5.7.6.251
+  Fixed version     : 5.7.9
+
+- Solution: Upgrade to McAfee Agent version 5.7.9 or later.
+- Affected Hosts: 10.46.254.214/445, 10.46.254.48/445
+============
+Name: Trellix Agent < 5.8.1 Buffer Overflow Vulnerability (SB10416)
+- Plugin Output: 
+
+  Path              : /opt/McAfee/cma/
+
+  Installed version : 5.7.6.251
+
+  Fixed version     : 5.8.1
+
+
+- Solution: Upgrade to McAfee Agent version 5.8.1 or later.
+- Affected Hosts: 10.46.254.100, 10.46.254.103, 10.46.254.104
+============
+Name: Trellix Endpoint Security for Windows < 10.7.0 September 2023 Update Code Injection (SB10405)
+- Plugin Output: 
+  Path              : C:\Program Files\McAfee\Endpoint Security\
+  Installed version : 10.7.0.1675
+  Fixed version     : ENS 10.7.0 September 2023 Update
+
+- Solution: Apply the 10.7.0 September 2023 Update or later.
+- Affected Hosts: 10.46.254.214/445, 10.46.254.48/445
+- Plugin Output: 
+
+  Path              : C:\Program Files\McAfee\Endpoint Security\
+
+  Installed version : 10.7.0.1675
+
+  Fixed version     : ENS 10.7.0 September 2023 Update
+
+
+- Solution: Apply the 10.7.0 September 2023 Update or later.
+- Affected Hosts: 10.46.254.196/445, 10.46.254.197/445, 10.46.254.199/445, 10.46.254.201/445
+============
+Name: VMware ESXi 7.0 / 8.0 Multiple Vulnerabilities (VMSA-2024-0006)
+- Plugin Output: 
+
+  ESXi version    : VMware ESXi 7.0.3 build-20036589
+
+  Installed build : 20036589
+
+  Fixed build     : 7.0U3 23307199
+
+
+- Solution: Upgrade to VMware ESXi 7.0 Update 3p, 8.0 Update 1d, or 8.0 Update 2b or later.
+- Affected Hosts: 10.46.254.111/443, 10.46.254.112/443, 10.46.254.113/443
+============
+Name: VMware ESXi 7.0 / 8.0 Out-of-Bounds read (CVE-2024-37086)
+- Plugin Output: 
+
+  ESXi version    : VMware ESXi 7.0.3 build-20036589
+
+  Installed build : 20036589
+
+  Fixed build     : 7.0U3q 23794019
+
+
+- Solution: Upgrade to VMware ESXi 7.0 Update 3p, 8.0 Update 1d, or 8.0 Update 2b or later.
+- Affected Hosts: 10.46.254.111/443, 10.46.254.112/443, 10.46.254.113/443
+============
+Name: VMware Tools 10.3.x / 11.x / 12.x < 12.3.5 Token Bypass (VMSA-2023-0024)
+- Plugin Output: 
+
+  Path              : C:\Program Files\VMware\VMware Tools\
+
+  Installed version : 12.0.0.34242
+
+  Fixed version     : 12.3.5
+
+
+- Solution: Upgrade to VMware Tools version 12.3.5 or later.
+- Affected Hosts: 10.46.254.196/445, 10.46.254.197/445, 10.46.254.199/445
+============
+Name: VMware vCenter Server 7.x < 7.0 U3s / 8.x < 8.0 U3b Multiple Vulnerabilities (VMSA-2024-0019)
+- Plugin Output: 
+
+  Installed version : 7.0 Build 20395099
+
+  Fixed version     : 7.0 Build 24201990 (U3s)
+
+
+- Solution: Upgrade to VMware vCenter Server 7.0 U3s or  8.0 U3b or later.
+- Affected Hosts: 10.46.254.206/443
+============
+Name: Veeam Backup and Replication 12.x < 12.2.0.334 Multiple Vulnerabilities (September 2024) (KB4649)
+- Plugin Output: 
+
+  Path              : C:\Program Files\Veeam\Backup and Replication\Backup\
+
+  Installed version : 12.1.0.2131
+
+  Fixed version     : 12.2.0.334
+
+
+- Solution: Upgrade to Veeam Backup and Replication version 12.2.0.334 or later.
+- Affected Hosts: 10.46.254.201/445
+============
+Name: WinSCP < 6.3.3 Key Recovery Attack Vulnerability
+- Plugin Output: 
+
+  Path              : C:\Program Files (x86)\WinSCP\
+
+  Installed version : 5.15.7.10060
+
+  Fixed version     : 6.3.3
+
+
+- Solution: Upgrade to WinSCP version 6.3.3 or later.
+- Affected Hosts: 10.46.254.201/445
+============
+Name: WinVerifyTrust Signature Validation CVE-2013-3900 Mitigation (EnableCertPaddingCheck)
+- Plugin Output: 
+
+
+
+ Nessus detected the following potentially insecure registry key configuration:
+
+    - Software\Microsoft\Cryptography\Wintrust\Config\EnableCertPaddingCheck is not present in the registry.
+
+    - Software\Wow6432Node\Microsoft\Cryptography\Wintrust\Config\EnableCertPaddingCheck is not present in the registry.
+
+
+
+
+- Solution: Add and enable registry value EnableCertPaddingCheck:
+
+  - HKEY_LOCAL_MACHINE\Software\Microsoft\Cryptography\Wintrust\Config\EnableCertPaddingCheck
+
+
+
+Additionally, on 64 Bit OS systems, Add and enable registry value EnableCertPaddingCheck:
+
+
+
+  - HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Cryptography\Wintrust\Config\EnableCertPaddingCheck
+- Affected Hosts: 10.46.254.196/445, 10.46.254.197/445, 10.46.254.199/445, 10.46.254.201/445
+- Plugin Output: 
+
+ Nessus detected the following potentially insecure registry key configuration:
+    - Software\Microsoft\Cryptography\Wintrust\Config\EnableCertPaddingCheck is not present in the registry.
+    - Software\Wow6432Node\Microsoft\Cryptography\Wintrust\Config\EnableCertPaddingCheck is not present in the registry.
+
+
+- Solution: Add and enable registry value EnableCertPaddingCheck:
+  - HKEY_LOCAL_MACHINE\Software\Microsoft\Cryptography\Wintrust\Config\EnableCertPaddingCheck
+
+Additionally, on 64 Bit OS systems, Add and enable registry value EnableCertPaddingCheck:
+
+  - HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Cryptography\Wintrust\Config\EnableCertPaddingCheck
+- Affected Hosts: 10.46.254.214/445, 10.46.254.48/445
+============
+Name: Windows 10 / Windows Server 2016 September 2017 Information Disclosure Vulnerability (CVE-2017-8529)
+- Plugin Output: 
+
+The following registry key is required to enable the fix for CVE-2017-8529 and is missing.
+  HKLM\SOFTWARE\Microsoft\Internet Explorer\Main\FeatureControl\FEATURE_ENABLE_PRINT_INFO_DISCLOSURE_FIX\iexplore.exe
+
+The following registry key is required to enable the fix for CVE-2017-8529 and is missing.
+  HKLM\SOFTWARE\WOW6432Node\Microsoft\Internet Explorer\Main\FeatureControl\FEATURE_ENABLE_PRINT_INFO_DISCLOSURE_FIX\iexplore.exe
+
+
+- Solution: Refer to the Microsoft CVE article for additional information.
+- Affected Hosts: 10.46.254.48/445
+============
+Name: Windows Security Feature Bypass in Secure Boot (BootHole)
+- Plugin Output: 
+
+The Windows Secure Boot forbidden signature database (DBX) did not contain the expected certificates.
+
+When performing DBX updates exactly as illustrated in the vendor documentation, it is crucial to consider that if you apply solely the most recent update, the updates will be appended exclusively to the DBX database.
+
+Therefore, it might still be necessary to apply the older updates from the "Archive of Prior Versions of DBX Files," which can be found in the UEFI Revocation List File document.
+
+
+
+Apply the DBX update with the updated signatures from March 2, 2021 or later.
+
+
+
+Alternatively, install Microsoft KB5012170.
+
+
+
+Please refer to the vendor advisory for more information.
+
+
+- Solution: Apply the DBX update from March 2, 2021 or later,
+
+
+
+Install Microsoft KB5012170.
+- Affected Hosts: 10.46.254.196/445, 10.46.254.197/445, 10.46.254.199/445
+============
+Name: Windows Speculative Execution Configuration Check
+- Plugin Output: Current Settings:
+
+  - SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management\
+
+    FeatureSettingsOverrideMask: Not Set
+
+  - SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management\
+
+    FeatureSettingsOverride: Not Set
+
+
+
+-----------------------------------
+
+
+
+Recommended Settings:
+
+  - SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management\
+
+    FeatureSettingsOverrideMask: 0x00000003 (3)
+
+  - SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management\
+
+    FeatureSettingsOverride: 0x00000048 (72)
+
+  CVEs Covered:
+
+    CVE-2017-5715, CVE-2017-5753, CVE-2017-5754, CVE-2018-3615, CVE-2018-3620,
+
+    CVE-2018-3639, CVE-2018-3646, CVE-2018-11091, CVE-2018-12126, CVE-2018-12127,
+
+    CVE-2018-12130, CVE-2019-11135
+
+  Note: Full mitigation for CVE-2018-3639 (Speculative Store Bypass).
+
+
+- Solution: Apply vendor recommended settings.
+- Affected Hosts: 10.46.254.196/445, 10.46.254.197/445, 10.46.254.199/445, 10.46.254.201/445
+- Plugin Output: Current Settings:
+  - SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management\
+    FeatureSettingsOverrideMask: Not Set
+  - SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management\
+    FeatureSettingsOverride: Not Set
+
+-----------------------------------
+
+Recommended Settings 1:
+  - SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management\
+    FeatureSettingsOverrideMask: 0x00000003 (3)
+  - SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management\
+    FeatureSettingsOverride: 0x00000008 (8)
+  CVEs Covered:
+    CVE-2017-5715, CVE-2017-5754, CVE-2018-3639
+  Note: Remaining protections enabled by default on clients. Required for CVE-2018-3639.
+
+-----------------------------------
+
+Recommended Settings 2:
+  - SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management\
+    FeatureSettingsOverrideMask: 0x00000003 (3)
+  - SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management\
+    FeatureSettingsOverride: 0x00000048 (72)
+  CVEs Covered:
+    CVE-2017-5715, CVE-2017-5753, CVE-2017-5754, CVE-2018-3615, CVE-2018-3620,
+    CVE-2018-3639, CVE-2018-3646, CVE-2018-11091, CVE-2018-12126, CVE-2018-12127,
+    CVE-2018-12130, CVE-2019-11135
+  Note: Hyper-Threading enabled.
+  Note: Most protections enabled by default on clients. Required for CVE-2018-3639.
+
+-----------------------------------
+
+Recommended Settings 3:
+  - SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management\
+    FeatureSettingsOverrideMask: 0x00000003 (3)
+  - SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management\
+    FeatureSettingsOverride: 0x00002048 (8264)
+  CVEs Covered:
+    CVE-2017-5715, CVE-2017-5753, CVE-2017-5754, CVE-2018-3615, CVE-2018-3620,
+    CVE-2018-3639, CVE-2018-3646, CVE-2018-11091, CVE-2018-12126, CVE-2018-12127,
+    CVE-2018-12130, CVE-2019-11135
+  Note: Hyper-Threading disabled.
+  Note: Most protections enabled by default on clients. Required for CVE-2018-3639.
+
+- Solution: Apply vendor recommended settings.
+- Affected Hosts: 10.46.254.214/445, 10.46.254.48/445
+============
+Name: libcurl 7.32.0 < 8.9.1 DoS (CVE-2024-7264)
+- Plugin Output: 
+
+  Path              : /opt/veeam/transport/vddk_6_0/lib64/libcurl.so.4
+
+  Installed version : 7.46.0
+
+  Fixed version     : 8.9.1
+
+
+- Solution: Upgrade Curl to version 8.9.1 or later
+- Affected Hosts: 10.46.254.152
+============
