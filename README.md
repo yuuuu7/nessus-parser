@@ -17,4 +17,3 @@ While I do hope that this parser makes reporting easier, I am also human and the
 ## Other stuff to take note of:
 1. `sorted.xlsx` is just `output_results_unique.xlsx` but sorted by name
 2. A `.txt` format is given if you prefer to look-at/use it in that format
-3. Nessus outputs are funky sometimes, there could be a 7-zip vulnerability but the port number will be written as 445. So do take note that the script only handles the parsing and formatting for the most part, it does not handle/fix minor discrepencies that stem from Nessus itself
